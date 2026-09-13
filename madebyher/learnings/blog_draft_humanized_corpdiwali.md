@@ -1,0 +1,61 @@
+# Corporate Diwali Gifts: A Buying Guide to Handmade Hampers from Bihar
+
+Every October, whoever handles vendor and client gifting at a company faces the same problem: the usual options are a branded diary, a tin of dry fruits, or a gift card, and none of them say much about the company sending them. Handmade hampers from women artisans solve a different problem than a branded mug does. They give a recipient something worth opening, and they let a company put its money toward real income for the people who made it, not just a logo print run.
+
+This year adds a scheduling wrinkle worth knowing before you order: Diwali falls on November 8, 2026, and Chhath Puja runs November 13 to 16. That's a five-day gap between two of the country's biggest gifting occasions, instead of the usual two-to-three-week spread. If your client or employee base includes anyone observing both, or if you're simply trying to avoid ordering twice in one month, one combined hamper that works for both occasions is worth planning for now rather than in the last week of October.
+
+## Why handmade hampers work for corporate gifting
+
+A corporate gift has one job: make the recipient feel like the company thought about them specifically, not like they got item #4,000 off a bulk purchase order. Handmade items do that by default, because no two pieces are identical. A Madhubani-painted soop or a Sujni-embroidered stole carries small variations from one piece to the next, the kind that come from a person's hand rather than a mold, and recipients notice that difference even when they can't articulate why.
+
+There's also a reputational upside that a dry fruit tin doesn't offer. Hampers built around women-led artisan work give a company something concrete to point to when it talks about vendor diversity or social impact, beyond a line in an annual report. The gift itself becomes the evidence.
+
+## What goes into a Diwali-Chhath hamper
+
+MadeByHer builds hampers from five categories of Bihar craft, and a bulk order can mix and match depending on budget and headcount:
+
+**Thekua gift box.** The one sweet ordered across the country for Chhath, made with whole wheat, jaggery, and desi ghee, no maida or palm oil. It ships in a reusable Madhubani-printed tin and stays fresh for about three weeks sealed, which matters for a hamper that might sit in someone's office before they take it home.
+
+**Madhubani-painted soop.** A traditional silver or metallic soop hand-painted with sun and lotus motifs by artists in the Madhubani tradition, functional for the Chhath ritual and decorative afterward. This is the higher-ticket item in a hamper and works well for senior clients or long-standing vendor relationships.
+
+**Sikki grass jewelry.** Golden grass woven into earrings and necklaces by women in Madhubani district. It's GI-tagged, lightweight, and hypoallergenic, which makes it a safer universal gift than most jewelry, since it doesn't assume a recipient's metal allergies or piercing preferences.
+
+**Sujni embroidered pieces.** Running-stitch embroidery from Muzaffarpur's cluster of women artisans, worked into stoles, pouches, or coasters depending on hamper size. Each piece takes real days of hand stitching, which shows in the texture even before you know the backstory.
+
+**Crochet accessories.** Baskets, coasters, or small home pieces that round out a hamper at a lower price point without feeling like filler.
+
+A build-your-own hamper starts around 1,499 rupees for a base set and scales up with add-ons, so the same program can cover a 20-person team gift and a 5-person leadership gift without redesigning the whole order.
+
+## What to actually check before placing a bulk order
+
+Corporate orders fail in predictable ways, and most of them are avoidable if you ask the right questions upfront.
+
+Ask about lead time in writing, not just "we'll manage it." Thekua is baked fresh, Sujni pieces are hand-stitched over days, and Sikki jewelry is woven to order. None of it comes off a shelf. For a Diwali deadline of November 8, place bulk orders by mid-October so there's buffer for a maker to finish 30 or 50 units of anything embroidery-based.
+
+Ask whether custom branding is available and what it actually looks like. Some marketplaces default to a printed logo card tucked into the box; better hampers let you include a short custom note alongside the maker's own handwritten note, so the gift still reads as personal rather than corporate boilerplate.
+
+Ask what happens if a piece arrives damaged in a 50-unit shipment, because at that volume something usually does. A seller who names a clear replacement policy up front is more reliable than one who says "contact us" with no specifics.
+
+Confirm whether pricing at volume includes packaging and shipping or just the product. A hamper quoted at 1,499 rupees per unit can look very different once tin packaging, gift wrap, and courier costs for 50 units get added on separately.
+
+## Budget ranges to plan around
+
+For under 1,000 rupees per recipient, a Thekua box or a small crochet-and-coaster combination covers the gesture without stretching a large-headcount budget. Between 1,500 and 3,000 rupees, a build-your-own hamper with three to five items (Thekua, Sikki earrings, a Sujni pouch) gives enough variety to feel considered. Above 3,000 rupees, a Sujni stole or a metallic soop as the hero item, paired with a smaller Thekua box, works well for client-facing or leadership-tier gifting where the company wants the gift to be memorable rather than just present.
+
+## Placing the order
+
+For anything above roughly 20 units, reach out directly rather than trying to check out 20 separate carts. MadeByHer takes corporate and bulk inquiries through a direct form specifically because volume orders need lead-time confirmation and packaging decisions that a standard checkout doesn't handle. Mention your target delivery date, approximate headcount, and per-person budget upfront so the reply back to you includes a real timeline instead of a generic price list.
+
+## Frequently asked questions
+
+**How far in advance should I order for Diwali 2026?** Given the compressed five-day gap to Chhath this year, place bulk orders by mid-October for a November 8 Diwali delivery, especially for anything involving embroidery or made-to-order jewelry.
+
+**Can one hamper work for both Diwali and Chhath recipients?** Yes. A combined hamper with diyas or Madhubani decor alongside Thekua and a Sikki jewelry piece covers both occasions without needing two separate gifting programs this year.
+
+**Is there a minimum order for corporate gifting?** Corporate and bulk inquiries are typically handled from around 20 units upward, where custom packaging and delivery scheduling start to make sense as a dedicated order rather than individual purchases.
+
+**Can we add our company's branding to the hamper?** Yes, through a short custom note included alongside the maker's own note. Ask specifically what the branding options look like before finalizing quantities, since this varies by item.
+
+## The bottom line
+
+A corporate Diwali or Chhath gift only does its job if the person opening it actually notices it. Handmade hampers from Bihar's women artisans clear that bar by default, because the craft itself carries a story a branded mug can't. Plan for lead time, ask direct questions about packaging and replacement policy before committing to volume, and pick a per-person budget that matches whether you're gifting a broad team or a small group of key clients.
