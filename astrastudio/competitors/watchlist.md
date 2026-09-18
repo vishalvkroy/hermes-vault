@@ -1,28 +1,9 @@
-# astrastudio — Competitor Watchlist
+# Astra Studio Competitor Watchlist
 
-Populated and updated by the daily research cron job (spec section 14: Competitor Intelligence).
-Not pre-filled by hand — first real entries come from the agent's own research, evidence-first,
-timestamped, source-linked. Do not fabricate competitor names or data here.
-
-## Format for each entry
-```
-## [Competitor name]
-- First noted: YYYY-MM-DD
-- Positioning: ...
-- Last change observed: YYYY-MM-DD — what changed, source link
-- Notes: ...
-```
-
-## Watchlist
-
-### Period: March–September 2026
-
-**Summary**: No new competitive threats identified. Existing market structure stable. Market consolidation around local champions (GoFrugal, LeadNXT, Astra Studio products) continues. Global platforms remain marginal in India retail/CRM/WhatsApp automation segments.
-
-**Key observations**:
-- GoFrugal (~30k Indian retail customers) maintaining South India/tier-2/tier-3 dominance; no price cuts or feature launches observed
-- LeadNXT/HelloGrowthCRM consolidating CRM tier via flat-rate pricing; no market share losses by Zoho CRM observed
-- Astra Spark (Astra Studio) competitive in WhatsApp automation vs AiSensy/Wati; no new entrants in billing-integrated WhatsApp space
-- Bikayi (mobile-first SMB commerce) growing but no competitive threat signals to Atlas positioning
-
-**Watchlist status**: Remain empty. Next review: September 11, 2026.
+| Competitor | Category | Latest Signal | Date | Source |
+|---|---|---|---|---|
+| Vyapar | SaaS | Users complaining about clunky retail counters and "barcode trap" (paid upgrade for basic feature) | 2026-09-18 | [Reddit](https://reddit.com/r/Indianbusinesses/comments/1rti402/my_honest_experience_with_vyapar_app_for_my) |
+| Setuverse | SaaS | Aggressive pricing at ₹199/month | 2026-09-18 | [Setuverse](https://www.setuverse.com/) |
+| Chat2Bill | SaaS | Testing "chat-to-bill" interface for speed | 2026-09-18 | [Chat2Bill](https://www.chat2bill.com/) |
+| Opsylo | SaaS | Modular pricing per feature module | 2026-09-18 | [Opsylo](https://opsylo.com/) |
+| PS Digitise | Services | Offering fixed-price MVP packages from ₹50k | 2026-09-18 | [PS Digitise](https://psdigitise.com/blogs/web-app-cost-india) |
