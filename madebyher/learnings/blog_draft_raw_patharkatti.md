@@ -1,0 +1,39 @@
+# Patharkatti Stone Craft: A Buying Guide to Bihar's GI-Tagged Stone Art
+
+Most people who search for stone idols online land on generic "handicraft" listings with no origin story and no way to check whether the piece is actually hand-carved. Patharkatti stone craft just changed that. The Gaya district art form received its Geographical Indication tag in January 2025, which means the name now legally belongs to sculptures made in one village, by one community of artisans, using one specific stone. If you're buying a Patharkatti piece for a home altar, a gift, or a decor centerpiece, here's what the GI tag actually guarantees, and what to check before you pay.
+
+## What Patharkatti stone craft actually is
+
+Patharkatti is a village in Bihar's Gaya district, and the craft takes its name directly from the place. Local legend credits Queen Ahilyabai Holkar with naming the village, and the story fits the geology: a hill of black granite was found within the village itself, and the same stone is said to have been used to build the Vishnupad temple in Gaya, one of the most visited pilgrimage sites in the state.
+
+The craft is close to 300 years old. Artisans in Patharkatti carve figures of Lord Buddha, Lord Mahavira, various Hindu deities, and folk-culture pieces, working the black granite by hand with hammer and chisel, the same tools used by their grandfathers. Bihar's tourism department lists Patharkatti as one of the state's major stone-carving centers, alongside smaller pockets in Nalanda, Kaimur, and Patna, and says the craft currently supports 500 to 700 artisan families on a regular basis.
+
+## Why the GI tag matters for buyers, not just artisans
+
+A Geographical Indication tag is a legal label, administered under India's GI Act of 1999, that ties a product's name to a specific place and production method. Once granted, only work made in that place, by that community, using the traditional process, can be sold under the protected name. Patharkatti's application process started in 2022 and closed in January 2025, when a 10-member judicial panel in Ranchi approved it.
+
+For a buyer, that matters in a very practical way: it separates the actual craft from the machine-cut or imported look-alikes that show up on marketplaces under the same name. A GI-tagged listing should be traceable back to Patharkatti village and its artisans, not to a factory replicating the style in a different material.
+
+## What to check before buying a piece
+
+**Material.** Genuine Patharkatti work is carved from black granite quarried locally, which is dense, cool to the touch, and shows fine, slightly irregular tool marks up close. Cast resin or composite "stone-look" pieces are lighter, warmer to the touch, and often have a uniform, mold-cast surface with no tool texture.
+
+**Tool marks over polish.** Hand-carved granite carries small variations from piece to piece, chisel marks along edges, and a slightly matte finish in the recessed areas even when the surface is polished. A perfectly uniform, glassy surface with no variation across a batch of "identical" idols is a sign of machine casting, not hand carving.
+
+**Subject and detailing.** Traditional Patharkatti work leans toward religious figures, Buddha and Mahavira are especially associated with the craft given the region's Buddhist and Jain history, plus deities and folk motifs. Detailing around the eyes, jewelry, and drapery is where the artisan's hand shows most clearly; look for depth and asymmetry rather than a flat, stamped look.
+
+**Seller transparency.** A seller who can name the artisan or the cooperative, and can tell you roughly how long a piece of that size takes to carve, is a stronger signal than a generic product page with stock photography. Genuine hand carving of a mid-size idol is a matter of days, not hours, and that time shows up in the price.
+
+**Weight.** Because black granite is dense, an authentic piece will feel noticeably heavier than its size suggests. This is one of the fastest checks you can do without any special knowledge, if a "stone" idol feels light for its size, it likely isn't stone.
+
+## What Patharkatti pieces work well for
+
+A carved Buddha or deity figure suits a home altar or meditation corner. Smaller folk-culture pieces work as desk or shelf decor, and make a distinctive gift for someone who already has the usual brass or resin options and wants something with a real regional story attached. Because the craft is only now getting wider market attention through the GI tag, buying directly from artisan-linked sellers also means a larger share of the price reaches the carvers themselves, rather than a middleman several layers removed from Patharkatti village.
+
+## Caring for a black granite piece
+
+Granite is durable but not indestructible. Dust with a dry or slightly damp soft cloth rather than a scouring pad, and avoid acidic cleaners, which can dull the polished surface over time. If a piece has painted or gilded detailing on top of the carved granite, wipe around those areas rather than over them. Keep pieces away from sudden temperature extremes, granite handles heat and cold better than resin, but rapid changes can still stress hairline areas around fine detailing.
+
+## The bigger picture
+
+Patharkatti joins Madhubani painting as one of Bihar's GI-recognized crafts, and it arrived alongside two other 2025 to 2026 GI grants for the state, Nalanda's Bawan Buti weave and Bhojpur's Pidiya painting. Each tag is a small, concrete step toward making sure the artisans who actually carve, weave, or paint these pieces get credited and paid for work that outsiders have copied for years. Choosing a verified piece over an unmarked look-alike is a small decision on the buyer's end, but it's the decision that keeps a 300-year-old carving tradition viable for the next generation of artisans in Patharkatti.
