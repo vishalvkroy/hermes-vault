@@ -16,6 +16,7 @@ earlier is better when a listing/gifting angle needs sellers to prep stock.**
 | Krishna Janmashtami | 4 Sep 2026 (Fri) | Laddu Gopal decor, jhula, dress sets |
 | Kajari Teej | 31 Aug 2026 (Mon) - confirmed via panchangbodh.com/samvat.in, 2026-09-18 | Pedukiya, gujiya, thekua-adjacent sweets packaging; Teej gift hampers |
 | Hartalika Teej | 14 Sep 2026 (Mon) - confirmed via drikpanchang.com/samvat.in/aajtak.in, 2026-09-18 | Pedukiya, gujiya, thekua-adjacent sweets packaging; Teej gift hampers |
+| Dussehra / Vijayadashami | 20 Oct 2026 (Tue) - confirmed via drikpanchang.com/samvat.in, 2026-09-19. Bengal-rule regional variant: 21 Oct - not the primary date for our audience | Marks the start of the festive gifting season lead-in to Diwali - home decor, small idols/torans, gift-ready packaging as shoppers begin festive purchases; also genuine window for Durga Puja-adjacent craft angles if sourcing supports it |
 | Karwa Chauth | 29 Oct 2026 (Thu) | Sargi thali items, mehndi, gift sets for husbands |
 | Diwali / Lakshmi Puja | 8 Nov 2026 (Sun) | Diyas, rangoli kits, sweets boxes, home decor - MadeByHer's single biggest gifting window |
 | Chhath Puja | 15 Nov 2026 (Sun) | Bamboo soop, thekua, Bihar's own festival - strongest authentic-craft angle of the year |
