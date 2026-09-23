@@ -13,7 +13,11 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 - Notes: ...
 ```
 
-## Watchlist
+## Hastvikas
+|- First noted: 2026-09-21
+|- Positioning: Artisan marketplace focusing on "100% Authentic with Artisan name" and AR-driven home visualization.
+|- Last change observed: 2026-09-21 — Launched AR "See how it looks in your home" feature; focusing on niche bags and puja essentials — source: Hastvikas.com
+|- Notes: Strong on technical UX (AR) and transparency (artisan name).
 
 ## iTokri
 - First noted: 2026-08-23

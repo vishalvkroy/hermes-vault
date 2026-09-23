@@ -14,4 +14,22 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 ```
 
 ## Watchlist
-(empty — first research run populates this)
+
+## Zentara
+- First noted: 2026-09-18
+- Positioning: Social network with AI-powered avatars and VTubers for virtual companions.
+- Last change observed: 2026-09-18 — Initial discovery via Tracxn [21]
+- Notes: Focuses on cross-platform connectivity and creator monetization.
+
+## ZenFriend
+- First noted: 2026-09-18
+- Positioning: AI virtual friend for Gen Z mental wellness, targeting loneliness and anxiety.
+- Last change observed: 2026-09-18 — Initial discovery via Reddit [11]
+- Notes: Direct hit on the "loneliness/safe space" pain point.
+
+## Highrise / ZEPETO
+- First noted: 2026-09-18
+- Positioning: Deep avatar customization with real social integration and fashion-forward community.
+- Positioning: Hyper-detailed 3D avatars with K-style/streetwear aesthetics.
+- Last change observed: 2026-09-18 — Initial discovery via Highrise blog [27]
+- Notes: Represent the "aspirational aesthetic" pole of avatar customization.
