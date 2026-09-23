@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "madebyher/docs/MadeByHer — Seller Packaging & Brand Enablement.md",
+                "file": "madebyher/research/2026-09-18-deep-research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MadeByHer — Seller Packaging & Brand Enablement"
+              "title": "2026-09-18-deep-research"
             }
           }
         ],
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "madebyher/docs/MadeByHer — Seller Packaging & Brand Enablement.md",
+                "file": "madebyher/research/2026-09-18-deep-research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,6 +242,9 @@
   },
   "active": "ddb79e08ce0c05d4",
   "lastOpenFiles": [
+    "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/pinterest.md",
+    "astrastudio/research/2026-09-21_deep_research.md",
+    "madebyher/docs/MadeByHer — Seller Packaging & Brand Enablement.md",
     "rabbitlore/research/2026-09-18.md",
     "rabbitlore/research/2026-09-21.md",
     "rabbitlore/research",
@@ -259,7 +262,6 @@
     "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/todo.md",
     "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/plan.md",
     "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/pinterest_raw.md",
-    "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/pinterest.md",
     "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/linkedin_raw.md",
     "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/linkedin.md",
     "madebyher/campaigns/2026-09-19-dussehra-early-lead-pinterest/blog-angle-note.md",
@@ -267,7 +269,6 @@
     "madebyher/analysis/2026-09-21.md",
     "madebyher/analysis/2026-09-18.md",
     "madebyher/analysis",
-    "astrastudio/research/2026-09-21_deep_research.md",
     "astrastudio/research/2026-09-18_deep_research.md",
     "astrastudio/campaigns/2026-09-19-directory-submissions/plan.md",
     "astrastudio/campaigns/2026-09-19-directory-submissions",
@@ -275,7 +276,6 @@
     "astrastudio/analysis/2026-09-18.md",
     "astrastudio/analysis",
     "madebyher/docs/MadeByHer — Growth & Content Engine.md",
-    "madebyher/docs/MadeByHer — Seller Packaging & Brand Enablement.md",
     "madebyher/research/2026-08-23-deep-research.md"
   ]
 }
