@@ -20,3 +20,4 @@ No receipt = do not publish.
 - Success metric: Instagram saves/shares, checked via get_post_analytics after Vishal's approval
 - Products used (admin_search_products, live prices): Sudh Desi Ghee Thekua Rs 339, Sudh Deshi Ghee Dry Fruits Thekua Rs 389, Coconut Gujiya Rs 389
 - Post: campaign 2026-09-25-ig-carousel-chhath-thekua-diaspora-gifting, post id 481f7338-d293-4ddc-9bd3-d97dd2b20c78, status pending_approval
+| 2026-09-25 | ig-carousel-chhath-thekua-v2 | Pillar 1 festival/diaspora | GSC pedakiya sweet bihar 195 impr pos 9.18 | vs iTokri: Bihar-only | saves+shares checked 2026-10-02 |
