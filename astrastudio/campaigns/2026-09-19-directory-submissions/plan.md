@@ -17,14 +17,14 @@ Skipping the full global Tier 1 (Product Hunt flagship launch) for now — that 
 funded startup with a warm audience and a multi-week hunter campaign; doing it half-prepared burns
 the one-shot advantage. These don't need that runway:
 
-| Directory | Why it fits | What it needs |
-|---|---|---|
-| **SaaSHub** (saashub.com) | Real SaaS directory, accepts India-market tools, decent DR | Free account, logo, description, category |
-| **AlternativeTo** (alternativeto.net) | You already have real alternative-page content for Tally/Vyapar - matches their format directly | Free account, description, tags, "alternative to" mapping |
-| **Capterra / GetApp** (via Gartner Digital Markets) | Free vendor listing, Indian SMB software category exists | Business email verification, product details form |
-| **G2** | Free listing (no paid badge needed yet per the skill - "don't spend on paid G2 in year one") | Business email verification |
-| **IndiaMART / TradeIndia** (India-specific B2B directories) | Real Indian SMB buyers search these directly, high-intent, low competition for SaaS listings vs global directories | Business verification (GST/PAN likely) |
-| **Dev.to + GitHub org profile** | Founder-led content angle already matches the LinkedIn strategy - cross-post technical posts, link back | Just a real account, no verification gate |
+| Directory                                                   | Why it fits                                                                                                        | What it needs                                             |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| **SaaSHub** (saashub.com)                                   | Real SaaS directory, accepts India-market tools, decent DR                                                         | Free account, logo, description, category                 |
+| **AlternativeTo** (alternativeto.net)                       | You already have real alternative-page content for Tally/Vyapar - matches their format directly                    | Free account, description, tags, "alternative to" mapping |
+| **Capterra / GetApp** (via Gartner Digital Markets)         | Free vendor listing, Indian SMB software category exists                                                           | Business email verification, product details form         |
+| **G2**                                                      | Free listing (no paid badge needed yet per the skill - "don't spend on paid G2 in year one")                       | Business email verification                               |
+| **IndiaMART / TradeIndia** (India-specific B2B directories) | Real Indian SMB buyers search these directly, high-intent, low competition for SaaS listings vs global directories | Business verification (GST/PAN likely)                    |
+| **Dev.to + GitHub org profile**                             | Founder-led content angle already matches the LinkedIn strategy - cross-post technical posts, link back            | Just a real account, no verification gate                 |
 
 ## Positioning variants (per tier, per the skill's "never copy-paste" rule)
 
