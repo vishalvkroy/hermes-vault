@@ -46,7 +46,7 @@ aspirational.
 |---|---|---|---|---|
 | **Zentara** | AI-powered avatars/VTubers for virtual companions, cross-platform connectivity, creator monetization — a public, commercial creator platform (`research/2026-09-18.md` [21]) | Night-gate (11pm-4am IST) locks lore-sharing in rooms+DMs (`rabbithole-mobile 391063f`); `getBlend` matches by real overlapping lore category+tag between two actual users, not an AI companion (`rabbithole 7c4e05a`) | Zentara sells visibility and monetized creator personas; RabbitLore sells private, human-to-human recognition with no follower count attached | "No AI companion pretending to care. Two real people whose lore actually overlaps." |
 | **ZenFriend** | AI virtual friend targeting Gen Z loneliness/anxiety — a simulated bot relationship (`research/2026-09-18.md` [11]) | `getBlend` collision is peer-to-peer (real user-to-user tag/category overlap, `rabbithole 7c4e05a`); "holes" mechanic (`getLikers`, `rabbithole 9c66801`) shows who — a real person — fell into your lore, capped at 100, public | ZenFriend's "friend" is a simulation; ours is a stranger who turns out to think the same weird thoughts you do — the actual emotional payoff positioning.md names ("I thought I was the only one") | "Not a bot pretending to understand. A real person who already gets it." |
-| **Highrise / ZEPETO** | Deep avatar customization, fashion-forward, K-style/streetwear aesthetic, public social integration — aspirational look-and-be-seen (`research/2026-09-18.md` [27], `research/2026-09-21.md` [5]) | Constellation star-map turns *logged lore* (not outfits) into the visible artifact — deterministic, append-stable layout, one star per lore entry (`rabbithole-mobile bd3b252`, `1513283`); avatar customization here pairs with content, not clout | Highrise/ZEPETO customization is external performance (what you look like to strangers); RabbitLore customization is internal record (what you've actually carried inside you) | "Your avatar isn't a fit check. It's a map of what's in your head." |
+| **Highrise / ZEPETO** | Deep avatar customization, fashion-forward, K-style/streetwear aesthetic, public social integration — aspirational look-and-be-seen (`research/2026-09-18.md` [27], `research/2026-09-21.md` [5]) | Constellation star-map turns *logged lore* (not outfits) into the visible artifact — deterministic, append-stable layout, one star per lore entry (`rabbithole-mobile bd3b252`, `1513283`); avatar customization here pairs with content, not clout. **New 2026-09-28:** no public room/DM surface for strangers to find a user in, by design (`rabbithole-mobile` night-gate `391063f`) — real, checkable structural fact, not a comparison claim | Highrise/ZEPETO customization is external performance (what you look like to strangers); RabbitLore customization is internal record (what you've actually carried inside you). **New:** Highrise's public rooms carry real, current user-reported trust costs (minors DMed by adults, gambling-style "casino" rooms, account hacks — `research/2026-09-28.md` §2/§3, watchlist.md) that a private, no-public-room app structurally doesn't have to defend against | "Your avatar isn't a fit check. It's a map of what's in your head." (Reddit copy may add, only when the "why is this different" question comes up organically: "there's no public room here for a stranger to find you in" — framed as what we built, never as a Highrise callout, per `research/2026-09-28.md` Competitive Edge §3) |
 
 ## 3. Audience segments
 
@@ -69,11 +69,17 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
 ### Pillar 1 — Night-gated private lore sharing
 - **Evidence:** Top Opportunity independently in both `research/2026-09-21.md` and
   `research/2026-09-24.md` (2 consecutive snapshots, the bar `campaigns/2026-09-24-*` already
-  applied); shipped in `rabbithole-mobile 391063f`.
+  applied); shipped in `rabbithole-mobile 391063f`. **2026-09-28:** Google Trends shows the
+  first non-zero reading all year for "faceless creator app" search interest (0 → 14 → 12 over
+  the last two weeks, `analysis/2026-09-28.md`) — corroborating rising real search demand for
+  the adjacent category, not RabbitLore's exact mechanic but the surrounding cultural moment.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
-  closing time window, not share counts.
+  closing time window, not share counts. **2026-09-28 copy note:** when a Reddit thread/reply
+  organically raises "why is this different from other avatar apps," the structural "no public
+  room for a stranger to find you in" point (see §2 Highrise/ZEPETO row) is available as a
+  non-attack, positioning-only answer — do not lead with it, do not name Highrise.
 - **KPI:** Reddit posts actually posted by Vishal (currently 0/3 drafted); once instrumented,
   NG-LS×UP session counts.
 
@@ -221,3 +227,13 @@ in this document, so it earned inclusion even though the council question didn't
   North star set to NG-LS×UP (unknown baseline, flagged for instrumentation) per council review
   §8. 4 content pillars set, 2 experiments live/proposed, "faceless creator wave" and
   spatial-map/token mechanics explicitly rejected per §7 evidence.
+- **2026-09-28:** Performance loop — LinkedIn post analytics still not collected (`get_post_analytics`
+  500/`collected:false` on both existing posts, 2nd run in a row this happened), Reddit drafts
+  still 0/3 live (`learnings/performance-log.md`). Research: first RabbitLore analysis snapshot
+  with real pulled numbers (`analysis/2026-09-28.md`) — Google Trends "faceless creator app"
+  went 0 (all year) → 14 → 12 (last two weeks), and real Reddit evidence surfaced current
+  Highrise trust problems (minor-safety DM complaints, gambling-room backlash, account-hack
+  reports) plus ZEPETO monetization friction (`research/2026-09-28.md`). Updated §2 Highrise/
+  ZEPETO row with the new structural (non-attack) differentiator and §4 Pillar 1 with a scoped
+  Reddit-copy guidance note; no pillar added or removed — evidence corroborates Pillar 1, doesn't
+  create a new one. Zentara/ZenFriend: still zero Reddit/news footprint, unchanged.
