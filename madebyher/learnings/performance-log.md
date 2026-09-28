@@ -1,8 +1,7 @@
-# MadeByHer Performance Log
-
-Append-only. Format: piece -> metric -> worked/flat/failed -> why (evidence-backed only).
-Populated by the growth-strategy performance loop at the start of every research/campaign cron run.
-
 | Date checked | Piece | Metric | Verdict | Why |
 |---|---|---|---|---|
-| 2026-09-24 | (log created, no prior published piece has been checked against post-publish metrics yet) | - | - | strategy.md created 2026-09-24; this file was empty until now. Next research cron must check GSC clicks/impressions for blog posts published since 2026-08-25 (see learnings/blog-topics-log.md, 20 posts) and Pinterest/LinkedIn draft outcomes for the three campaigns run so far (2026-09-06, 2026-09-13, 2026-09-24) before writing new findings. |
+| 2026-09-28 | /blog/pedakiya-vs-gujiya-comparison | 653 imp / 5 clicks | Flat | High impressions but very low CTR (0.7%). Topic has interest but hook/meta fails to convert. |
+| 2026-09-28 | /blog/wedding-return-gifts-under-300 | 127 imp / 4 clicks | Worked | Decent CTR (3.1%). High intent gifting query. |
+| 2026-09-28 | /blog/is-achaar-safe-during-pregnancy | 224 imp / 1 click | Flat | High volume, low conversion. Informational query, not shopping intent. |
+| 2026-09-28 | /blog/khatwa-applique-guide | 240 imp / 1 click | Flat | Interest in craft exists, but landing page not driving clicks. |
+| 2026-09-28 | /product/laddu-gopal-jhula | 14 imp / 2 clicks | Worked | High CTR (14%). Direct product intent for Janmashtami. |
