@@ -79,8 +79,8 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 - Last change observed: 2026-08-23 — No major public moves recently — source: VeeThreads 2024
 - Notes: Benchmark for returns policy, physical presence, brand trust. Different model (brand-owned vs marketplace).
 
-## DTDC "Kaarigo" (New Entrant — Logistics-Led Platform)
-- First noted: 2026-09-04
-- Positioning: Logistics major (16,500+ touchpoints, 220 countries) launches dedicated artisan e-commerce platform bundling storefronts, seller onboarding, cataloguing, fulfilment.
-- Last change observed: 2026-09-04 — Platform launch Sep 3 2026; MoU with Uttar Pradesh govt for ODOP program; targeting 1,000 artisans onboarded in 12 months; "GI Man of India" Dr. Rajni Kant at launch — source: Entrepreneur India Sep 3 2026
-- Notes: Not Bihar/ONDC-specific yet (UP-focused pilot), but well-funded logistics-backed entrant competing for same artisan supply pool. Watch for Bihar/GI-tagged-product expansion.
+## Giftkashop
+|- First noted: 2026-09-28
+|- Positioning: Multi-category online gifting platform based in Gaya, Bihar. Focuses on curated baskets, kitchenware, and home decor.
+|- Last change observed: 2026-09-28 — Active multi-category gifting platform in Bihar; offers curated baskets for birthdays, anniversaries, weddings — source: tracxn.com
+|- Notes: Direct regional competitor in Bihar. Validates demand for curated gifting baskets.
