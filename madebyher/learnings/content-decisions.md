@@ -1,3 +1,3 @@
 | Date | Slug | Pillar | Research Basis | Differentiator | Metric |
 |---|---|---|---|---|---|
-| 2026-09-28 | the-ultimate-chhath-puja-gift-hamper-guide-authentic-bihar-crafts-for-your-loved-ones | Festival & Diaspora Gifting | festival-calendar.md + strategy.md (Thekua GSC signal) | Zero-commission for artisans | GSC clicks on "chhath puja gift hamper" |
+| 2026-09-30 | dussehra-home-decor-ideas-bringing-the-soul-of-bihar-to-your-festive-space | Heritage Gifting | Festival Calendar (Dussehra Oct 20) | Regional Bihar focus vs generic Handmade India | Organic sessions to festival page |
