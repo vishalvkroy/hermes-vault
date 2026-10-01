@@ -52,6 +52,14 @@
   ours to copy[research 2026-10-01].
 
 ## Review log
+- 2026-10-01: Ran campaign-workflow for this week. council_review (tier=flagship, 2/4 models
+  responded - Claude Sonnet 5 and GPT-OSS-120B, Gemini/Mistral errored) picked Opportunity #1
+  (Loan Readiness/Money Leaks, SAAS) over Opportunity #2 (Services pricing-transparency,
+  carried over) for this week's LinkedIn slot - differentiation is first-party and demo-able vs
+  secondhand market research, better founder-LinkedIn fit, and the sharper bet given 4/4 posts
+  this month at zero engagement. Drafted a Loan Readiness LinkedIn post
+  (campaigns/2026-10-01-loan-readiness-zero-score/), pending Vishal's approval. Services/pricing
+  opportunity stays queued for next week, not dropped. No pillar changes.
 - 2026-09-28: Initial strategy created. Based on GSC data and market research into GST 2026 and Agency pricing fragmentation.
 - 2026-10-01: Added myBillBook and cyberdefence.org.in positioning rows (real shipped Money
   Leaks/Loan Readiness features give a genuine, undefended intelligence-vs-billing edge; hyper-
