@@ -15,6 +15,23 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 
 ## Watchlist
 
+## Yope
+- First noted: 2026-10-01
+- Positioning: London-based "micro-community" private social app — accounts private by default,
+  no algorithmic feed, no ads, premium subscription model; AI-generated "memory recaps" and
+  AI-assisted mini-games played with real friends inside private groups.
+- Last change observed: 2026-10-01 — Closed $12.3M Series A led by Northzone (announced
+  2026-07-22); ~15M users and ~500M shared photos since 2024 launch on zero marketing spend
+  (https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/,
+  https://thehustle.co/news/gen-zs-not-so-social-media).
+- Notes: Closest "private > public" macro-thesis match to RabbitLore's own positioning seen yet —
+  competes on the general thesis (private beats public for Gen Z), not on RabbitLore's specific
+  mechanic (peer-to-peer lore matching, night-gating, avatar-as-record). See
+  `research/2026-10-01.md` Competitive Edge for the scoped, non-copycat read. Tracked alongside
+  3 adjacent apps surfaced same search (not individually watchlisted, noted for context): Locket
+  Widget (photo-sharing widget, 80M+ downloads), noplace (MySpace-style profiles, $19M raised),
+  Ville (in-person-meetup app, no public feed).
+
 ## Zentara
 - First noted: 2026-09-18
 - Positioning: Social network with AI-powered avatars and VTubers for virtual companions.

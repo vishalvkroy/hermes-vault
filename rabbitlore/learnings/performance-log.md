@@ -21,3 +21,19 @@ log) per the growth-strategy skill's feedback loop.
   posted by Vishal as of this run (manual-only channel, no confirmation) — nothing to measure.
 - **No blog URLs published for RabbitLore this cycle** (no GSC site connection exists to check
   against — RabbitLore isn't a Search Console property, see `gsc_list_sites` in this run).
+
+## 2026-10-01 review
+
+- **Piece:** LinkedIn post `urn:li:share:7502315073433104384`. **Metric:** `get_post_analytics` →
+  HTTP 500 again (3rd consecutive run: 2026-09-24, 2026-09-28, 2026-10-01). **Status: unknown —
+  still not measurable.** This is now a 3-run pattern, not a one-off blip — worth flagging to
+  Vishal that the analytics backend for this post specifically has never once returned data since
+  publication; may need a manual check outside this loop rather than continued re-checking.
+- **Piece:** LinkedIn draft `115d7a8b-523a-4f71-8995-064b780458cc`. **Metric:** `collected: false`,
+  unchanged, 3rd run in a row. **Status: unknown**, same reason.
+- **Campaign-level:** `get_campaign_performance` for `2026-09-06-linkedin-blend-holes-night-gate`
+  → same zeros as last 2 runs (`post_count: 2, posts_published: 1, impressions: 0, engagement: 0,
+  clicks: 0`) — still reads as "no data yet."
+- **Piece:** `2026-09-24-reddit-night-gated-lore-launch` (Reddit draft). **Status:** still not
+  posted by Vishal as of this run — nothing to measure, unchanged.
+- **No blog URLs published for RabbitLore this cycle** (still no GSC site connection).

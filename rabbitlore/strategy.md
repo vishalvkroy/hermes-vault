@@ -38,12 +38,13 @@ keep LinkedIn build-in-public cadence going without repeating an angle already u
 
 ## 2. Positioning & differentiation
 
-Every watchlist competitor (`competitors/watchlist.md`, 3 entries as of 2026-09-24), one row
+Every watchlist competitor (`competitors/watchlist.md`, 4 entries as of 2026-10-01), one row
 each. Claims checked against `docs/positioning.md` and real shipped commits — nothing here is
 aspirational.
 
 | Competitor | Their claim | Our real proof | Our edge | Message we lead with |
 |---|---|---|---|---|
+| **Yope** | London-based private "micro-community" app — no algorithmic feed, no ads, accounts private by default, $12.3M Series A, ~15M users/~500M photos since 2024 launch (`research/2026-10-01.md` [1][2]) — proof-at-scale that "private beats public" works for young users, but built around friend-group photo/chat sharing + AI memory recaps, not lore-matching or avatar-as-record | `getBlend` real peer-to-peer lore-category/tag overlap (`rabbithole 7c4e05a`); night-gate time-boxed sharing (`rabbithole-mobile 391063f`); constellation star-map avatar record (`rabbithole-mobile bd3b252`) — none of these exist in a general friend-photo-sharing app | Yope validates the macro-thesis (private > public) at scale, which is reassurance, not a reason to copy its feature set — RabbitLore's differentiator is matching strangers who share your specific lore/obsessions, not keeping your existing friend group's photos private | "Not another private photo album for people who already know each other. A place where a stranger turns out to think the same weird thoughts you do." (internal framing only — not yet drafted as outward copy this run) |
 | **Zentara** | AI-powered avatars/VTubers for virtual companions, cross-platform connectivity, creator monetization — a public, commercial creator platform (`research/2026-09-18.md` [21]) | Night-gate (11pm-4am IST) locks lore-sharing in rooms+DMs (`rabbithole-mobile 391063f`); `getBlend` matches by real overlapping lore category+tag between two actual users, not an AI companion (`rabbithole 7c4e05a`) | Zentara sells visibility and monetized creator personas; RabbitLore sells private, human-to-human recognition with no follower count attached | "No AI companion pretending to care. Two real people whose lore actually overlaps." |
 | **ZenFriend** | AI virtual friend targeting Gen Z loneliness/anxiety — a simulated bot relationship (`research/2026-09-18.md` [11]) | `getBlend` collision is peer-to-peer (real user-to-user tag/category overlap, `rabbithole 7c4e05a`); "holes" mechanic (`getLikers`, `rabbithole 9c66801`) shows who — a real person — fell into your lore, capped at 100, public | ZenFriend's "friend" is a simulation; ours is a stranger who turns out to think the same weird thoughts you do — the actual emotional payoff positioning.md names ("I thought I was the only one") | "Not a bot pretending to understand. A real person who already gets it." |
 | **Highrise / ZEPETO** | Deep avatar customization, fashion-forward, K-style/streetwear aesthetic, public social integration — aspirational look-and-be-seen (`research/2026-09-18.md` [27], `research/2026-09-21.md` [5]) | Constellation star-map turns *logged lore* (not outfits) into the visible artifact — deterministic, append-stable layout, one star per lore entry (`rabbithole-mobile bd3b252`, `1513283`); avatar customization here pairs with content, not clout. **New 2026-09-28:** no public room/DM surface for strangers to find a user in, by design (`rabbithole-mobile` night-gate `391063f`) — real, checkable structural fact, not a comparison claim | Highrise/ZEPETO customization is external performance (what you look like to strangers); RabbitLore customization is internal record (what you've actually carried inside you). **New:** Highrise's public rooms carry real, current user-reported trust costs (minors DMed by adults, gambling-style "casino" rooms, account hacks — `research/2026-09-28.md` §2/§3, watchlist.md) that a private, no-public-room app structurally doesn't have to defend against | "Your avatar isn't a fit check. It's a map of what's in your head." (Reddit copy may add, only when the "why is this different" question comes up organically: "there's no public room here for a stranger to find you in" — framed as what we built, never as a Highrise callout, per `research/2026-09-28.md` Competitive Edge §3) |
@@ -69,10 +70,16 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
 ### Pillar 1 — Night-gated private lore sharing
 - **Evidence:** Top Opportunity independently in both `research/2026-09-21.md` and
   `research/2026-09-24.md` (2 consecutive snapshots, the bar `campaigns/2026-09-24-*` already
-  applied); shipped in `rabbithole-mobile 391063f`. **2026-09-28:** Google Trends shows the
-  first non-zero reading all year for "faceless creator app" search interest (0 → 14 → 12 over
-  the last two weeks, `analysis/2026-09-28.md`) — corroborating rising real search demand for
-  the adjacent category, not RabbitLore's exact mechanic but the surrounding cultural moment.
+  applied); shipped in `rabbithole-mobile 391063f`. **2026-09-28:** Google Trends showed a
+  2-week non-zero reading for "faceless creator app" (0 → 14 → 12) after a flat year.
+  **2026-10-01 correction:** that reading reverted to 0 the following week — a decayed spike, not
+  a sustained trend; the pillar's evidentiary weight now rests on the 2 repeated Top-Opportunity
+  research calls and the shipped feature, not on this trends data point, which should not be
+  re-cited as "rising" going forward. **2026-10-01, separately:** Yope's $12.3M raise / 15M users
+  (`research/2026-10-01.md`, `watchlist.md`) is real external proof-at-scale that the broader
+  "private beats public" macro-thesis behind this pillar is commercially validated, even though
+  Yope's own product (friend-group photo/chat sharing) is a different mechanic than RabbitLore's
+  peer lore-matching — treat as reassurance on direction, not evidence for the specific mechanic.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -162,6 +169,11 @@ Hypothesis -> evidence -> metric -> status. At most 2 running.
 
 ## 7. We will NOT do
 
+- **Build Yope-style AI "memory recap" or mini-game features to compete on friend-group photo/
+  chat sharing.** Evidence: `research/2026-10-01.md` Competitive Edge — Yope's $12.3M-funded,
+  15M-user product solves a different core loop (existing-friend-group photo albums) than
+  RabbitLore's peer-to-peer lore matching (`getBlend`, `rabbithole 7c4e05a`); copying its features
+  would blur RabbitLore's actual differentiator for a feature serving someone else's use case.
 - **Chase the "faceless creator" / TikTok-3D-caricature / Picsart-Persona wave as a pillar.**
   Evidence: `research/2026-09-21.md` and `research/2026-09-24.md` Competitive Edge sections both
   explicitly conclude this gap is "not worth closing" — those tools sell external clout and mass
@@ -237,3 +249,18 @@ in this document, so it earned inclusion even though the council question didn't
   ZEPETO row with the new structural (non-attack) differentiator and §4 Pillar 1 with a scoped
   Reddit-copy guidance note; no pillar added or removed — evidence corroborates Pillar 1, doesn't
   create a new one. Zentara/ZenFriend: still zero Reddit/news footprint, unchanged.
+- **2026-10-01:** Performance loop — LinkedIn post analytics still not collected, 3rd consecutive
+  run (`learnings/performance-log.md`), now flagged as a pattern worth Vishal's manual check
+  rather than continued automated re-checking. Research: corrected last run's "faceless creator
+  app" trend read — the 2-week spike (14, 12) reverted to 0, so it's a decayed single-event
+  signal, not a sustained rise; updated §4 Pillar 1 to stop citing it as "rising." Added **Yope**
+  to `competitors/watchlist.md` and §2 positioning table — a new, well-funded ($12.3M Series A,
+  ~15M users) private-social competitor that validates RabbitLore's "private beats public" macro-
+  thesis at scale, though its actual product (friend-group photo/chat + AI memory recaps) is a
+  different mechanic than RabbitLore's peer lore-matching; no pillar changed, no copycat feature
+  added — see Competitive Edge in `research/2026-10-01.md` for the explicit "not worth chasing the
+  feature, worth tracking the thesis-validation" call. Real regulatory news (California teen
+  social-media law, Meta $17B settlement, EU/UK under-13 bans) reinforces the existing read that
+  public-feed models face accelerating structural pressure RabbitLore's night-gated, no-public-
+  room design sits outside of — same direction as the Apple Screen Time note from 2026-09-28, now
+  with more corroborating jurisdictions, no action needed beyond noting it.
