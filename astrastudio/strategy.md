@@ -52,6 +52,12 @@
   ours to copy[research 2026-10-01].
 
 ## Review log
+- 2026-10-01: Published blog post "Understanding Your Business Credit Score: A Guide to Loan
+  Readiness" (astrastudio.in/blog/business-credit-score-loan-readiness), Pillar 3 (Intelligence >
+  Billing). Grounds the article in the real Loan Readiness scoring logic (7 factors, 4 tiers,
+  shipped 2026-09-26, backend/src/services/creditProfileService.ts). Keyword research via Google
+  Suggest confirmed real intent around "business credit score india", "business loan eligibility
+  check", "business loan without collateral india". No pillar changes.
 - 2026-10-01: Ran campaign-workflow for this week. council_review (tier=flagship, 2/4 models
   responded - Claude Sonnet 5 and GPT-OSS-120B, Gemini/Mistral errored) picked Opportunity #1
   (Loan Readiness/Money Leaks, SAAS) over Opportunity #2 (Services pricing-transparency,
