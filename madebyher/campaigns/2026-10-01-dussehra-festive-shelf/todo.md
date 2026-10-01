@@ -1,0 +1,22 @@
+# Todo — dussehra-festive-shelf (2026-10-01)
+
+- [x] Read festival-calendar.md - Dussehra (20 Oct 2026) within 21 days, ACTIVE override confirmed
+- [x] Verify Dussehra date via real web search (drikpanchang.com, timeanddate.com, divinehindu.in - 20 Oct 2026 Tue)
+- [x] Read strategy.md, latest research (2026-10-01-deep-research.md), analysis (2026-10-01.md), competitors/watchlist.md
+- [x] Read docs/ positioning notes (Growth & Content Engine, Seller Packaging) for voice grounding
+- [x] admin_search_products for real Dussehra-relevant product photos (Madhubani coasters x2, organizer, puja table mat found)
+- [x] Confirm products + prices live on site (/gifts/dussehra section, WebExtract)
+- [x] Generate hero image: Pollinations attempt rejected (watermark + malformed hands, VisionAnalyze check)
+- [x] Fallback: brand_media.py image (Gemini) - passed VisionAnalyze brand-grade check
+- [x] Build Instagram carousel (brand_media.py carousel, 7 slides: hook photo + 4 real products + text + CTA)
+- [x] Resize/re-host hero image to Pinterest-native 1000x1500
+- [x] Write plan.md with evidence receipt
+- [x] Write pinterest.md, run through writing/humanizer
+- [x] Write instagram.md (caption + alt text per slide, social-SEO playbook)
+- [x] Write linkedin.md via linkedin-post-writer (own humanizer pass, no separate humanizer run)
+- [x] Write blog-angle-note.md (no new blog post - 2 Dussehra posts already live, avoid cannibalizing)
+- [x] list_accounts(madebyher) - got pinterest/instagram/linkedin social_account_ids
+- [x] create_draft + request_publish_approval for Pinterest
+- [x] create_draft + request_publish_approval for Instagram
+- [x] create_draft + request_publish_approval for LinkedIn
+- [x] Telegram-style summary with real outcomes (post ids, pending_approval state, nothing published)
