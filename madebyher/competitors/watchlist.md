@@ -22,8 +22,8 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 ## iTokri
 - First noted: 2026-08-23
 - Positioning: Inventory-based craft marketplace (buys stock from artisans), 500+ clusters, 700-800 SKUs, strong artisan storytelling, 75% revenue share to artisans
-- Last change observed: 2026-08-23 — Added 150 artisans in last year; 15,000 orders/month; launched clothing line (casual wear); onboarded to ONDC (Jul 2024) — source: YourStory Jul 2025, ONDC press release Jul 2024
-- Notes: Gwalior-based, founded 2012 by Nitin & Jia Pamnani. Exports to US/UK/ME/Europe. Inventory model gives quality/margin control vs pure marketplace. Expanding beyond home decor into apparel.
+- Last change observed: 2026-10-01 — Opened Festive 2026 range organized BY CRAFT TECHNIQUE (Bandhani, Banarasi etc.) instead of occasion-wear category, explicitly timed to the real 2026 festival calendar shift (extra lunar month pushes Navratri to Oct 11-19, Dussehra Oct 20, Diwali to late Nov 8) — source: Sangri Today, 2026-09-28, https://www.sangritoday.com/spotlight/business/itokri-opens-festive-2026-with-the-technique-as-the-collection-bandhani-to-banarasi-every-shelf-named-by-its-craft
+- Notes: Gwalior-based, founded 2012 by Nitin & Jia Pamnani. Exports to US/UK/ME/Europe. Inventory model gives quality/margin control vs pure marketplace. Expanding beyond home decor into apparel. Technique-first taxonomy is a genuine content pattern to study (see Competitive Edge, research/2026-10-01-deep-research.md) - not worth copying wholesale, MadeByHer's regional-origin story is a sharper differentiator.
 
 ## Okhai
 - First noted: 2026-08-23
@@ -84,3 +84,9 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 |- Positioning: Multi-category online gifting platform based in Gaya, Bihar. Focuses on curated baskets, kitchenware, and home decor.
 |- Last change observed: 2026-09-28 — Active multi-category gifting platform in Bihar; offers curated baskets for birthdays, anniversaries, weddings — source: tracxn.com
 |- Notes: Direct regional competitor in Bihar. Validates demand for curated gifting baskets.
+
+## MomsMade (adjacent — thekua-specific, not Bihar-direct)
+- First noted: 2026-10-01
+- Positioning: Bengaluru-based homemade thekua brand, founder story (Veena Devi, ex-teacher from Bihar, + son Sameer). Reported ₹75 crore valuation, 1,000+ orders/day, ₹15 crore annual revenue. Differentiator: no maida/palm oil, pure ghee and jaggery.
+- Last change observed: 2026-10-01 — Featured in Business Today after R. Madhavan shared the story publicly — source: https://www.businesstoday.in/latest/trends/story/from-4-stoves-to-rs75-crore-empire-r-madhavan-applauds-bihar-mother-son-duos-thekua-success-story-545275-2026-07-26
+- Notes: Not a direct platform competitor (single-brand D2C, not a marketplace, not Bihar-artisan-direct sourcing) but strong proof-of-market that scaled thekua demand at real volume is achievable nationally. Worth watching as a benchmark for thekua category growth, not a head-to-head threat.
