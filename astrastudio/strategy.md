@@ -52,6 +52,14 @@
   ours to copy[research 2026-10-01].
 
 ## Review log
+- 2026-10-03: Published blog post "How Much Does a Business Website Cost in India (2026)? A
+  Transparent Pricing Guide" (astrastudio.in/blog/business-website-cost-india-2026), Pillar 1
+  (The Transparency Play, Services line). First blog content targeting the Services revenue
+  stream since it got research attention 2026-09-13. Keyword from Google Suggest: "how much does
+  it cost to build a website for a small business in india" - real buying-intent query, zero
+  prior coverage in POSTS object. Grounds fixed-tier pricing (Starter ₹25k/Growth ₹55k/Elite
+  ₹1.1L) against the Generic Agencies positioning row and the 3-months-free-Atlas cross-sell
+  hook. No pillar changes.
 - 2026-10-01: Published blog post "Understanding Your Business Credit Score: A Guide to Loan
   Readiness" (astrastudio.in/blog/business-credit-score-loan-readiness), Pillar 3 (Intelligence >
   Billing). Grounds the article in the real Loan Readiness scoring logic (7 factors, 4 tiers,
