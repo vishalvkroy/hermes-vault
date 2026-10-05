@@ -85,6 +85,12 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 |- Last change observed: 2026-09-28 — Active multi-category gifting platform in Bihar; offers curated baskets for birthdays, anniversaries, weddings — source: tracxn.com
 |- Notes: Direct regional competitor in Bihar. Validates demand for curated gifting baskets.
 
+## Weavehand
+- First noted: 2026-10-05
+- Positioning: Artisan empowerment marketplace with “Every piece signed by the hands that made it,” 1,000+ verified artisans, 10K+ handmade products, 38+ districts, and explicit Corporate Gifts/Festivals categories.
+- Last change observed: 2026-10-05 — Site emphasizes customizable Tikuli Art gift boxes, certificates of authenticity, direct artisan messaging, GI-tag certification on eligible pieces, eco-friendly packaging, multi-currency checkout, international shipping, and planned Cultural Hubs — source: https://www.weavehand.com/ and https://www.weavehand.com/about
+- Notes: Directly relevant Bihar/craft competitor. Stronger than MadeByHer on gift-box packaging, certification/provenance, and corporate/festival category architecture. MadeByHer should not copy its pan-India heritage sprawl; close giftable product/collection gap while keeping Bihar women-led focus.
+
 ## MomsMade (adjacent — thekua-specific, not Bihar-direct)
 - First noted: 2026-10-01
 - Positioning: Bengaluru-based homemade thekua brand, founder story (Veena Devi, ex-teacher from Bihar, + son Sameer). Reported ₹75 crore valuation, 1,000+ orders/day, ₹15 crore annual revenue. Differentiator: no maida/palm oil, pure ghee and jaggery.

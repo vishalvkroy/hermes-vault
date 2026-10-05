@@ -2,56 +2,56 @@
 
 ## North Star + 90-day goal
 **Goal:** Establish MadeByHer as the definitive portal for "Deep Bihar" artisanal gifting.
-**Metric:** 3x organic sessions to festival-specific landing pages (Thekua, Madhubani, Sujni).
-**Baseline:** ~100-200 monthly sessions for craft-specific blogs (Sep 2026).
+**Metric:** 3x organic sessions to festival-specific and product-specific landing pages (Thekua, Madhubani, Sujni, crochet gifts).
+**Baseline:** As of 2026-10-05, GSC 28d shows `/sell` 24 clicks / 181 impressions, `/shop` 5 / 407, `/product/handmade-crochet-rose-drawstring-mini-potli-bag` 2 / 166, `/blog/pedakiya-vs-gujiya-comparison` 5 / 639, and `/blog/wedding-return-gifts-under-300` 5 / 142 (analysis/2026-10-05.md).
 
 ## Positioning & Differentiation
 | Competitor | Their Claim | Our Proof | Our Edge | The Message |
 |---|---|---|---|---|
-| Generic Handmade Sites | "Handmade India" | Direct Bihar women-led brands | Deep regional focus (Mithila/Magadh) | "The authentic soul of Bihar, made by her." |
-| Local Emporiums | "Govt Certified" | Real maker stories + QR provenance | Human-centric storytelling | "Not just a product, but a woman's journey." |
+| Generic Handmade Sites | "Handmade India" | Direct Bihar women-led brands; MadeByHer site says sellers include Maa ki Rasoi and Yarnvi Originals from Aurangabad, Bihar (research/2026-10-05-deep-research.md). | Deep regional focus (Mithila/Magadh/Bihar food/craft) | "The authentic soul of Bihar, made by her." |
+| Local Emporiums / JEEViKA Shilpgram | Government-backed Bihar women artisan credibility; 500+ skilled rural women artisans under BRLPS/JEEViKA (research/2026-10-05-deep-research.md). | MadeByHer is smaller but can move faster on product pages, custom orders, WhatsApp, and story-led marketplace copy. | Human-centric storytelling + fast digital execution | "Not just a product, but a woman's journey you can order from today." |
+| iTokri | Craft-technique-led festive shelves and mature national craft marketplace (research/2026-10-01-deep-research.md). | MadeByHer has Bihar-origin focus, food + craft mix, and festival calendar already built (docs/festival-calendar.md). | Regional-origin story beats broad technique taxonomy for this brand. | "Bihar's festive gifts, not generic India craft." |
+| Weavehand | Artisan empowerment ecosystem with 1,000+ verified artisans, 10K+ products, corporate gifts, festivals, certificates, GI-tag claims, and direct artisan messaging (research/2026-10-05-deep-research.md). | MadeByHer can prove women-led Bihar sellers, custom crochet/food gifts, COD, and pan-India shipping from its own site copy (research/2026-10-05-deep-research.md). | Narrower and warmer: Bihar women-led gifting, not pan-India heritage sprawl. | "Handmade gifts from Bihar women-led brands, made personal." |
+| Giftkashop | Bihar-based multi-category gifting baskets (watchlist.md, 2026-09-28). | MadeByHer has actual handmade/homemade seller stories and custom craft/food products. | More authentic and maker-led than generic gifting basket commerce. | "Gift something with a maker behind it." |
+| MomsMade | Scaled thekua proof-of-market, reported ₹75 crore valuation / 1,000+ orders per day using pure ghee/jaggery positioning (research/2026-10-01-deep-research.md). | MadeByHer has Maa ki Rasoi/Bihar food story, but not their D2C scale yet. | Marketplace + Bihar maker ecosystem around thekua, not one product brand. | "Thekua and Bihar foods from women-led home kitchens." |
+
+## Audience Segments
+1. **Gift buyers looking under ₹3,000:** India gifting research says 84% of Indian gift searches are ₹3,000 or under (research/2026-10-01-deep-research.md). MadeByHer products fit this range.
+2. **Festival food/culture searchers:** GSC shows `pedakiya sweet bihar` 112 impressions, `anarsa online` 23, and `sudha thekua price` 26 over 28d (analysis/2026-10-05.md).
+3. **Visual handmade gift shoppers:** GSC 7d shows `crochet rose potli bag`, `crochet rose potli bag price`, `daisy flower keychain`, and `daisy keychain` with 43 combined impressions; potli product page has 96 7d impressions and only 1 click (analysis/2026-10-05.md).
+4. **Women-led small sellers:** `/sell` has 24 clicks / 181 impressions over 28d and 14.3% CTR over 7d (analysis/2026-10-05.md).
 
 ## Content Pillars
-1. **Deep Bihar Culture (The "Why"):** Focus on the ritual significance of products (e.g., why Thekua for Chhath). Evidence: High GSC impressions for "thekua vs gujiya".
-2. **Maker-First Commerce (The "Who"):** Use "Meet the Maker" reels and QR codes on packaging. Evidence: Market trend toward "story-cards" and artisan provenance.
-3. **Heritage Gifting (The "What"):** Create high-ASP bundles (Food + Art + Textile). Evidence: Council review signal on "Cross-Craft Bundles".
-4. **Authenticity Guides (The "How"):** "How to spot real Madhubani" and "Thekua buying guides". Evidence: High impressions for "pedakiya sweet bihar" with low CTR.
+1. **Deep Bihar Culture (The "Why")** — Thekua, Chhath, pedakiya, anarsa, khatwa, Madhubani, Sujni. Evidence: GSC food/craft queries in analysis/2026-10-05.md. Channel/format: blog + Pinterest + carousel. KPI: clicks to festival/culture pages.
+2. **Giftable Handmade Products (The "What")** — crochet potli bags, daisy keychains, handmade flowers, return gifts, custom colours. Evidence: 7d GSC product-specific crochet/keychain impressions and potli product-page CTR gap in analysis/2026-10-05.md. Channel/format: product SEO + Pinterest pins + Instagram carousel. KPI: product page CTR and saves/pin outbound clicks.
+3. **Maker-First Commerce (The "Who")** — Meet the maker, QR provenance, seller story cards. Evidence: internal Growth & Content Engine docs and Packaging Studio docs; external competitor Weavehand pushes signed/certified provenance (research/2026-10-05-deep-research.md). Channel/format: seller pages, reels, packaging inserts. KPI: seller-page sessions and profile clicks.
+4. **Authenticity Guides (The "How")** — How to choose real Bihar sweets/crafts and compare products. Evidence: `/blog/pedakiya-vs-gujiya-comparison` 5 / 639 and `/guides/thekua-comparison` working pattern from 2026-10-01 research. Channel/format: SEO guides and SERP snippets. KPI: CTR gains on high-impression guide pages.
+5. **Seller Acquisition (The "Sell with us")** — Free listing/no-fee seller page and platform-risk alternative. Evidence: `/sell` remains high CTR in analysis/2026-10-05.md. Channel/format: LinkedIn/blog CTA/WhatsApp. KPI: `/sell` clicks and seller inquiries.
 
 ## Channel Plan
-- **Instagram:** Discovery layer. Focus on "Heritage Minimalist" reels and "Meet the Maker" stories. Cadence: 3-4x/week.
-- **Pinterest:** Search engine for gifting. Boards: "Bihar Festive Gifts", "Authentic Madhubani Art". Vertical 2:3 pins.
-- **Blog:** SEO bridge. Long-tail guides (e.g., "Best Thekua for Chhath Puja 2026").
-- **WhatsApp:** Conversation and conversion layer.
-- **Seller acquisition (/sell):** Newly identified as a real organic-search winner — 22 clicks/189 impressions,
-  11.6% CTR over 28 days (GSC, research/2026-10-01-deep-research.md), second-best page on the site after the
-  homepage, with zero dedicated campaign behind it yet. Treat as a channel worth a small deliberate push
-  (LinkedIn/blog CTA), not just a passive page.
+- **Pinterest:** High priority. Use as search engine for product-specific gifts. This week: fresh 2:3 pins for crochet rose potli bag, daisy keychain, and Diwali handmade gifts; destination links must be exact product/collection/blog URLs.
+- **Instagram:** Discovery layer. 3-4x/week max. This week: carousel around “handmade crochet gifts under ₹1,500 from Bihar,” with product photos and SEO alt text.
+- **Blog:** SEO bridge. Fix existing high-impression pages before new broad content. This week: product SEO and meta/title fixes outrank another generic Diwali article.
+- **WhatsApp:** Conversation/conversion layer for custom orders, wedding favours, return gifts, and bulk gifting.
+- **Seller acquisition (/sell):** Keep deliberate push live. Use “sell handmade items online free in India” because it appeared as a real 7-day GSC query and `/sell` keeps high CTR.
+- **ONDC:** Proposed medium-term distribution experiment; not this week’s campaign unless Vishal approves operational work.
 
 ## Experiment Backlog
-- **Exp 1:** Cross-Craft Bundling (Thekua + Madhubani). Hypothesis: Higher AOV. Status: Proposed.
-- **Exp 2:** Authenticity Certification (COA). Hypothesis: Higher conversion for Madhubani art. Status: Proposed.
-- **Exp 3:** Rewrite meta title/description on /blog/pedakiya-vs-gujiya-comparison to match the proven
-  /guides/thekua-comparison pattern (literal "X vs Y" + price in title). Hypothesis: CTR moves from 0.77% toward
-  the 15% the differently-titled thekua-comparison guide already gets on the same comparison-intent query shape.
-  Evidence: two consecutive snapshots (2026-09-28, 2026-10-01) show impressions ~650, clicks stuck at 5 - a real,
-  repeated pattern, not noise. Status: Proposed, ready to execute (SEO copy only, no new content).
-- **Exp 4:** Seller-acquisition content push behind /sell, testing an "alternative to Etsy India" / platform-risk
-  angle (Reddit r/Etsy thread on sellers losing all traffic since Nov 6, 423 pts/873 comments — real signal,
-  research/2026-10-01-deep-research.md). Hypothesis: sellers frustrated with platform risk elsewhere are a real,
-  reachable audience for MadeByHer's seller pitch. Status: Proposed.
+- **Exp 1:** Cross-Craft Bundling (Thekua + Madhubani). Hypothesis: Higher AOV. Evidence: sweets/food hampers are 22–25% of gifting value and Diwali 30–35% of annual gifting spend (research/2026-10-05-deep-research.md). Status: Proposed.
+- **Exp 2:** Authenticity Certification / maker story card. Hypothesis: Higher conversion for Madhubani/Tikuli/Sujni gifts. Evidence: Weavehand emphasizes hand-signed certificates and GI-tag certification claims (research/2026-10-05-deep-research.md). Status: Proposed.
+- **Exp 3:** Rewrite meta title/description on `/blog/pedakiya-vs-gujiya-comparison`. Hypothesis: CTR moves upward from 5 / 639 by matching proven comparison-intent wording. Evidence: research/2026-10-01-deep-research.md and analysis/2026-10-05.md. Status: Proposed, still not done.
+- **Exp 4:** Seller-acquisition content push behind `/sell`, testing “sell handmade items online free in India” and platform-risk angle. Hypothesis: Seller leads rise because `/sell` already converts. Evidence: `/sell` 24 / 181 and 14.3% 7d CTR (analysis/2026-10-05.md). Status: Proposed.
+- **Exp 5:** Product SEO + Pinterest push for crochet potli/keychain pages. Hypothesis: product page CTR improves from 1 / 96 over 7d by matching `crochet rose potli bag` and `daisy keychain` language. Evidence: analysis/2026-10-05.md. Status: Proposed — highest priority this week.
+- **Exp 6:** ONDC seller/distribution feasibility check. Hypothesis: ONDC can widen women-seller distribution and reduce platform dependence. Evidence: eSARAS and Artisans’ Wizard ONDC findings (research/2026-10-05-deep-research.md). Status: Proposed, not running.
 
 ## We will NOT do
-- **Generic "Handmade" content:** Research shows buyers want regional authenticity, not generic craft.
-- **Loud "Festive Kitsch" visuals:** Market trend moving toward earthy, heritage palettes.
-- **Copying iTokri's technique-first site taxonomy wholesale:** iTokri organizes Festive 2026 by craft technique
-  (Bandhani, Banarasi) rather than occasion (Sangri Today, 2026-09-28). A genuine pattern to study for secondary
-  tagging, but MadeByHer's regional-origin story (Deep Bihar) is the sharper, already-differentiated axis - a
-  full navigation rebuild around technique would dilute it, not strengthen it.
+- **Generic "Handmade" content:** Research shows buyers and search data point to specific products/regions/occasions, not broad craft content.
+- **Generic /shop pushes:** `/shop` has 5 / 407 over 28d and 1 / 171 over 7d, so campaigns should route to product/collection pages instead (analysis/2026-10-05.md).
+- **Instagram competitor scraping via Composio:** Current connection only reads owned account posts/tags, not public hashtag or competitor search (research/2026-10-05-deep-research.md).
+- **Citing GA4 traffic this run:** GA4 tool failed validation/coercion; no safe GA4 number available (analysis/2026-10-05.md).
+- **Copying Weavehand’s pan-India heritage sprawl:** MadeByHer’s sharper position is Bihar women-led gifting; use gift-box/provenance mechanics, not broad identity dilution.
 
 ## Review Log
 - 2026-09-28: Created strategy.md. Integrated GSC demand for traditional sweets and Council Review signals on cross-craft bundling.
-- 2026-10-01: Added Exp 3 (pedakiya-vs-gujiya CTR fix) and Exp 4 (seller-acquisition platform-risk angle) from
-  two real, repeated GSC signals (research/2026-10-01-deep-research.md, analysis/2026-10-01.md). Logged /sell as
-  an already-working, unoptimized channel (11.6% CTR). Added "will NOT do" entry on iTokri's technique-first
-  taxonomy after reviewing their 2026-09-28 Festive 2026 move. No pillar changes this cycle - evidence this run
-  reinforces pillars 1 and 4 (Deep Bihar Culture, Authenticity Guides) rather than contradicting them.
+- 2026-10-01: Added Exp 3 and Exp 4 from repeated GSC signals; logged `/sell` as high-CTR channel; rejected full iTokri technique-first taxonomy copy.
+- 2026-10-05: Added Weavehand competitor row, Giftable Handmade Products pillar, Exp 5 product SEO + Pinterest push, and “do not push generic /shop” rule. Reason: GSC shows `/shop` weak (5 / 407 28d; 1 / 171 7d) while crochet potli/keychain and exact product-page searches are now actionable (analysis/2026-10-05.md).
