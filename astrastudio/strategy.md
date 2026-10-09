@@ -13,6 +13,8 @@
 | myBillBook | "Smart" automation (WhatsApp reminders, Magic Alerts dashboard, multi-user cloud sync)[research 2026-10-01] | Money Leaks (supplier price-rise + trapped capital detection) and Loan Readiness (0-100 credit score from real sales history, printable lender report), both shipped 2026-09-26, zero equivalent in myBillBook's public feature/comparison pages[research 2026-10-01] | Financial intelligence a billing app doesn't do, not just smarter billing | "A billing app tells you what you sold. We tell you if you're about to run out of cash." |
 | Generic Agencies | "Custom solutions" | Fixed-tier packages (₹25k-₹1.1L) | Pricing transparency & speed | "No discovery calls. No hidden costs. Just a professional site in 3 weeks." |
 | cyberdefence.org.in (hyper-local agency) | "One partner for app+website+SEO+ads+security"[research 2026-10-01] | Every Astra Studio services project already bundles 3 months free Astra Atlas (real working billing/CRM/WhatsApp system, not just marketing add-ons) | Real SaaS cross-sell bundled in, not just more marketing services | "Most agencies hand you a website. We hand you a website plus a working business system." |
+| BUSY Magic (BUSY Infotech, IndiaMART-backed) | AI-automation + accountant collaboration ("Smooth Sync") at IndiaMART's distribution scale, 6 lakh+ existing businesses[research 2026-10-09] | Money Leaks + Loan Readiness ship real credit-readiness/capital-leak intelligence; BUSY Magic's public pitch never mentions either[research 2026-10-09] | Intelligence a bigger, better-funded automation player still doesn't sell | "A bigger billing app is still just a billing app. We tell you if you're bankable." |
+| Udyog | Cheapest entry price (₹149/year) + Hinglish voice billing + dedicated CA portal[research 2026-10-09] | Fixed-tier Services pricing + bundled Atlas cross-sell; SaaS side doesn't compete on being cheapest | Not racing to the bottom on price - winning on depth (intelligence features) and completeness (bundle), not on being ₹149/year | "We're not the cheapest. We're the one that tells you things a cheaper tool can't." |
 
 ## Audience Segments
 1. **The Frustrated Retailer:** Uses mobile-only apps, hates the "tiny screen" for heavy accounting, needs desktop reliability.
@@ -41,9 +43,21 @@
   2026-09-26 with real tests (11 and 20 respectively)[research 2026-10-01]; competitor comparison
   copy only covers billing speed/sync, never credit scoring or capital-leak detection[7][8].
   Metric: LinkedIn post engagement (likes+comments+shares) vs. the 0-engagement baseline set by
-  the 3 LinkedIn posts published so far this month. Status: Proposed - at most 2 experiments run
-  concurrently per the growth-strategy skill; this is experiment #2, queued behind the Service
-  Bundles test above only if campaign-workflow doesn't start both in the same week.
+  the 3 LinkedIn posts published so far this month. Status: Lost (inconclusive) - Loan Readiness
+  post went live 2026-10-02, 7 days later still 0 likes/0 comments/0 shares on direct
+  linkedin_fetch_post[research 2026-10-09]. Recorded as lost, not deleted: content quality was
+  never the real test here, because the profile shows no visible follower count in any fetch -
+  the experiment couldn't distinguish "feature-demo angle didn't land" from "nobody saw it."
+  Do not repeat this exact experiment design again without first fixing reach.
+- Hypothesis (NEW, 2026-10-09): the zero-engagement pattern across all 6 LinkedIn + 1 Instagram
+  posts since late September is a distribution problem (near-zero follower count), not a content
+  problem. Evidence: every post, regardless of angle (indexing-bug story, feature demo, pricing
+  transparency), shows identical 0/0/0 on direct platform fetch[research 2026-10-09]; no
+  follower-count data has surfaced in any LinkedIn fetch this run or last. Metric: a direct answer
+  from Vishal on current LinkedIn follower count, then (if confirmed near-zero) first-connection-
+  batch or engagement-with-others activity as the real lead metric, not post likes. Status:
+  Proposed - this should be the next thing campaign-workflow or a direct Vishal check resolves
+  before spending another week's LinkedIn slot on a new content angle.
 
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
@@ -83,3 +97,15 @@
   2+ snapshot bar for changing pillars themselves. Performance loop reviewed: all 4 posts
   published/attempted this month show 0 real engagement so far (see learnings/performance-log.md)
   - not acted on yet, needs more data points before concluding anything about the channel.
+- 2026-10-09: Ran 2026-10-09 research cron. Added 2 new competitor rows (BUSY Magic - IndiaMART-
+  backed, AI-automation at scale; Udyog - cheapest-price entrant with CA portal) - the
+  intelligence-vs-billing positioning line holds against both without modification, logged as
+  evidence they don't change the strategy. Marked Experiment #2 (founder feature-demo post)
+  Lost/inconclusive - Loan Readiness post live 7 days, still 0/0/0 engagement. Opened new
+  Experiment #3: the zero-engagement pattern (now 6+ weeks, 7 pieces, every channel) is most
+  likely a distribution/follower-count problem, not a content problem - no follower-count data
+  visible in any fetch. This is the single most important open question for the channel right
+  now; flagged directly to Vishal in this run's Telegram report rather than guessed at. No pillar
+  changes (pillars still evidence-backed; the problem identified is distribution, not pillar
+  choice). Both blog posts published since 2026-10-01 show zero GSC rows yet - too early to score,
+  rechecking next run.
