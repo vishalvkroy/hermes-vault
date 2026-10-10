@@ -1,0 +1,24 @@
+# Todo — karwa-chauth-potli-keychain-push (2026-10-10)
+
+- [x] Read festival-calendar.md - Dussehra (10 days) AND Karwa Chauth (19 days) both within 21-day window
+- [x] Check prior campaign history - Dussehra already published last week (2026-10-01-dussehra-festive-shelf), Karwa Chauth untouched
+- [x] Verify Karwa Chauth date via real web search (drikpanchang.com - 29 Oct 2026 Thu, matches calendar)
+- [x] Read strategy.md, latest research (2026-10-10-deep-research.md), analysis (2026-10-10.md), competitors/watchlist.md
+- [x] Read docs/ positioning notes (Growth & Content Engine, Seller Packaging) for voice grounding
+- [x] council_review tier=flagship on Dussehra-rerun vs Karwa Chauth pivot - both responding models said pivot to Karwa Chauth (ship Exp 5)
+- [x] admin_search_products for real Karwa Chauth product photos (potli bag, daisy keychain, lip balm found + priced)
+- [x] Confirm products + prices live on site (/gifts/karwa-chauth page, WebExtract, 24 products confirmed)
+- [x] Generate hero image: Pollinations attempt rejected (watermark + malformed crochet, missing items, VisionAnalyze check)
+- [x] Fallback: brand_media.py image (Gemini) - passed VisionAnalyze brand-grade check
+- [x] Build Instagram carousel (brand_media.py carousel, 6 slides: hook photo + 3 real products + text + CTA)
+- [x] Crop hero image to Pinterest-native 1000x1500 (Cloudinary c_fill,g_auto transform) - checked no bad cropping
+- [x] Write plan.md with evidence receipt + council_review verdict
+- [x] Write pinterest.md, run through writing/humanizer
+- [x] Write instagram.md (caption + alt text per slide, social-SEO playbook)
+- [x] Write linkedin.md via linkedin-post-writer (own humanizer pass, no separate humanizer run)
+- [x] Write blog-angle-note.md (no new blog post this run - handoff to daily blog cron)
+- [x] list_accounts(madebyher) - confirmed pinterest/instagram/linkedin social_account_ids (same as prior campaign, re-verified not hardcoded)
+- [x] create_draft + request_publish_approval for Pinterest
+- [x] create_draft + request_publish_approval for Instagram
+- [x] create_draft + request_publish_approval for LinkedIn (via linkedin-post-writer)
+- [x] Telegram-style summary with real outcomes (post ids, pending_approval state, nothing published)
