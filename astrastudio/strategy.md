@@ -66,6 +66,18 @@
   ours to copy[research 2026-10-01].
 
 ## Review log
+- 2026-10-10: Published blog post "GST E-Invoicing in India (2026): Turnover Limit, 30-Day Rule
+  & How to Stay Compliant" (astrastudio.in/blog/gst-e-invoicing-guide-india-2026), Pillar 2
+  (Compliance Watch, SaaS). Keyword research via Google Suggest confirmed real intent around
+  "gst e invoicing limit", "gst e invoice turnover limit 2026", "gst e invoicing threshold" -
+  zero prior coverage in POSTS object despite e-invoicing being adjacent to 3 existing GST posts
+  (gst-registration-guide, gst-calculation-guide, gst-billing-software). Grounds the article in
+  the real einvoiceService.ts IRN stub (backend/src/services/einvoiceService.ts) and the live
+  GstinLookup `einvoice_eligible` flag already shipped in the desktop app - a genuine product
+  capability, not a bolted-on claim. Internal links added both directions: new post links to
+  gst-registration-guide, gst-calculation-guide, gst-billing-software, business-credit-score-
+  loan-readiness; gst-registration-guide's Bottom Line now also links forward to the new post.
+  No pillar changes.
 - 2026-10-03: Published blog post "How Much Does a Business Website Cost in India (2026)? A
   Transparent Pricing Guide" (astrastudio.in/blog/business-website-cost-india-2026), Pillar 1
   (The Transparency Play, Services line). First blog content targeting the Services revenue
