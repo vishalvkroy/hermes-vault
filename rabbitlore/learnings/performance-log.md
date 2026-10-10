@@ -37,3 +37,23 @@ log) per the growth-strategy skill's feedback loop.
 - **Piece:** `2026-09-24-reddit-night-gated-lore-launch` (Reddit draft). **Status:** still not
   posted by Vishal as of this run — nothing to measure, unchanged.
 - **No blog URLs published for RabbitLore this cycle** (still no GSC site connection).
+
+## 2026-10-10 review
+
+- **Piece:** LinkedIn post `urn:li:share:7502315073433104384`. **Metric:** `get_post_analytics` →
+  HTTP 500 again (4th consecutive run: 2026-09-24, 2026-09-28, 2026-10-01, 2026-10-10). **Status:
+  unknown — still not measurable.** 4-run pattern now; repeating prior flag to Vishal this needs a
+  manual check outside the automated loop — the backend has never once returned data for this post.
+- **Piece:** LinkedIn draft `115d7a8b-523a-4f71-8995-064b780458cc`. **Metric:** `collected: false`,
+  unchanged, 4th run in a row. **Status: unknown**, same reason.
+- **Campaign-level:** `get_campaign_performance` for `2026-09-06-linkedin-blend-holes-night-gate`
+  → same zeros as every prior run (`post_count: 2, posts_published: 1, impressions: 0, engagement:
+  0, clicks: 0`) — still reads as "no data yet," not "failed."
+- **Piece:** `2026-09-24-reddit-night-gated-lore-launch` and `2026-10-01-reddit-regulatory-
+  structural-safety` (both Reddit drafts). **Status:** still not posted by Vishal as of this run —
+  Reddit remains manual-only for this brand (`connect_status` re-checked this run: reddit
+  `connected: false`), nothing to measure on either.
+- **No blog URLs published for RabbitLore this cycle** (`gsc_list_sites` re-checked — only
+  madebyher.in and astrastudio.in listed, RabbitLore still not a Search Console property).
+- **GA4:** RabbitLore Android streams in property 538401917 re-checked — still **no app
+  analytics data**, per analytics-map 2026-09-25. Reporting the null, not inventing a number.

@@ -32,6 +32,23 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   Widget (photo-sharing widget, 80M+ downloads), noplace (MySpace-style profiles, $19M raised),
   Ville (in-person-meetup app, no public feed).
 
+## Coverstar
+- First noted: 2026-10-10
+- Positioning: Short-form video app for Gen Alpha (ages 9-16), pitched as safer TikTok
+  alternative — no direct messaging at all, AI + human moderation, avatar customization and
+  challenge-based video creation; profiles public by default (private is optional, not default)
+  (https://coverstar.app/, https://www.airdroid.com/app-safety/is-coverstar-safe-for-kids/).
+- Last change observed: 2026-10-10 — surfaced as one of 3 apps (with Yope, Lemon8) named
+  together in dated news coverage (Nov-Dec 2025) as where teens migrated during Australia's
+  under-16 social media ban, which removed 4.7M accounts across 10 platforms
+  (https://www.afr.com/companies/media-and-marketing/teens-pile-into-lemon8-yope-coverstar-as-social-ban-kicks-in-20251209-p5nm88,
+  https://www.pbs.org/newshour/world/social-media-platforms-removed-4-7-million-accounts-after-australia-banned-them-for-children-younger-than-16).
+- Notes: Track-but-don't-chase. Audience is Gen Alpha children, not RabbitLore's adult/young-
+  adult "overthinkers reflecting on childhood" audience; core loop is public video + avatar as
+  side feature, not RabbitLore's private peer-matching mechanic. Its no-DM/AI-moderation design
+  solves a child-safety problem RabbitLore doesn't share. See `research/2026-10-10.md`
+  Competitive Edge for the full scoped read.
+
 ## Zentara
 - First noted: 2026-09-18
 - Positioning: Social network with AI-powered avatars and VTubers for virtual companions.

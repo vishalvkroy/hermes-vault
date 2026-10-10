@@ -38,9 +38,12 @@ keep LinkedIn build-in-public cadence going without repeating an angle already u
 
 ## 2. Positioning & differentiation
 
-Every watchlist competitor (`competitors/watchlist.md`, 4 entries as of 2026-10-01), one row
+Every watchlist competitor (`competitors/watchlist.md`, 5 entries as of 2026-10-10), one row
 each. Claims checked against `docs/positioning.md` and real shipped commits — nothing here is
-aspirational.
+aspirational. **Coverstar (new 2026-10-10)** is tracked on the watchlist but deliberately not
+given its own row here — see Competitive Edge in `research/2026-10-10.md`: different audience
+(Gen Alpha children, not RabbitLore's adult/young-adult base) and different mechanic (public
+video feed, not private peer-matching), so no differentiation claim is needed yet.
 
 | Competitor | Their claim | Our real proof | Our edge | Message we lead with |
 |---|---|---|---|---|
@@ -80,6 +83,14 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   "private beats public" macro-thesis behind this pillar is commercially validated, even though
   Yope's own product (friend-group photo/chat sharing) is a different mechanic than RabbitLore's
   peer lore-matching — treat as reassurance on direction, not evidence for the specific mechanic.
+  **2026-10-10 correction:** "private social app" and "close friends app" Google Trends readings
+  (the broader category search terms, not RabbitLore-specific) have now declined for 2 consecutive
+  weekly snapshots each — "private social app" 56→28→7→5, "close friends app" 70→38→18→16, both
+  down from a 100-peak in late May/early June 2026. This category-level search interest is
+  cooling, not rising; do not cite "category interest accelerating" as supporting evidence for
+  this pillar going forward — the pillar's evidentiary weight stays on the 2 repeated
+  Top-Opportunity research calls, the shipped feature, and Yope's funding/regulatory validation,
+  none of which this trends data affects.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -264,3 +275,19 @@ in this document, so it earned inclusion even though the council question didn't
   public-feed models face accelerating structural pressure RabbitLore's night-gated, no-public-
   room design sits outside of — same direction as the Apple Screen Time note from 2026-09-28, now
   with more corroborating jurisdictions, no action needed beyond noting it.
+- **2026-10-10:** Performance loop — LinkedIn post analytics still not collected, 4th consecutive
+  run (`learnings/performance-log.md`), repeating the standing flag for Vishal's manual check.
+  Research: "private social app" and "close friends app" Google Trends readings both declined for
+  2 consecutive weekly snapshots (56→28→7→5 and 70→38→18→16), down from a 100-peak in late
+  May/early June 2026 — corrected §4 Pillar 1 to stop implying category interest is rising or
+  accelerating; evidentiary weight stays on the 2 Top-Opportunity research calls, the shipped
+  feature, and Yope's funding/regulatory validation. Added **Coverstar** to
+  `competitors/watchlist.md` — a Gen Alpha (9-16) short-video app named alongside Yope/Lemon8 in
+  dated news coverage of Australia's under-16 ban migration wave (which removed 4.7M accounts
+  across 10 platforms, a new hard number); tracked but deliberately given no §2 differentiation
+  row — see Competitive Edge in `research/2026-10-10.md` for the "different audience, different
+  mechanic, not worth chasing" call. UK PM's 2026-06-15 under-16 ban announcement adds a second
+  major jurisdiction to the regulatory-pressure read already in this log; no pillar change beyond
+  noting it. Reddit searches (Yope, Highrise, lonely-gen-z, private-friend-group queries) returned
+  zero on-topic results this run, same null pattern as recent prior runs.
+
