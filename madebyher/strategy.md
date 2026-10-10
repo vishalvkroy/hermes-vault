@@ -4,6 +4,7 @@
 **Goal:** Establish MadeByHer as the definitive portal for "Deep Bihar" artisanal gifting.
 **Metric:** 3x organic sessions to festival-specific and product-specific landing pages (Thekua, Madhubani, Sujni, crochet gifts).
 **Baseline:** As of 2026-10-05, GSC 28d shows `/sell` 24 clicks / 181 impressions, `/shop` 5 / 407, `/product/handmade-crochet-rose-drawstring-mini-potli-bag` 2 / 166, `/blog/pedakiya-vs-gujiya-comparison` 5 / 639, and `/blog/wedding-return-gifts-under-300` 5 / 142 (analysis/2026-10-05.md).
+**Update 2026-10-10:** `/sell` 22 / 165, `/shop` 5 / 426 (CTR still sliding), `/product/handmade-crochet-rose-drawstring-mini-potli-bag` holding near-flat, plus GA4 now returns real data (28d): Organic Search 382 sessions, Direct 201, AI Assistant 155 (lowest bounce rate on site, 19.4%) — AI-assistant referral is now a tracked, trending channel, not an unknown (analysis/2026-10-10.md).
 
 ## Positioning & Differentiation
 | Competitor | Their Claim | Our Proof | Our Edge | The Message |
@@ -41,17 +42,19 @@
 - **Exp 2:** Authenticity Certification / maker story card. Hypothesis: Higher conversion for Madhubani/Tikuli/Sujni gifts. Evidence: Weavehand emphasizes hand-signed certificates and GI-tag certification claims (research/2026-10-05-deep-research.md). Status: Proposed.
 - **Exp 3:** Rewrite meta title/description on `/blog/pedakiya-vs-gujiya-comparison`. Hypothesis: CTR moves upward from 5 / 639 by matching proven comparison-intent wording. Evidence: research/2026-10-01-deep-research.md and analysis/2026-10-05.md. Status: Proposed, still not done.
 - **Exp 4:** Seller-acquisition content push behind `/sell`, testing “sell handmade items online free in India” and platform-risk angle. Hypothesis: Seller leads rise because `/sell` already converts. Evidence: `/sell` 24 / 181 and 14.3% 7d CTR (analysis/2026-10-05.md). Status: Proposed.
-- **Exp 5:** Product SEO + Pinterest push for crochet potli/keychain pages. Hypothesis: product page CTR improves from 1 / 96 over 7d by matching `crochet rose potli bag` and `daisy keychain` language. Evidence: analysis/2026-10-05.md. Status: Proposed — highest priority this week.
+- **Exp 5:** Product SEO + Pinterest push for crochet potli/keychain pages. Hypothesis: product page CTR improves from 1 / 96 over 7d by matching `crochet rose potli bag` and `daisy keychain` language. Evidence: analysis/2026-10-05.md. Status: Proposed — still highest priority, now two runs unshipped (daisy keychain 7d impressions rose 11→17 with 0 clicks both runs; analysis/2026-10-10.md).
 - **Exp 6:** ONDC seller/distribution feasibility check. Hypothesis: ONDC can widen women-seller distribution and reduce platform dependence. Evidence: eSARAS and Artisans’ Wizard ONDC findings (research/2026-10-05-deep-research.md). Status: Proposed, not running.
+- **Exp 7:** Source a papad seller/SKU, or retire the papad blog angle. Hypothesis: `best papad brands in india` / `papad brands` (18-19 impressions/28d, present in 3 consecutive runs: 2026-10-01, 2026-10-05, 2026-10-10) is real repeated demand the catalog cannot currently serve — closing it either converts existing blog traffic into sales or stops wasting content investment on an unservable query. Evidence: research/2026-10-10-deep-research.md, admin_search_products returning zero papad results. Status: Proposed — needs Vishal's sourcing decision, not a content fix alone.
 
 ## We will NOT do
 - **Generic "Handmade" content:** Research shows buyers and search data point to specific products/regions/occasions, not broad craft content.
 - **Generic /shop pushes:** `/shop` has 5 / 407 over 28d and 1 / 171 over 7d, so campaigns should route to product/collection pages instead (analysis/2026-10-05.md).
 - **Instagram competitor scraping via Composio:** Current connection only reads owned account posts/tags, not public hashtag or competitor search (research/2026-10-05-deep-research.md).
-- **Citing GA4 traffic this run:** GA4 tool failed validation/coercion; no safe GA4 number available (analysis/2026-10-05.md).
+- **Citing GA4 traffic without the leading-zero workaround:** As of 2026-10-10, `property_id="0553055822"` (leading zero) returns real data where the bare documented id failed — use that format, GA4 numbers are now citable (analysis/2026-10-10.md).
 - **Copying Weavehand’s pan-India heritage sprawl:** MadeByHer’s sharper position is Bihar women-led gifting; use gift-box/provenance mechanics, not broad identity dilution.
 
 ## Review Log
 - 2026-09-28: Created strategy.md. Integrated GSC demand for traditional sweets and Council Review signals on cross-craft bundling.
 - 2026-10-01: Added Exp 3 and Exp 4 from repeated GSC signals; logged `/sell` as high-CTR channel; rejected full iTokri technique-first taxonomy copy.
 - 2026-10-05: Added Weavehand competitor row, Giftable Handmade Products pillar, Exp 5 product SEO + Pinterest push, and “do not push generic /shop” rule. Reason: GSC shows `/shop` weak (5 / 407 28d; 1 / 171 7d) while crochet potli/keychain and exact product-page searches are now actionable (analysis/2026-10-05.md).
+- 2026-10-10: Added Exp 7 (papad sourcing decision) — `best papad brands in india`/`papad brands` now confirmed as repeated demand (3 consecutive runs) with zero matching product; GA4 property 553055822 finally returned usable data this run (AI Assistant referral = 155/28d sessions, lowest bounce on site) and updated the north-star baseline; no genuinely new competitor move found this week so watchlist.md was not touched. Reason: research/2026-10-10-deep-research.md and analysis/2026-10-10.md.
