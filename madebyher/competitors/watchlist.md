@@ -96,3 +96,15 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 - Positioning: Bengaluru-based homemade thekua brand, founder story (Veena Devi, ex-teacher from Bihar, + son Sameer). Reported ₹75 crore valuation, 1,000+ orders/day, ₹15 crore annual revenue. Differentiator: no maida/palm oil, pure ghee and jaggery.
 - Last change observed: 2026-10-01 — Featured in Business Today after R. Madhavan shared the story publicly — source: https://www.businesstoday.in/latest/trends/story/from-4-stoves-to-rs75-crore-empire-r-madhavan-applauds-bihar-mother-son-duos-thekua-success-story-545275-2026-07-26
 - Notes: Not a direct platform competitor (single-brand D2C, not a marketplace, not Bihar-artisan-direct sourcing) but strong proof-of-market that scaled thekua demand at real volume is achievable nationally. Worth watching as a benchmark for thekua category growth, not a head-to-head threat.
+
+## Discover Mithila (Mithila Dharohar)
+- First noted: 2026-10-12
+- Positioning: Dedicated Madhubani/Mithila heritage marketplace, founded 2026. Explicit anti-middleman framing ("master women artists were traditionally paid pennies while third-party commercial distributors sold machine-printed replicas online at 10x markups"). Dual Delhi + Bihar fulfillment hubs. 200+ women artisans across 4 primary districts in Northern Bihar (Rasidpur, Rajnagar in Madhubani district named specifically for the Kachni fine-line tradition). 70%+ of proceeds to artisan collectives.
+- Last change observed: 2026-10-12 — First identified via web search this run — source: https://www.discovermithila.com and https://www.discovermithila.com/about
+- Notes: Closest direct match to MadeByHer's own positioning to date (Bihar-origin, women-artisan-direct, 2026-founded) — see Competitive Edge section, research/2026-10-12-deep-research.md. Narrower than MadeByHer today: paintings/clothing/religious items/gift boxes, Madhubani-art-only, no food category. MadeByHer's real edge vs this one specifically is category breadth (food + craft + jewelry + cosmetics), not "we are also Bihar."
+
+## Mithila Melange (adjacent — Mithila-art D2C, not a marketplace)
+- First noted: 2026-10-12
+- Positioning: Early-2026-launched D2C brand selling handcrafted Mithila art products for corporate and festive gifting.
+- Last change observed: 2026-10-12 — First identified via web search this run — source: https://yourstory.com/companies/mithila-melange
+- Notes: Single-brand D2C (same shape as MomsMade for thekua), not a multi-seller marketplace — logged as an adjacent watch pending more evidence of scale, not a head-to-head competitor to MadeByHer's marketplace model.
