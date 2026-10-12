@@ -59,3 +59,28 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
   regardless of post quality. Not acted on with a pillar change yet (needs explicit evidence the
   cause is audience size, not content), but flagged in this week's strategy review as the
   single most important unresolved question for the channel.
+
+## 2026-10-12 review
+
+- **2026-10-10 WhatsApp consent-gap-fix LinkedIn post** (campaigns/2026-10-10-whatsapp-consent-
+  gap-fix/) → confirmed live via direct `linkedin_fetch_post`: text matches the draft exactly,
+  `numLikes: 0, numComments: 0, numShares: 0`, `authorFollowers: null` (still no follower count
+  surfaced in any fetch). 2 days live - too early to call, but extends the zero-engagement run to
+  8/8 published pieces since late September.
+- **2026-10-01 Loan Readiness "Zero score" post** → re-checked, still `numLikes: 0, numComments: 0,
+  numShares: 0` 10 days live. `get_campaign_performance` totals still 0 impressions/engagement/
+  clicks. Flat.
+- **2026-10-03 and 2026-10-10 GST e-invoicing / dead-stock blog posts** → `gsc_search_analytics`
+  (28-day window, dimensions page) shows neither `gst-e-invoicing-guide-india-2026` nor
+  `dead-stock-inventory-management-india-2026` in the page-level rows yet - zero impressions,
+  zero clicks recorded. Both published 2026-10-10, 2 days old; too early to score, consistent with
+  the site's standing indexing-lag pattern, rechecking next run.
+- **Instagram** → `INSTAGRAM_GET_USER_INSIGHTS` (reach, daily): 0 on 2026-10-10, 1 on 2026-10-11.
+  First non-zero reach number since tracking started, but 1 unique view is not yet a signal -
+  noting it rather than reading a trend into it.
+- **Pattern, now 8+ weeks of data:** every published LinkedIn post (7 total) still shows 0/0/0 on
+  direct fetch; `authorFollowers` has never once returned a number in any fetch this run or prior
+  runs. This is the same standing distribution question flagged 2026-10-09 (strategy.md
+  Experiment #3) - unresolved, needs Vishal's direct input on actual LinkedIn follower count
+  before another week of content-only responses. Not re-litigated here since nothing changed;
+  carried forward again.
