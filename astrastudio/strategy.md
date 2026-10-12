@@ -15,6 +15,8 @@
 | cyberdefence.org.in (hyper-local agency) | "One partner for app+website+SEO+ads+security"[research 2026-10-01] | Every Astra Studio services project already bundles 3 months free Astra Atlas (real working billing/CRM/WhatsApp system, not just marketing add-ons) | Real SaaS cross-sell bundled in, not just more marketing services | "Most agencies hand you a website. We hand you a website plus a working business system." |
 | BUSY Magic (BUSY Infotech, IndiaMART-backed) | AI-automation + accountant collaboration ("Smooth Sync") at IndiaMART's distribution scale, 6 lakh+ existing businesses[research 2026-10-09] | Money Leaks + Loan Readiness ship real credit-readiness/capital-leak intelligence; BUSY Magic's public pitch never mentions either[research 2026-10-09] | Intelligence a bigger, better-funded automation player still doesn't sell | "A bigger billing app is still just a billing app. We tell you if you're bankable." |
 | Udyog | Cheapest entry price (₹149/year) + Hinglish voice billing + dedicated CA portal[research 2026-10-09] | Fixed-tier Services pricing + bundled Atlas cross-sell; SaaS side doesn't compete on being cheapest | Not racing to the bottom on price - winning on depth (intelligence features) and completeness (bundle), not on being ₹149/year | "We're not the cheapest. We're the one that tells you things a cheaper tool can't." |
+| HisabKitab | CA-founded AI-OCR automation of bookkeeping + direct GSTR-1/2B filing, "Smart GST Dashboard"[research 2026-10-12] | Money Leaks + Loan Readiness still the only credit-readiness/capital-leak features in this comparison set; HisabKitab's public pitch never mentions either[research 2026-10-12] | Automating data entry is not the same as telling a shop whether it's bankable or bleeding cash | "They automate your bookkeeping. We tell you what the numbers actually mean for your business." |
+| FlowLaunch | One fixed published price, no quote forms, free hosting + GitHub handover bundled in[research 2026-10-12] | Same fixed-tier pricing transparency (Starter/Growth/Elite) PLUS 3 months free Astra Atlas - a working SaaS product, not a hosting freebie | A real SaaS bundle beats a hosting freebie; match their "nothing locked behind us" trust signal in copy without diluting our stronger bundle | "Other fixed-price studios hand you a website. We hand you a website plus a working business system, free for 3 months." |
 
 ## Audience Segments
 1. **The Frustrated Retailer:** Uses mobile-only apps, hates the "tiny screen" for heavy accounting, needs desktop reliability.
@@ -58,14 +60,56 @@
   batch or engagement-with-others activity as the real lead metric, not post likes. Status:
   Proposed - this should be the next thing campaign-workflow or a direct Vishal check resolves
   before spending another week's LinkedIn slot on a new content angle.
+- Hypothesis (NEW, 2026-10-12): a time-sensitive real-news hook (57th GST Council meeting,
+  8 Oct 2026) will outperform an evergreen explainer on reach/impressions, because news-hook
+  content gets picked up by search and social faster than evergreen guides. Evidence: no
+  competitor coverage found this run for the 57th Council meeting specifically[research
+  2026-10-12 Opportunity #1]; the brand's existing GST content (3 posts) all shows flat/zero GSC
+  rows so far, so this is also a test of whether timeliness itself moves the needle, not just
+  topic choice. Metric: GSC impressions/clicks on the new URL in the first 14 days (compare
+  against the near-zero 14-day baseline set by gst-e-invoicing-guide-india-2026 and
+  dead-stock-inventory-management-india-2026, both still at 0 rows after 2 days). Status:
+  Proposed - this is this week's top content candidate (research/2026-10-12_deep-research.md
+  Opportunity #1), pending Vishal's approval to publish, and doesn't compete with Experiment #3's
+  open distribution question (a blog/search play, not a LinkedIn-reach play).
 
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
 - Chase feature-parity with myBillBook's Mira AI (automated payment matching) - no customer
   complaint or search demand found for it this run; it's their differentiation to defend, not
   ours to copy[research 2026-10-01].
+- Chase HisabKitab's CA-portal/OCR-automation angle feature-for-feature - no customer complaint
+  or search demand surfaced this run asking for OCR bookkeeping automation specifically; it is a
+  different buyer problem (data-entry speed) from the one Astra Atlas's intelligence features
+  solve (financial-health visibility)[research 2026-10-12].
+- Match FlowLaunch's exact hosting-freebie structure 1:1 - the 3-months-free-Atlas bundle is
+  already a stronger, harder-to-copy differentiator than free Vercel hosting; only the
+  "code/handover is yours, nothing locked behind us" trust message is worth borrowing in copy
+  (see Competitive Edge, research/2026-10-12_deep-research.md).
 
 ## Review log
+- 2026-10-12: Ran 2026-10-12 research cron. Added 2 new competitor rows (HisabKitab - CA-founded
+  AI-OCR/bookkeeping-automation platform; FlowLaunch - fixed-price Hyderabad web-dev studio
+  directly contesting the Services line's pricing-transparency pitch) - intelligence-vs-billing
+  and SaaS-bundle-vs-hosting-freebie positioning both hold against the new rows without
+  modification. Surfaced a real, dated news event (57th GST Council meeting, 8 Oct 2026 -
+  recommended removal of arrest powers, faster automated refunds, late-fee waivers, registration
+  simplification) as this week's top content opportunity - no competitor coverage found yet,
+  directly serves the "GST-Scared SMB" audience segment, Pillar 2 (Compliance Watch). Opened new
+  Experiment #4 (news-hook timeliness vs evergreen-guide performance) rather than treating this as
+  an automatic publish - the brand's existing 3 GST posts are all still flat/zero in GSC, so
+  timeliness itself is the open variable being tested, not just topic relevance. Added a 3rd "We
+  will NOT do" item (no HisabKitab OCR feature-parity chase) and a 4th (no FlowLaunch
+  hosting-freebie copy, only the trust-message borrow logged in Competitive Edge). Performance
+  loop reviewed: WhatsApp consent-gap-fix LinkedIn post (published 2026-10-10) confirmed live,
+  0/0/0 engagement 2 days in, extending the zero-engagement run to 8/8 pieces; both 2026-10-10
+  blog posts still show 0 GSC rows at 2 days old (too early to score); Instagram reach moved from
+  flat 0 to a single 1 (2026-10-11) - first non-zero number ever, not yet a trend. GA4 tool call
+  failed again with the same property_id schema bug as every prior run - flagging as a standing
+  tooling issue worth a direct fix check, not just re-logging silently. No pillar changes -
+  single-week findings (one news event, two new competitors) don't meet the 2+ snapshot bar for
+  changing pillars themselves; Pillar 2 (Compliance Watch) already covers the GST Council angle
+  without needing a new pillar.
 - 2026-10-10: Published blog post "GST E-Invoicing in India (2026): Turnover Limit, 30-Day Rule
   & How to Stay Compliant" (astrastudio.in/blog/gst-e-invoicing-guide-india-2026), Pillar 2
   (Compliance Watch, SaaS). Keyword research via Google Suggest confirmed real intent around
