@@ -78,9 +78,41 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
 - **Instagram** → `INSTAGRAM_GET_USER_INSIGHTS` (reach, daily): 0 on 2026-10-10, 1 on 2026-10-11.
   First non-zero reach number since tracking started, but 1 unique view is not yet a signal -
   noting it rather than reading a trend into it.
-- **Pattern, now 8+ weeks of data:** every published LinkedIn post (7 total) still shows 0/0/0 on
-  direct fetch; `authorFollowers` has never once returned a number in any fetch this run or prior
-  runs. This is the same standing distribution question flagged 2026-10-09 (strategy.md
-  Experiment #3) - unresolved, needs Vishal's direct input on actual LinkedIn follower count
-  before another week of content-only responses. Not re-litigated here since nothing changed;
-  carried forward again.
+
+## 2026-10-15 review
+
+- **2026-10-10 WhatsApp consent-gap-fix LinkedIn post** (campaigns/2026-10-10-whatsapp-consent-
+  gap-fix/, post id `1f24574d-3df1-4c5c-8fdb-d5b47a50130e`) → still `status: pending_approval` in
+  the social DB, `provider_post_id: null`, `published_at: null`. This post has **not actually
+  gone out** - it has sat in pending_approval for 5 days. Correcting last run's "8/8 published"
+  count: the real published-post tally stays at 7 (6 LinkedIn + 1 Instagram), not 8. This is an
+  approvals-bottleneck finding, not an engagement one - flagging directly to Vishal rather than
+  quietly treating it as a flat zero-engagement data point, which it isn't (it was never
+  published, so there's nothing to measure yet).
+- **2026-10-01 Loan Readiness "Zero score" post** (urn `7511275407665455104`) → re-checked via
+  direct `linkedin_fetch_post`, still live, still `numLikes: 0, numComments: 0, numShares: 0`,
+  `authorFollowers: null`, 13 days live. Flat, consistent with every prior check.
+- **GSC page-level data, 7-day and 28-day windows** → `gst-e-invoicing-guide-india-2026` now
+  shows 1 click/8 impressions (28-day) - first non-zero row since publish (2026-10-10), 5 days
+  in. `dead-stock-inventory-management-india-2026` still 0 clicks/5 impressions, unchanged.
+  `business-website-cost-india-2026` and `business-credit-score-loan-readiness` both still flat
+  (0 clicks, low single-digit-to-20s impressions) after 2 and 2.5 weeks respectively - genuinely
+  not growing, not just early.
+- **Repo/code-shipped-but-unmarketed check (this run's new addition per the cron instructions):**
+  10 substantial commits shipped 2026-10-12 to 2026-10-15 (platform dashboard tabs, tenant
+  soft-delete+audit-log, trial-expiry revenue-leak fix, scheduled-report delivery fix, premium
+  report charts across 7 report types, Atlas AI promoted to its own nav group, is_internal_test
+  tenant safety flag) - see this week's research file for the full list. None of these are
+  customer-facing SMB-marketing material (platform-admin/internal-tooling, or desktop-UX polish
+  already covered by the existing "Intelligence > Billing" pillar) except the Atlas AI nav
+  promotion, which is a real, small, demo-able "we made our own differentiator easier to find"
+  beat - queued as light-weight future material, not this week's lead.
+- **Pattern, now 8 weeks of data since late Sep:** 7 real published pieces (6 LinkedIn + 1
+  Instagram) all show 0 real engagement at the numbers directly checkable via
+  `linkedin_fetch_post`/`INSTAGRAM_GET_USER_INSIGHTS`; `authorFollowers` has never once returned a
+  number across every fetch this run and every prior run. Combined with this run's discovery that
+  the most recent post never actually published (stuck in pending_approval 5 days), the real,
+  actionable finding this week is a **process** gap, not a content gap: posts are being drafted
+  and approval-requested correctly, but something is stalling between request_publish_approval and
+  Vishal clicking Approve, or between Approve and the publisher job actually firing. Worth a direct
+  check with Vishal on whether the 2026-10-10 approval request was ever seen.
