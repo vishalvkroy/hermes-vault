@@ -30,7 +30,13 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   `research/2026-10-01.md` Competitive Edge for the scoped, non-copycat read. Tracked alongside
   3 adjacent apps surfaced same search (not individually watchlisted, noted for context): Locket
   Widget (photo-sharing widget, 80M+ downloads), noplace (MySpace-style profiles, $19M raised),
-  Ville (in-person-meetup app, no public feed).
+  Ville (in-person-meetup app, no public feed). **2026-10-15:** a new "quiet social"/anti-feed
+  trend roundup (The Edge Malaysia, Oct 12 2026) names Yope ("more than 14 million" users as of
+  July 2026, consistent with the existing $12.3M-raise/~15M figure) alongside 4 more apps in the
+  same genre — SetLog, Locket Widget, BeReal, MoodStream. SetLog and MoodStream are new names with
+  no funding/user data found; not added as standalone entries per the no-fabrication rule, noted
+  here only as context that the "anti-feed" app category keeps growing, not as new competitors
+  to track individually.
 
 ## Coverstar
 - First noted: 2026-10-10
@@ -38,12 +44,22 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   alternative — no direct messaging at all, AI + human moderation, avatar customization and
   challenge-based video creation; profiles public by default (private is optional, not default)
   (https://coverstar.app/, https://www.airdroid.com/app-safety/is-coverstar-safe-for-kids/).
-- Last change observed: 2026-10-12 — Google Trends search-interest shape changed from isolated
-  one-day spikes (summer 2026 pattern: single days to 60-100 surrounded by zero) to a sustained
-  daily climb this week: Oct 6: 22, Oct 7: 33, Oct 8: 28, Oct 9: 34, Oct 10: 36, Oct 11: 45, Oct
-  12: 69 (COMPOSIO_SEARCH_TRENDS, daily TIMESERIES, 90-day window). Reddit search ("Coverstar
-  app") also surfaced genuinely on-topic results this run — r/austechnology on teen migration to
-  Coverstar/Lemon8/Yope and r/AustralianGreens naming it among ban alternatives
+- Last change observed: 2026-10-15 — Google Trends daily interest set a new high: Oct 15: 75,
+  above every prior reading in the series so far (COMPOSIO_SEARCH_TRENDS, daily TIMESERIES, 90-day
+  window; this run's pull: Oct 6: 21, Oct 7: 31, Oct 8: 27, Oct 9: 33, Oct 10: 33, Oct 11: 48, Oct
+  12: 33, Oct 13: 29, Oct 14: 21, Oct 15: 75). Note Trends re-scales past days slightly on each
+  pull (Oct 12's pull read Oct 6 as 22, this run reads it as 21) — the shape (sustained non-zero
+  with climbing peaks, not isolated one-day spikes) is the real signal, the exact single-day
+  values will drift between pulls. Separately, a new parent-safety article (Oct 5 2026,
+  virtual-addiction.com, "Is Coverstar Safe for Kids?") flags lack of in-app privacy controls and
+  advises parental supervision around content exposure
+  (https://virtual-addiction.com/online-safety/coverstar/) — same underlying "public-by-default,
+  pitched as safer than TikTok" trade-off already tracked, new dated instance.
+- Previously (2026-10-12): Google Trends search-interest shape changed from isolated one-day
+  spikes (summer 2026 pattern: single days to 60-100 surrounded by zero) to a sustained daily
+  climb; Reddit search ("Coverstar app") surfaced genuinely on-topic results —
+  r/austechnology on teen migration to Coverstar/Lemon8/Yope and r/AustralianGreens naming it
+  among ban alternatives
   (https://www.reddit.com/r/austechnology/comments/1pegtt8/heard_of_coverstar_lemon8_or_yope_teenagers_rush/) —
   plus the original 2026-10-10 find: one of 3 apps (with Yope, Lemon8) named together in dated
   news coverage (Nov-Dec 2025) as where teens migrated during Australia's under-16 social media
@@ -53,8 +69,9 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 - Notes: Track-but-don't-chase, unchanged call. Audience is Gen Alpha children, not RabbitLore's
   adult/young-adult "overthinkers reflecting on childhood" audience; core loop is public video +
   avatar as side feature, not RabbitLore's private peer-matching mechanic. Its no-DM/AI-moderation
-  design solves a child-safety problem RabbitLore doesn't share. See `research/2026-10-10.md` and
-  `research/2026-10-12.md` Competitive Edge sections for the full scoped read.
+  design solves a child-safety problem RabbitLore doesn't share. See `research/2026-10-10.md`,
+  `research/2026-10-12.md` and `research/2026-10-15.md` Competitive Edge sections for the full
+  scoped read.
 
 ## Zentara
 - First noted: 2026-09-18

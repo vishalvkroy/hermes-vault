@@ -92,7 +92,13 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   Top-Opportunity research calls, the shipped feature, and Yope's funding/regulatory validation,
   none of which this trends data affects. **2026-10-12:** the decline has flattened (not reversed)
   for one partial week ("private social app" 9→5→3, "close friends app" 2→2→1) — not a confirmed
-  trend change, standing correction unchanged. Separately, new structural evidence this run: Apple's
+  trend change, standing correction unchanged. **2026-10-15 correction:** those partial-week
+  numbers were undercounts — the now-closed week reads "private social app" 5 (not 3) and "close
+  friends app" 21 (not 1), with "close friends app" moving up off the Oct 4-10 floor (16→21), the
+  opposite direction from what the partial read implied. One closed week is still short of the
+  2-consecutive-reading bar for calling a reversal, so this pillar's "don't claim category
+  acceleration" correction stays in force — but the exact numbers logged 2026-10-12 for that week
+  are superseded, not repeated (`research/2026-10-15.md`). Separately, new structural evidence this run: Apple's
   App Store 13+ social-media declaration rule (Sept 2026) exempts DM/private-room-only apps like
   RabbitLore while targeting public-feed/room models (`research/2026-10-12.md` [3]) — a real,
   checkable compliance fact that strengthens this pillar's non-attack positioning line without
@@ -313,4 +319,18 @@ in this document, so it earned inclusion even though the council question didn't
   watchlist, same underlying public-room-trust-cost pattern as 2026-09-28's findings, new specific
   instance. "Private social app"/"close friends app" trend decline flattened (not reversed) for
   one partial week — standing Pillar 1 correction (don't claim category acceleration) unchanged.
+- **2026-10-15:** Performance loop — LinkedIn post analytics still not collected, 6th consecutive
+  run (`learnings/performance-log.md`), repeating the standing flag for Vishal's manual check.
+  Research: corrected 2026-10-12's partial-week Google Trends reads for "private social app" and
+  "close friends app" — the now-closed week reads 5 and 21 (not the previously logged partial 3
+  and 1), with "close friends app" moving up off the Oct 4-10 floor rather than continuing to
+  decline. One closed week alone doesn't clear the 2-reading bar for a reversal call, so Pillar 1's
+  standing correction (don't claim category acceleration) stays as-is, but the specific 2026-10-12
+  numbers for that week are now superseded. Coverstar's Google Trends series set a new high (Oct
+  15: 75) continuing the sustained-climb shape first flagged 2026-10-12; a new parent-safety
+  article (virtual-addiction.com, Oct 5 2026) added to its watchlist entry. Yope's watchlist entry
+  gained a context note (The Edge Malaysia "quiet social" roundup naming SetLog, Locket Widget,
+  BeReal, MoodStream alongside it) — no new standalone competitor entries, no real metrics exist
+  for the two previously-unlisted names. No pillar, positioning row, or "we will NOT do" item
+  changed this run — a correction-and-maintenance week.
 
