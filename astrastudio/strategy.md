@@ -17,6 +17,7 @@
 | Udyog | Cheapest entry price (₹149/year) + Hinglish voice billing + dedicated CA portal[research 2026-10-09] | Fixed-tier Services pricing + bundled Atlas cross-sell; SaaS side doesn't compete on being cheapest | Not racing to the bottom on price - winning on depth (intelligence features) and completeness (bundle), not on being ₹149/year | "We're not the cheapest. We're the one that tells you things a cheaper tool can't." |
 | HisabKitab | CA-founded AI-OCR automation of bookkeeping + direct GSTR-1/2B filing, "Smart GST Dashboard"[research 2026-10-12] | Money Leaks + Loan Readiness still the only credit-readiness/capital-leak features in this comparison set; HisabKitab's public pitch never mentions either[research 2026-10-12] | Automating data entry is not the same as telling a shop whether it's bankable or bleeding cash | "They automate your bookkeeping. We tell you what the numbers actually mean for your business." |
 | FlowLaunch | One fixed published price, no quote forms, free hosting + GitHub handover bundled in[research 2026-10-12] | Same fixed-tier pricing transparency (Starter/Growth/Elite) PLUS 3 months free Astra Atlas - a working SaaS product, not a hosting freebie | A real SaaS bundle beats a hosting freebie; match their "nothing locked behind us" trust signal in copy without diluting our stronger bundle | "Other fixed-price studios hand you a website. We hand you a website plus a working business system, free for 3 months." |
+| HelloBooks | Explicitly completes the GST filing loop (files GSTR-1/GSTR-3B to the portal); Vyapar/myBillBook only generate bills/reports[research 2026-10-15] | `docs/gst-export-spec.md` architects exactly this (GSTR-1/3B/2B export, multi-format) but is DRAFT/spec-only - NOT yet a claim we can make publicly[research 2026-10-15] | Unverified - pending a codebase check on actual implementation status before any public claim | Do not use yet - see Experiment #5 and Competitive Edge below; claim only once verified shipped |
 
 ## Audience Segments
 1. **The Frustrated Retailer:** Uses mobile-only apps, hates the "tiny screen" for heavy accounting, needs desktop reliability.
@@ -72,6 +73,25 @@
   Proposed - this is this week's top content candidate (research/2026-10-12_deep-research.md
   Opportunity #1), pending Vishal's approval to publish, and doesn't compete with Experiment #3's
   open distribution question (a blog/search play, not a LinkedIn-reach play).
+- Hypothesis (NEW, 2026-10-15): Experiment #3's distribution question just got a concrete,
+  checkable lead - the 2026-10-10 WhatsApp consent-gap-fix LinkedIn post has sat in
+  `pending_approval` for 5 days with no `provider_post_id` and no `published_at`. If this post was
+  never actually seen/approved by Vishal, part of the "zero engagement across N posts" pattern may
+  be partly an approvals-pipeline stall, not purely a follower-count problem. Evidence: direct
+  `get_post` check this run shows `status: pending_approval`, correcting the prior run's "8/8
+  published" count to the real 7 published pieces[research 2026-10-15]. Metric: whether Vishal
+  confirms he saw the approval request, and whether the post actually goes live once explicitly
+  approved. Status: Proposed - raised directly to Vishal this run, not something a research cron
+  can resolve alone.
+- Hypothesis (NEW, 2026-10-15): HelloBooks' claim that it (not Vyapar/myBillBook) actually files
+  GST returns is a sharper, more specific compliance-depth differentiator than the existing
+  "intelligence vs billing" claim, IF Astra Atlas's own GSTR export architecture
+  (`docs/gst-export-spec.md`) is actually implemented beyond spec-only status. Evidence:
+  HelloBooks' own comparison copy states this plainly[research 2026-10-15, sources 1-2]; the spec
+  doc is explicitly marked DRAFT. Metric: a direct codebase check (gstr1Service.ts / serializer
+  completion) before any claim is written - this experiment's first step is verification, not
+  publishing. Status: Proposed - do not draft any public copy claiming filing depth until the
+  verification step runs.
 
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
@@ -86,8 +106,34 @@
   already a stronger, harder-to-copy differentiator than free Vercel hosting; only the
   "code/handover is yours, nothing locked behind us" trust message is worth borrowing in copy
   (see Competitive Edge, research/2026-10-12_deep-research.md).
+- Claim GSTR-1/GSTR-3B filing depth matching HelloBooks until the codebase check confirms
+  `gstr1Service.ts`/export serializers are actually shipped, not spec-only - `docs/gst-export-
+  spec.md` is explicitly DRAFT status; a false filing-depth claim is a credibility risk, not just
+  a missed opportunity (see Competitive Edge, research/2026-10-15_deep-research.md).
+- Chase SOC 2 Type II certification to match HelloBooks' trust signal - a months-long compliance
+  process disproportionate to this brand's current pre-revenue-validation stage; a smaller, real
+  trust signal (documenting the already-shipped DPDP-consent fix) is the right-sized move instead
+  (research/2026-10-15_deep-research.md).
 
 ## Review log
+- 2026-10-15: Ran 2026-10-15 research cron. Added 1 new competitor row (HelloBooks - AI-native
+  bookkeeping, SOC 2 Type II certified, explicitly claims to file GSTR-1/3B where Vyapar/
+  myBillBook don't) - a sharper compliance-depth gap than previously tracked, but flagged as
+  unverified-claim territory pending a codebase check on our own `docs/gst-export-spec.md`
+  implementation status (DRAFT, not confirmed shipped). Added 2 new experiments: #5 (verify
+  GSTR export status before any filing-depth claim) and a process-focused entry on the
+  2026-10-10 LinkedIn post discovered still stuck in `pending_approval` after 5 days - corrects
+  last review's "8/8 published, zero engagement" framing to the real count of 7 published pieces,
+  since one of those 8 never actually went live. This is the single most important finding this
+  run: part of the standing zero-engagement pattern may be an approvals-pipeline stall, not purely
+  a distribution/follower-count problem - raised directly to Vishal rather than folded quietly
+  into another flat data point. 2 new "We will NOT do" items added (no filing-depth claim until
+  verified; no SOC2 chase, disproportionate to current stage). Git log review: 18 substantive
+  commits since 2026-10-12, mostly internal/platform-admin tooling (tenant danger-zone guard,
+  scheduled-report delivery fix, is_internal_test flag) plus 2 externally-relevant items (Reports
+  module chart pass across 7 report types; Atlas AI promoted to its own top-nav group) queued for
+  next week's LinkedIn slot rather than this week's, pending the approvals-pipeline question being
+  resolved first. No pillar changes - single-week findings don't meet the 2+ snapshot bar.
 - 2026-10-12: Ran 2026-10-12 research cron. Added 2 new competitor rows (HisabKitab - CA-founded
   AI-OCR/bookkeeping-automation platform; FlowLaunch - fixed-price Hyderabad web-dev studio
   directly contesting the Services line's pricing-transparency pitch) - intelligence-vs-billing
