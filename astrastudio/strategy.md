@@ -116,6 +116,18 @@
   (research/2026-10-15_deep-research.md).
 
 ## Review log
+- 2026-10-15 (blog): Published blog post "GST Notice Risk Score: Catch the Patterns That Trigger
+  a GST Audit Before You File" (astrastudio.in/blog/gst-notice-risk-score-india-2026), Pillar 3
+  (Intelligence > Billing, SaaS). Topic from gstNoticeRiskService.ts (shipped 2026-09-13,
+  turnover-swing/sustained-ITC-utilization/GSTR-2B-mismatch checks) - zero marketing since ship,
+  zero prior POSTS coverage. Google Suggest confirmed real intent ("gst audit risk parameters",
+  "gst scrutiny notice", "itc mismatch gstr 2a 2b to gstr 3b"). Differentiator: none of
+  Vyapar/myBillBook/Khatabook/HisabKitab/HelloBooks's public pages describe pre-filing
+  audit-risk checks - extends the standing intelligence-vs-billing edge into a new angle.
+  Internal links added both directions: new post links to gst-registration-guide-india-2026,
+  business-credit-score-loan-readiness, dead-stock-inventory-management-india-2026,
+  gst-billing-software-for-small-business; gst-registration-guide's Bottom Line now also links
+  forward to the new post. No pillar changes.
 - 2026-10-15: Ran 2026-10-15 research cron. Added 1 new competitor row (HelloBooks - AI-native
   bookkeeping, SOC 2 Type II certified, explicitly claims to file GSTR-1/3B where Vyapar/
   myBillBook don't) - a sharper compliance-depth gap than previously tracked, but flagged as
