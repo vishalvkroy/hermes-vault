@@ -147,13 +147,16 @@ back last run pending this verification — see Competitive Edge below for the e
   point),[4] Arjaka (SAC-based retainer/milestone invoicing, aged receivables, ITC-netted expense
   tracking),[5] LekhaPro (dedicated "Subscription Billing" pack for agencies — plans, proration,
   MRR/ARR machinery),[6] and 399Apps/Nidhi Books (flat ₹399/month unlimited-users SAC invoicing
-  for consultants, construction contractors, repair shops with TDS reconciliation).[7] **This is a
-  real, already-served niche** — Astra Atlas's new Services & Retainers feature is not creating a
-  category, it's entering one with active competitors already solving the identical SAC-code/
-  retainer-draw-down problem the new feature ships. The genuine differentiator available to Astra
-  Atlas (not yet claimed anywhere in these competitors' public copy) is the same accounting engine
-  running P&L/balance sheet/trial balance for both a retailer and a service business in one
-  product — LekhaPro and 21bill are service-only tools, Astra Atlas is one system covering both.
+  for consultants, construction contractors, repair shops with TDS reconciliation).[7] Even Udyog,
+  already tracked on the watchlist for retail billing, has its own recurring-invoice automation
+  for retainers/AMCs,[8] confirming the service-billing feature set is a broad market expectation
+  now, not a niche add-on. **This is a real, already-served niche** — Astra Atlas's new Services
+  & Retainers feature is not creating a category, it's entering one with active competitors
+  already solving the identical SAC-code/retainer-draw-down problem the new feature ships. The
+  genuine differentiator available to Astra Atlas (not yet claimed anywhere in these competitors'
+  public copy) is the same accounting engine running P&L/balance sheet/trial balance for both a
+  retailer and a service business in one product — LekhaPro and 21bill are service-only tools,
+  Astra Atlas is one system covering both.
 - **GSTR-9/9C annual-return window opened industry-wide (real, dated regulatory event, not SaaS-
   specific):** GSTN enabled GSTR-9/GSTR-9C annual-return filing for FY2025-26 on the GST portal
   from 8 October 2026, per an official advisory dated 13 October 2026 — due date 31 December

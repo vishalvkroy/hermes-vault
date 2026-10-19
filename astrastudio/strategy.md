@@ -17,7 +17,8 @@
 | Udyog | Cheapest entry price (₹149/year) + Hinglish voice billing + dedicated CA portal[research 2026-10-09] | Fixed-tier Services pricing + bundled Atlas cross-sell; SaaS side doesn't compete on being cheapest | Not racing to the bottom on price - winning on depth (intelligence features) and completeness (bundle), not on being ₹149/year | "We're not the cheapest. We're the one that tells you things a cheaper tool can't." |
 | HisabKitab | CA-founded AI-OCR automation of bookkeeping + direct GSTR-1/2B filing, "Smart GST Dashboard"[research 2026-10-12] | Money Leaks + Loan Readiness still the only credit-readiness/capital-leak features in this comparison set; HisabKitab's public pitch never mentions either[research 2026-10-12] | Automating data entry is not the same as telling a shop whether it's bankable or bleeding cash | "They automate your bookkeeping. We tell you what the numbers actually mean for your business." |
 | FlowLaunch | One fixed published price, no quote forms, free hosting + GitHub handover bundled in[research 2026-10-12] | Same fixed-tier pricing transparency (Starter/Growth/Elite) PLUS 3 months free Astra Atlas - a working SaaS product, not a hosting freebie | A real SaaS bundle beats a hosting freebie; match their "nothing locked behind us" trust signal in copy without diluting our stronger bundle | "Other fixed-price studios hand you a website. We hand you a website plus a working business system, free for 3 months." |
-| HelloBooks | Explicitly completes the GST filing loop (files GSTR-1/GSTR-3B to the portal); Vyapar/myBillBook only generate bills/reports[research 2026-10-15] | `docs/gst-export-spec.md` architects exactly this (GSTR-1/3B/2B export, multi-format) but is DRAFT/spec-only - NOT yet a claim we can make publicly[research 2026-10-15] | Unverified - pending a codebase check on actual implementation status before any public claim | Do not use yet - see Experiment #5 and Competitive Edge below; claim only once verified shipped |
+| HelloBooks | Explicitly completes the GST filing loop (files GSTR-1/GSTR-3B to the portal); Vyapar/myBillBook only generate bills/reports[research 2026-10-15] | `gstr1Service.ts`/`gstr3bService.ts`/`gstr2bService.ts` + multi-format export layer (`backend/src/lib/gst/`) are real, shipped, routed code - verified via direct codebase check 2026-10-19, NOT spec-only as `docs/gst-export-spec.md`'s stale DRAFT marking implied. Generates portal-ready GSTN JSON for GSTR-1/3B/2B. No direct-to-portal/IRP e-filing API found in our codebase (and HelloBooks' own claim doesn't specify this either)[research 2026-10-19] | A real, verified, bounded counter-claim: we generate the exact portal-ready filing JSON, not just bills/reports - closes HelloBooks' gap without overclaiming direct e-filing we don't have | "We generate portal-ready GSTR-1, GSTR-3B and GSTR-2B JSON, every section - not just bills and reports." (Do not claim direct e-filing to the GST portal/IRP.) |
+| 21bill / Arjaka / LekhaPro / 399Apps | SAC-code + retainer invoicing purpose-built for consultants/agencies/freelancers[research 2026-10-19] | Astra Atlas's new Services & Retainers feature (shipped 2026-10-19) runs the same accounting engine (P&L, balance sheet, trial balance) for both a retailer and a service business in one product; these four are service-only tools[research 2026-10-19] | One system for a business that sells both stock and services, not a separate tool per business type | "Other tools pick a side - stock or services. Astra Atlas does both in the same books." |
 
 ## Audience Segments
 1. **The Frustrated Retailer:** Uses mobile-only apps, hates the "tiny screen" for heavy accounting, needs desktop reliability.
@@ -90,8 +91,33 @@
   HelloBooks' own comparison copy states this plainly[research 2026-10-15, sources 1-2]; the spec
   doc is explicitly marked DRAFT. Metric: a direct codebase check (gstr1Service.ts / serializer
   completion) before any claim is written - this experiment's first step is verification, not
-  publishing. Status: Proposed - do not draft any public copy claiming filing depth until the
-  verification step runs.
+  publishing. Status: **Won** (2026-10-19) - codebase check confirmed `gstr1Service.ts`/
+  `gstr3bService.ts`/`gstr2bService.ts` + the full serializer layer are real, shipped, routed
+  code, not spec-only[research 2026-10-19]. The bounded claim (portal-ready GSTN JSON generation,
+  not direct e-filing) is now live in the Positioning table above and cleared for use in new copy.
+- Hypothesis (NEW, 2026-10-19): a founder-led LinkedIn post launching the new Services &
+  Retainers feature (real engineering detail: service-vs-stock architecture, the WhatsApp-alert
+  bug caught in the same sweep) will outperform the self-audit/bug-fix genre that has produced
+  7/7 zero-engagement posts, because it's a genuinely new genre (feature launch with real detail,
+  not a retrospective fix) AND it's the first-ever piece of content for the exact niche the new
+  `/service-business-software` landing page targets. Evidence: feature shipped 2026-10-19 00:12
+  IST, zero marketing yet[research 2026-10-19 Opportunity #1]; real competitor products (21bill,
+  Arjaka, LekhaPro, 399Apps) already serve this niche, confirming real demand exists[research
+  2026-10-19]. Metric: LinkedIn engagement (likes+comments+shares) vs the 0-engagement baseline
+  set by 7 prior posts; GSC impressions/clicks on `/service-business-software` in the first 14
+  days (baseline 0, page just shipped). Status: Proposed - this is this week's top content
+  candidate, pending Vishal's approval to publish and pending the open approvals-pipeline question
+  (Experiment #3) being resolved first so this post doesn't also stall silently.
+- Hypothesis (NEW, 2026-10-19): gating Money Leaks/Loan Readiness/Growth Opportunities to GROWTH+
+  (shipped 2026-10-18, previously free on every plan) means any NEW marketing copy referencing
+  these features must say "on the Growth plan," not imply universal free access, or it creates a
+  real trust/expectation gap for a FREE/TRIAL-tier reader who clicks through. Evidence: direct
+  codebase check of the gating commit (`72109f9`/`0863430`-adjacent) 2026-10-19; the already-
+  published 2026-10-01 LinkedIn post does not claim free universal access (checked, no "free"
+  language referencing these features), so no retroactive correction needed, only a forward
+  guardrail. Metric: audit every future draft referencing these two features for a plan-tier
+  qualifier before it goes to Vishal for approval. Status: Proposed - a process guardrail, not an
+  experiment with a pass/fail metric; treat as a standing content-review check going forward.
 
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
@@ -114,8 +140,38 @@
   process disproportionate to this brand's current pre-revenue-validation stage; a smaller, real
   trust signal (documenting the already-shipped DPDP-consent fix) is the right-sized move instead
   (research/2026-10-15_deep-research.md).
+- Promote Astra Spark as a discoverable public product in new copy - Vishal deliberately hid it
+  from every public discovery surface (nav, footer, sitemap, robots.txt) 2026-10-18, beta/internal
+  only. It can still be referenced internally as proof of real WhatsApp-CRM capability (per the
+  myBillBook positioning row), but new copy should not point a reader toward signing up for it
+  (research/2026-10-19_deep-research.md).
+- Claim direct e-filing/IRP submission to the GST portal on the tenant's behalf - the codebase
+  verification this run (2026-10-19) found real GSTN-JSON generation but no GSP/IRP API
+  integration; the correct claim is "generates portal-ready filing JSON," not "files your
+  returns for you" (research/2026-10-19_deep-research.md).
 
 ## Review log
+- 2026-10-19: Ran 2026-10-19 research cron. Lead finding: Vishal shipped Services & Retainers
+  (service-business billing, SAC codes, new `/service-business-software` landing page) + gated 9
+  previously-free modules to paid plans, including the flagship Money Leaks/Loan Readiness/Growth
+  Opportunities differentiators[research 2026-10-19]. Resolved last run's open verification
+  question: Astra Atlas's GSTR-1/3B/2B export is real shipped code (not spec-only) - marked
+  Experiment "HelloBooks filing-depth" **Won**, updated the HelloBooks positioning row with a
+  bounded, verified counter-claim (portal-ready GSTN JSON, not direct e-filing)[research
+  2026-10-19]. Added 1 new positioning row (21bill/Arjaka/LekhaPro/399Apps - service-billing SaaS
+  competitors surfaced by our own new feature entering their niche) and 1 new watchlist category.
+  Added 2 new experiments: Services & Retainers LinkedIn launch post (this week's top content
+  candidate) and a standing process guardrail (plan-tier qualifier required on any copy
+  mentioning Money Leaks/Loan Readiness going forward, since they're no longer free-on-every-plan).
+  Added 2 new "We will NOT do" items (no public Spark promotion - hidden from discovery
+  2026-10-18; no direct-e-filing claim - not what the codebase actually does). GSC: real,
+  continuing growth on gst-e-invoicing-guide-india-2026 (1→3 clicks, 8→490 impressions, 28-day);
+  still zero search traffic reaching the Services line (6th consecutive run); GA4 tool call failed
+  with the same schema bug for the 5th consecutive run. Performance loop: 2026-10-10 LinkedIn post
+  still stuck pending_approval (9 days, unresolved since flagged 2026-10-15) - repeating the flag
+  to Vishal. No pillar changes - the Services & Retainers feature extends Pillar 1 (Transparency
+  Play) rather than requiring a new pillar; single-week findings don't meet the 2+ snapshot bar
+  for a structural pillar change.
 - 2026-10-15 (blog): Published blog post "GST Notice Risk Score: Catch the Patterns That Trigger
   a GST Audit Before You File" (astrastudio.in/blog/gst-notice-risk-score-india-2026), Pillar 3
   (Intelligence > Billing, SaaS). Topic from gstNoticeRiskService.ts (shipped 2026-09-13,
