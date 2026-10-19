@@ -102,7 +102,19 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   App Store 13+ social-media declaration rule (Sept 2026) exempts DM/private-room-only apps like
   RabbitLore while targeting public-feed/room models (`research/2026-10-12.md` [3]) — a real,
   checkable compliance fact that strengthens this pillar's non-attack positioning line without
-  changing the pillar itself.
+  changing the pillar itself. **2026-10-19 addition:** two independent pieces of external evidence
+  this run further corroborate the macro-thesis (not the specific mechanic): (1) a "Posting Zero"/
+  ghost-posting Gen Z behavioral trend, documented in two dated articles 8 months apart
+  (Moneycontrol, Jan 2026; Globe and Mail, Sep 2026) — real Gen Z users moving public posting into
+  private DMs, Close Friends lists, and group chats while leaving public grids empty
+  (`research/2026-10-19.md` [5][6]); (2) Meta's Night Mode — a midnight-6am Instagram/Facebook
+  access block for under-18 users, required within 6 months of an ~$18B multi-state settlement
+  (TechCrunch — corrects the $17B figure logged in the 2026-10-01 review-log entry below, which
+  should be read as superseded) — the largest social platform in the world now structurally
+  restricting after-midnight teen access, the same hours RabbitLore's own night-gate already
+  restricts (`research/2026-10-19.md` [3][4]). Platform-policy and named-behavior validation,
+  not a competitor move — no pillar or claim changes, evidentiary weight stays primarily on the
+  2 repeated Top-Opportunity research calls and the shipped feature.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -333,4 +345,35 @@ in this document, so it earned inclusion even though the council question didn't
   BeReal, MoodStream alongside it) — no new standalone competitor entries, no real metrics exist
   for the two previously-unlisted names. No pillar, positioning row, or "we will NOT do" item
   changed this run — a correction-and-maintenance week.
+- **2026-10-19:** Performance loop — LinkedIn post analytics still not collected, 7th consecutive
+  run (`learnings/performance-log.md`), repeating the standing flag for Vishal's manual check.
+  Research: two new pieces of external validation for Pillar 1's macro-thesis, added to §4 — a
+  "Posting Zero"/ghost-posting Gen Z behavioral trend corroborated across two dated articles 8
+  months apart (Moneycontrol Jan 2026, Globe and Mail Sep 2026), and Meta's Night Mode (midnight-
+  6am Instagram/Facebook teen curfew, part of an ~$18B multi-state settlement) — the first major
+  platform structurally restricting after-midnight teen access, the same hours RabbitLore's
+  night-gate already restricts. Correction: the Meta settlement figure is ~$18B per TechCrunch's
+  own reporting, not the $17B logged in the 2026-10-01 entry above — that number is superseded,
+  not repeated. Coverstar: full 90-day Trends re-pull shows the series' true all-time peak is 100
+  (Sep 19, 2026, an isolated spike), with the daily floor since Oct 3 continuing to climb (Oct 17-
+  19: 19→15→32) — updated the watchlist entry; no change to "track, don't chase." "Private social
+  app"/"close friends app": the Oct 11-17 closed-week uptick did not continue into the Oct 18-24
+  partial week (15 and 2 respectively) — partial-week numbers are not citable as a trend direction
+  per the standing 2026-10-15 methodological rule, so no reversal or continuation claim is made.
+  Reddit searches (RabbitLore, Yope, Highrise, private-social-genz queries) returned zero on-topic
+  results again, same null pattern as every recent run. No pillar, positioning row, or "we will
+  NOT do" item changed beyond the Pillar 1 evidence addition and the $17B->$18B correction.
+
+## 10. Strategy delta (2026-10-19)
+
+1. Pillar 1 gained two new, independently-sourced external validations (Posting Zero behavioral
+   trend; Meta's Night Mode teen curfew) — strengthens the existing night-gating/private-sharing
+   thesis, no new pillar, no claim change beyond that addition.
+2. Corrected the Meta settlement figure from $17B to ~$18B (TechCrunch) — any future copy citing
+   this regulatory context should use $18B, not $17B.
+3. Executors this week: campaign-workflow should treat the "Posting Zero" language as the
+   strongest-evidenced next Reddit devlog angle (quote the named behavior shift, not a competitor
+   callout) per `research/2026-10-19.md` Competitive Edge §3; no change to LinkedIn/Reddit cadence
+   otherwise, and the 7-run LinkedIn analytics gap still needs Vishal's manual check outside this
+   loop.
 

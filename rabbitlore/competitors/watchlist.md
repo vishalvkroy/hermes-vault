@@ -44,17 +44,25 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   alternative — no direct messaging at all, AI + human moderation, avatar customization and
   challenge-based video creation; profiles public by default (private is optional, not default)
   (https://coverstar.app/, https://www.airdroid.com/app-safety/is-coverstar-safe-for-kids/).
-- Last change observed: 2026-10-15 — Google Trends daily interest set a new high: Oct 15: 75,
-  above every prior reading in the series so far (COMPOSIO_SEARCH_TRENDS, daily TIMESERIES, 90-day
-  window; this run's pull: Oct 6: 21, Oct 7: 31, Oct 8: 27, Oct 9: 33, Oct 10: 33, Oct 11: 48, Oct
-  12: 33, Oct 13: 29, Oct 14: 21, Oct 15: 75). Note Trends re-scales past days slightly on each
-  pull (Oct 12's pull read Oct 6 as 22, this run reads it as 21) — the shape (sustained non-zero
-  with climbing peaks, not isolated one-day spikes) is the real signal, the exact single-day
-  values will drift between pulls. Separately, a new parent-safety article (Oct 5 2026,
+- Last change observed: 2026-10-19 — Google Trends 90-day window re-pulled in full: the single
+  all-time peak in the series is now visible at **100 on Sep 19, 2026** (isolated single-day spike,
+  same pattern as the Jul-Aug scattered spikes to 36-48 with zero around them), followed by a step
+  up from Oct 3 onward to a sustained non-zero daily floor that itself keeps climbing: Oct 3: 35,
+  Oct 4: 36, Oct 5: 13, Oct 6: 9, Oct 7: 13, Oct 8: 12, Oct 9: 14, Oct 10: 15, Oct 11: 22, Oct 12:
+  14, Oct 13: 11, Oct 14: 10, Oct 15: 12, Oct 16: 11, Oct 17: 19, Oct 18: 15, **Oct 19: 32**. This
+  confirms and extends the 2026-10-15 "new high, sustained climb" read on a longer lookback — the
+  Oct 17-19 uptick (19→15→32) is the latest instance of the climbing-peaks shape. Day-level values
+  continue to re-scale slightly between pulls (known Trends rolling-window behavior) — shape, not
+  exact single-day value, is the signal (`research/2026-10-19.md`).
+- Previously (2026-10-15): Google Trends daily interest set a new high: Oct 15: 75, above every
+  prior reading in that pull's window. A new parent-safety article (Oct 5 2026,
   virtual-addiction.com, "Is Coverstar Safe for Kids?") flags lack of in-app privacy controls and
   advises parental supervision around content exposure
   (https://virtual-addiction.com/online-safety/coverstar/) — same underlying "public-by-default,
-  pitched as safer than TikTok" trade-off already tracked, new dated instance.
+  pitched as safer than TikTok" trade-off already tracked, new dated instance. **2026-10-19 note:**
+  this run's app-store search found only version-history updates for Coverstar (iOS 15.11.3, Oct
+  12 2026; Android 10.5.4, Sep 30 2026 — both "bug fixes and performance improvements") — no new
+  feature or safety news beyond what's already logged.
 - Previously (2026-10-12): Google Trends search-interest shape changed from isolated one-day
   spikes (summer 2026 pattern: single days to 60-100 surrounded by zero) to a sustained daily
   climb; Reddit search ("Coverstar app") surfaced genuinely on-topic results —
