@@ -116,3 +116,45 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
   and approval-requested correctly, but something is stalling between request_publish_approval and
   Vishal clicking Approve, or between Approve and the publisher job actually firing. Worth a direct
   check with Vishal on whether the 2026-10-10 approval request was ever seen.
+
+## 2026-10-19 review
+
+- **2026-10-10 WhatsApp consent-gap-fix LinkedIn post** (post id `1f24574d-3df1-4c5c-8fdb-
+  d5b47a50130e`) → re-checked via `get_post`, still `status: "pending_approval"`,
+  `provider_post_id: null`, `published_at: null`. 9 days in pending_approval now, no change since
+  the 2026-10-15 flag. Still a published-post count of 7 (6 LinkedIn + 1 Instagram), not 8. The
+  approvals-pipeline stall raised last run has not resolved - repeating the flag to Vishal rather
+  than letting it go stale silently.
+- **2026-10-01 Loan Readiness "Zero score" post** (urn `7511275407665455104`) → re-checked via
+  direct `linkedin_fetch_post`: still live, still `numLikes: 0, numComments: 0, numShares: 0`,
+  `authorFollowers: null`, now 17 days live. Flat, consistent with every prior check - 9th
+  consecutive zero-engagement check on this single post.
+- **2026-09-24 indexing-bug-fix post** (urn `7508747457233723392`) → re-checked, still
+  `numLikes: 0, numComments: 0, numShares: 0` via direct fetch, 25 days live. Flat.
+- **GSC page-level data (28-day window)** → `gst-e-invoicing-guide-india-2026` now shows 3
+  clicks/490 impressions (up from 1/8 at the 2026-10-15 check) - real, continuing growth on this
+  blog post, the strongest page-level movement of any post tracked this cycle.
+  `business-website-cost-india-2026` still 0 clicks/56 impressions (18 days since publish - now
+  genuinely flat, not early). `business-credit-score-loan-readiness` still 0 clicks/7 impressions
+  (18 days). `dead-stock-inventory-management-india-2026` still 0 clicks/36 impressions (9 days -
+  still within normal indexing-lag window). `/tools/hsn-code/2106` remains the highest-impression
+  non-homepage URL (1,149 impressions/2 clicks, 28d) - the "found, not clicked" CTR-fix opportunity
+  flagged in multiple prior snapshots remains open and unactioned.
+- **Repo/code-shipped check (this run, per cron instructions):** `git log origin/main --since
+  '7 days ago'` shows 6 commits (2026-10-18 to 2026-10-19 00:12 IST): Zoho comparison page + 3
+  Industry Pack landing pages + trust-signal strip + internal linking audit (2026-10-18); hid
+  Astra Spark from all public discovery surfaces, sitemap and robots.txt (2026-10-18); gated 9
+  previously-free-on-every-plan modules including the flagship AI differentiators (Money Leaks,
+  Loan Readiness/`gst_risk_score`, Growth Opportunities) to GROWTH+ plan (2026-10-18); 2 new
+  Growth-Opportunities detection kinds, margin-optimization and promo-timing (2026-10-18, NOT
+  verified against a live Postgres run - test DB was down); fixed a real production bug where
+  paying GROWTH/PRO tenants showed as still "TRIAL" in the admin panel because `tenant_state`
+  was never promoted on activation, backfilled 2 affected real tenants (2026-10-18); shipped
+  Services & Retainers (service line items that skip stock tracking, bill GST with SAC in the HSN
+  field, new `/service-business-software` landing page) (2026-10-19 00:12 IST). See this week's
+  research file for the full writeup and which of these is this week's lead opportunity.
+- **Pattern, now 9+ weeks of data since late Sep:** still 7 published pieces, still 0 real
+  engagement on every one directly checkable via `linkedin_fetch_post`. The one genuinely new
+  movement this cycle is the GSTR-1/3B export architecture question raised 2026-10-15 (Experiment
+  #5, "verify before claiming filing depth") - this run's codebase check (below, see research file)
+  resolves that verification step with a real answer, not a guess.
