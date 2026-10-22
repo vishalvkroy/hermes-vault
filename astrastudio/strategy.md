@@ -119,6 +119,27 @@
   qualifier before it goes to Vishal for approval. Status: Proposed - a process guardrail, not an
   experiment with a pass/fail metric; treat as a standing content-review check going forward.
 
+- Hypothesis (NEW, 2026-10-22): a short, honest "GST e-invoicing is extending to reverse-charge
+  self-invoices" piece (RCMDOM/RCMIMP, sandbox-stage, no production date yet) will land as a
+  credible "we're watching this for you" compliance-communication piece for the upper-tier/
+  multi-GSTIN segment, IF framed as forward-looking preparation rather than a product-capability
+  claim - the codebase check this run confirmed `einvoiceService.ts` has no RCM/reverse-charge
+  support yet. Evidence: GSTN's 16 October 2026 advisory[research 2026-10-22, sources 1-3] with
+  zero coverage found on any tracked competitor's public pages this run. Metric: GSC impressions/
+  clicks on the new URL in the first 14 days if published; must not imply the feature is already
+  built. Status: Proposed - this week's lead content candidate, same narrower-audience caveat as
+  the still-open GSTR-9/9C opportunity from 2026-10-19.
+- Hypothesis (NEW, 2026-10-22): the Services-LinkedIn experiment opened 2026-10-15 (FlowLaunch-
+  response post, this brand's first-ever Services social content) cannot currently be read as won
+  or lost, because the campaign folder has no recorded post_id/URL and the account posts
+  manually - direct checks this run (`get_post`, `linkedin_fetch_post`) found nothing to verify
+  against. Evidence: `campaigns/2026-10-15-services-vs-flowlaunch/` contains only plan.md/
+  linkedin.md/todo.md, no outcome record[research 2026-10-22]. Metric: a direct answer from
+  Vishal on whether/when he posted it, and the real URL written back to the campaign folder once
+  confirmed. Status: Proposed - raised directly to Vishal this run; this is now the single
+  highest-priority unresolved question blocking the Services-content read, ahead of generating
+  any further Services-line content this week.
+
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
 - Chase feature-parity with myBillBook's Mira AI (automated payment matching) - no customer
@@ -151,6 +172,30 @@
   returns for you" (research/2026-10-19_deep-research.md).
 
 ## Review log
+- 2026-10-22: Ran 2026-10-22 research cron. Zero new git commits since the 2026-10-19 cutoff -
+  first run this cycle with no new shipped code. Lead finding: GSTN's 16 October 2026 advisory
+  extending e-invoicing to reverse-charge self-invoices (RCMDOM/RCMIMP) - real, dated, sandbox-
+  stage, zero coverage on astrastudio.in or any tracked competitor's pages[research 2026-10-22].
+  Codebase check confirmed `einvoiceService.ts` has no RCM support yet, so any new copy must stay
+  forward-looking, not a capability claim. Added 2 new experiments: the RCM e-invoicing content
+  candidate (narrower upper-tier/multi-GSTIN audience, same caveat as the still-open GSTR-9/9C
+  item) and a process finding - the 2026-10-15 Services-vs-FlowLaunch LinkedIn post (first-ever
+  Services social content) has no recorded post_id/URL anywhere in the vault, so the experiment
+  it was meant to test cannot currently be read as won, lost, or even published. Raised directly
+  to Vishal; this is now the top-priority open question, ahead of any new Services content this
+  week. No watchlist changes - targeted checks on all 8 tracked competitors (Vyapar, myBillBook,
+  Khatabook, HelloBooks, BUSY Magic, HisabKitab, Udyog, FlowLaunch) found no new signal. GSC:
+  gst-e-invoicing-guide-india-2026 impressions climbing (490→628, 28d) but clicks flat at 3 - CTR
+  softening 2 consecutive runs, worth a title/meta look if it continues.
+  business-website-cost-india-2026 and business-credit-score-loan-readiness dropped out of the
+  top-25 page rows this run (flagged, not confirmed as decline). GA4 tool call failed with the
+  same schema bug for the 6th consecutive run - now confirmed a real bug worth a direct fix.
+  Performance loop: 2026-10-10 LinkedIn post still pending_approval (12 days, 3rd consecutive
+  flag, zero movement) - also corrected the 2026-10-01 Loan Readiness post's publish date from
+  2026-10-02 to the platform's own timestamp of 2026-10-08 (prior reviews used the campaign
+  plan.md date, not the live post's own metadata). No pillar changes - single-week findings don't
+  meet the 2+ snapshot bar; the RCM finding extends Pillar 2 (Compliance Watch) rather than
+  requiring a new pillar.
 - 2026-10-19: Ran 2026-10-19 research cron. Lead finding: Vishal shipped Services & Retainers
   (service-business billing, SAC codes, new `/service-business-software` landing page) + gated 9
   previously-free modules to paid plans, including the flagship Money Leaks/Loan Readiness/Growth

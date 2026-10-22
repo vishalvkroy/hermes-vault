@@ -158,3 +158,53 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
   movement this cycle is the GSTR-1/3B export architecture question raised 2026-10-15 (Experiment
   #5, "verify before claiming filing depth") - this run's codebase check (below, see research file)
   resolves that verification step with a real answer, not a guess.
+
+## 2026-10-22 review
+
+- **2026-10-10 WhatsApp consent-gap-fix LinkedIn post** (post id `1f24574d-3df1-4c5c-8fdb-
+  d5b47a50130e`) → re-checked via `get_post`, still `status: "pending_approval"`,
+  `provider_post_id: null`, `published_at: null`. 12 days in pending_approval now (first flagged
+  2026-10-15, repeated 2026-10-19, repeated again here) - 3rd consecutive flag with zero movement.
+  Published-post count stays at 7 (6 LinkedIn + 1 Instagram), not 8.
+- **2026-10-01 Loan Readiness "Zero score" post** (urn `7511275407665455104`) → re-checked via
+  direct `linkedin_fetch_post`: still `numLikes: 0, numComments: 0, numShares: 0`,
+  `authorFollowers: null`. **Date correction:** the API's own `postedAtISO` now returns
+  `"date": "2026-10-08 03:46:06", "relative": "2w"` - the real publish date is 2026-10-08, not
+  2026-10-02 as logged in the 2026-10-09/10-12/10-15/10-19 reviews (those used a date read off the
+  campaign plan.md, not the platform's own timestamp). This does not change the flat-engagement
+  verdict (still 0/0/0 either way), but corrects the "days live" counter going forward - 14 days
+  live as of this run, not 20.
+- **2026-10-15 Services vs FlowLaunch LinkedIn draft** (campaigns/2026-10-15-services-vs-
+  flowlaunch/) → **cannot verify performance this run.** This post was drafted for Vishal to post
+  manually (account_type "member", no hermes-social auto-publish for this account) and no
+  provider_post_id or live URL was ever recorded back into the vault, so there is no handle to
+  check via `get_post` or `linkedin_fetch_post`. This is the first-ever Services-line social
+  content and the one piece of content most relevant to the "Services has zero social data"
+  question in strategy.md's experiment backlog - but it is unverifiable whether it was even
+  posted. Flagging directly: need Vishal to confirm if/when he posted it, and the real URL should
+  be written back to the campaign folder once he does, so future runs can actually track it.
+- **GSC page-level data (28-day window)** → `gst-e-invoicing-guide-india-2026` now 3 clicks/628
+  impressions (up from 3/490 at 2026-10-19) - impressions still climbing, clicks flat at 3, a
+  widening impression-to-click gap (CTR falling as reach grows) worth a title/meta-description
+  look if this continues. `business-website-cost-india-2026` and `business-credit-score-loan-
+  readiness` have **dropped out of the top-25 page rows entirely this run** (both were still
+  showing low single-digit impressions as of 2026-10-19) - noting the absence plainly rather than
+  inventing a number; could be normal noise-floor variance in a 25-row response, not necessarily
+  a real decline. `/tools/hsn-code/2106` 2 clicks/1,110 impressions (fluctuating around the
+  ~1,100-1,150 band seen in every prior run) - the CTR-fix opportunity remains open, 8th
+  consecutive run unactioned.
+- **GA4** → `ga4_traffic_summary(property_id="538401917", stream_name="www.astrastudio.in")`
+  still fails with the identical `property_id` string/int schema-validation error, 6th
+  consecutive run (2026-10-09, -12, -15, -19, -22) with the exact same message. This is now
+  confirmed a real tool-level bug (not a credentials gap, not a transient issue) - worth a direct
+  fix rather than continuing to log the same failure a 7th time next run.
+- **Git ground truth** → `git log origin/main --since '7 days ago'` returns the same 6 commits
+  already covered in the 2026-10-19 research file (last commit timestamp 2026-10-19 00:12 IST,
+  which is within the rolling 7-day window but not new since last run) - zero new commits between
+  the 2026-10-19 and 2026-10-22 checks.
+- **Pattern, now 10+ weeks of data:** still 7 confirmed-published pieces (6 LinkedIn + 1
+  Instagram), all flat/zero on direct engagement checks. The approvals-pipeline stall is now the
+  single most consequential unresolved finding across 3 consecutive runs - not a content problem,
+  a process one, and it is actively blocking the ability to read whether distribution (follower
+  count) or content angle is the real cause of the standing zero-engagement pattern, since the
+  next post in the queue has not gone anywhere in 12 days.
