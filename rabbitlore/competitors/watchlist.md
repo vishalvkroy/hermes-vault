@@ -38,6 +38,21 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   here only as context that the "anti-feed" app category keeps growing, not as new competitors
   to track individually.
 
+## Retro
+- First noted: 2026-10-22
+- Positioning: Friends-only photo-journal app built by ex-Instagram engineers (Nathan Sharp, Ryan
+  Olson) — chronological photo sharing with a small friend circle, weekly recaps instead of a
+  feed, no ads, a physical-postcard-mailing feature, ad-free subscription model
+  (https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m,
+  https://www.engadget.com/2234246/retro-app-what-is-it-how-to-use).
+- Last change observed: 2026-10-22 — closed $21M Series A (Field Ventures, Thrive Capital,
+  announced 2026-08-28); by mid-October reported at 7M downloads on the same raise
+  (https://tech-insider.org/mintztech-connect-pbc-ruling-retro-raise-2026).
+- Notes: Same "private beats public" macro-thesis bracket as Yope — real external validation of
+  RabbitLore's own Pillar 1 direction, but a different mechanic (friend-capped photo journal, not
+  peer-to-peer lore matching). Track, don't chase, same treatment as Yope — see
+  `research/2026-10-22.md` Competitive Edge for the scoped read.
+
 ## Coverstar
 - First noted: 2026-10-10
 - Positioning: Short-form video app for Gen Alpha (ages 9-16), pitched as safer TikTok
