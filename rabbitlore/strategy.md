@@ -407,3 +407,19 @@ in this document, so it earned inclusion even though the council question didn't
    for the next Reddit devlog angle; LinkedIn/Reddit cadence otherwise unchanged, and the 8-run
    LinkedIn analytics gap still needs Vishal's manual check outside this loop.
 
+## 11. Campaign: 2026-10-22-reddit-retro-anti-feed-validation
+
+council_review (flagship) run on 3 candidates (Reddit/Retro devlog, LinkedIn backlog-
+transparency, MIDiA-bifurcation piece) — only Groq answered (Claude 502, Gemini timeout, Mistral
+429). Groq recommended LinkedIn backlog-transparency as primary effort, notably flipping its own
+2026-10-15 position (then: keep adding Reddit supply; now: stop until the channel ships
+something) given the backlog went from 3 to 4 unposted drafts with zero movement. My call: wrote
+both — Reddit/Retro devlog (research's own Top Opportunity, genuinely new evidence) and the
+LinkedIn transparency post (Groq's pick, serves Pillar 4) — since the Retro evidence itself is
+strong regardless of channel health, while still honoring Groq's core point by leading the
+Telegram/plan with the backlog, not the new draft. LinkedIn post `e3f4a2d2-fdc9-4a06-84dd-
+80948308398f` drafted and submitted for approval. Reddit backlog now 5 deep
+(2026-09-24, 2026-10-01, 2026-10-10, 2026-10-15, 2026-10-22), still 0 posted — this is now the
+dominant open risk to Pillar 1's Reddit-channel KPI and needs Vishal's direct action, not more
+research cycles.
+
