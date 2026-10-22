@@ -108,3 +108,9 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 - Positioning: Early-2026-launched D2C brand selling handcrafted Mithila art products for corporate and festive gifting.
 - Last change observed: 2026-10-12 — First identified via web search this run — source: https://yourstory.com/companies/mithila-melange
 - Notes: Single-brand D2C (same shape as MomsMade for thekua), not a multi-seller marketplace — logged as an adjacent watch pending more evidence of scale, not a head-to-head competitor to MadeByHer's marketplace model.
+
+## The Thekua Company / Mithila House (direct — first head-to-head on MadeByHer's own flagship SKU)
+- First noted: 2026-10-22
+- Positioning: Single-SKU-first platform model founded by two Mithila homemakers (Neetu Yadav, Geeta Singh) — "One Recipe. One Brand. One Homemaker. Repeat." Thekua is the first branded product; anarsa and gujiya explicitly named as next recipes to get their own brand under the same platform.
+- Last change observed: 2026-10-22 — Live tiered thekua packaging (250g Everyday Pack ₹229–389, 500g Family Pack ₹449–599), reviews already live (5.00/5, 4–6 reviews per SKU), active Diwali discount code (TTCDIWALI, 15% off orders ≥₹489, valid till 2 Nov 2026) — source: https://thekuacompany.com/shop/, https://thekuacompany.com/about/, https://thekuacompany.com/the-house-of-mithila-the-thekua-company/
+- Notes: First direct, head-to-head competitor found on MadeByHer's own flagship thekua product (`/product/sudh-desi-ghee-thekua`, ₹339, single size, no visible review count, no live discount mechanic). Not comparable at the platform level (their one-brand-per-recipe model is a different business shape from MadeByHer's multi-category marketplace) — see Competitive Edge in research/2026-10-22-deep-research.md for the scoped, product-page-level response.
