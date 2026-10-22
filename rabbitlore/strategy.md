@@ -114,7 +114,18 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   restricting after-midnight teen access, the same hours RabbitLore's own night-gate already
   restricts (`research/2026-10-19.md` [3][4]). Platform-policy and named-behavior validation,
   not a competitor move — no pillar or claim changes, evidentiary weight stays primarily on the
-  2 repeated Top-Opportunity research calls and the shipped feature.
+  2 repeated Top-Opportunity research calls and the shipped feature. **2026-10-22 addition:**
+  Retro — a friends-only photo-journal app built by ex-Instagram engineers — closed a $21M
+  Series A (Field Ventures, Thrive Capital, Aug 2026) and by mid-October reported 7M downloads
+  on that raise (`research/2026-10-22.md` [1][2][3]), a second independently-funded "anti-feed"
+  competitor alongside Yope validating the same macro-thesis bracket, not RabbitLore's specific
+  mechanic — same track-not-chase treatment. Separately, a balancing nuance from MIDiA Research
+  (Oct 21 2026): their Q2 2026 consumer survey found "entertainment" has overtaken "connecting
+  with friends" as Western users' top social-media motive, with the market bifurcating into
+  entertainment-first vs. peer-to-peer apps (`research/2026-10-22.md` [4]) — RabbitLore sits in
+  the peer-to-peer half, so this doesn't contradict Pillar 1, but future copy should not overclaim
+  "private is simply winning everywhere" — the real picture is a split market, not a one-way
+  swing.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -363,17 +374,36 @@ in this document, so it earned inclusion even though the council question didn't
   Reddit searches (RabbitLore, Yope, Highrise, private-social-genz queries) returned zero on-topic
   results again, same null pattern as every recent run. No pillar, positioning row, or "we will
   NOT do" item changed beyond the Pillar 1 evidence addition and the $17B->$18B correction.
+- **2026-10-22:** Performance loop — LinkedIn post analytics still not collected, 8th consecutive
+  run (`learnings/performance-log.md`), repeating the standing flag for Vishal's manual check.
+  Research: added **Retro** to `competitors/watchlist.md` — a second independently-funded
+  "anti-feed" competitor ($21M Series A, 7M downloads) alongside Yope, strengthening Pillar 1's
+  macro-thesis evidence without introducing a new mechanic to chase (`research/2026-10-22.md`).
+  Added a balancing nuance to Pillar 1 from MIDiA Research: the social-media market is
+  bifurcating into entertainment-first vs. peer-to-peer, not converging on "private wins
+  everywhere" — a caution against overclaiming, not a reversal. ZYMIX (UK superapp,
+  consolidation-direction, flagged with a real Chinese-blacklisted-server security story)
+  explicitly NOT added to the watchlist — wrong direction (consolidation, not privacy/atomization)
+  and wrong audience (UK university students, payments-led). Coverstar's Google Trends re-pull
+  showed a much larger pull-to-pull rescale than prior runs for the same calendar days — flagged
+  as a data-quality caveat affecting comparability, not a real swing; the underlying "sustained
+  non-zero floor" shape call stands unchanged. "Private social app"/"close friends app" closed-week
+  readings matched last run's figures exactly (a consistency check); partial weeks still not
+  citable. Reddit searches (RabbitLore, Yope, Highrise, private-social-genz queries) returned
+  zero on-topic results again, same null pattern as every recent run. No pillar, positioning row,
+  or "we will NOT do" item removed this run — one addition (Retro) and one nuance (MIDiA) to
+  Pillar 1.
 
-## 10. Strategy delta (2026-10-19)
+## 10. Strategy delta (2026-10-22)
 
-1. Pillar 1 gained two new, independently-sourced external validations (Posting Zero behavioral
-   trend; Meta's Night Mode teen curfew) — strengthens the existing night-gating/private-sharing
-   thesis, no new pillar, no claim change beyond that addition.
-2. Corrected the Meta settlement figure from $17B to ~$18B (TechCrunch) — any future copy citing
-   this regulatory context should use $18B, not $17B.
-3. Executors this week: campaign-workflow should treat the "Posting Zero" language as the
-   strongest-evidenced next Reddit devlog angle (quote the named behavior shift, not a competitor
-   callout) per `research/2026-10-19.md` Competitive Edge §3; no change to LinkedIn/Reddit cadence
-   otherwise, and the 7-run LinkedIn analytics gap still needs Vishal's manual check outside this
-   loop.
+1. Pillar 1 gained a second funded "anti-feed" competitor (Retro, $21M Series A / 7M downloads)
+   alongside Yope — same macro-thesis validation, no new mechanic to chase — plus a balancing
+   nuance (MIDiA: market bifurcating entertainment-first vs. peer-to-peer, not one-way private
+   dominance) that future copy should respect, not overclaim past.
+2. New watchlist entry: Retro (tracked, not chased). ZYMIX considered and explicitly rejected as
+   a watchlist addition — wrong direction, wrong audience.
+3. Executors this week: campaign-workflow can cite Retro's download-growth/subscription figures
+   as a stronger, more concrete "people pay for anti-feed" line than a bare funding-round mention
+   for the next Reddit devlog angle; LinkedIn/Reddit cadence otherwise unchanged, and the 8-run
+   LinkedIn analytics gap still needs Vishal's manual check outside this loop.
 
