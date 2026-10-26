@@ -125,7 +125,20 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   entertainment-first vs. peer-to-peer apps (`research/2026-10-22.md` [4]) — RabbitLore sits in
   the peer-to-peer half, so this doesn't contradict Pillar 1, but future copy should not overclaim
   "private is simply winning everywhere" — the real picture is a split market, not a one-way
-  swing.
+  swing. **2026-10-26 addition:** Posting2 — a Chicago-built, no-algorithm, chronological-feed
+  app explicitly compared to "old Instagram" — grew from ~1,600 beta users (April 2026) to
+  ~36,671-37,000 users by Oct 21-22 2026, +42% month-over-month downloads in September, confirmed
+  by two independently-dated sources (Fast Company; Afterschool Substack) (`research/2026-10-26.md`
+  [1][2][3]). This is the **third** anti-feed macro-thesis proof point and the **first unfunded**
+  one in the set — Yope raised $12.3M, Retro raised $21M, Posting2 grew to ~37,000 users on $0 in
+  funding, purely word-of-mouth plus user donations/tips (364 of 37,732 users, 1.0%, pay monthly
+  per the app's own site). Still track-not-chase: Posting2's open, scaling friends-of-friends
+  feed is structurally the opposite of RabbitLore's capped, night-gated design. Genuinely useful
+  addition: a cited Posting2 early-user complaint about strangers commenting as the app scales
+  ("Posting2 needs to decide what it wants to be," `research/2026-10-26.md` [1]) is a concrete,
+  citable argument for why RabbitLore's structural caps (night-gate, `getBlend` matching, the
+  100-cap on "holes") solve a real problem rather than an invented one — usable almost verbatim
+  as a Reddit devlog hook for a builder/dev audience skeptical of funding-round PR.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -133,7 +146,7 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   organically raises "why is this different from other avatar apps," the structural "no public
   room for a stranger to find you in" point (see §2 Highrise/ZEPETO row) is available as a
   non-attack, positioning-only answer — do not lead with it, do not name Highrise.
-- **KPI:** Reddit posts actually posted by Vishal (currently 0/3 drafted); once instrumented,
+- **KPI:** Reddit posts actually posted by Vishal (currently 0/5+ drafted); once instrumented,
   NG-LS×UP session counts.
 
 ### Pillar 2 — Narrative avatar / story-tokens (not fashion)
@@ -393,6 +406,25 @@ in this document, so it earned inclusion even though the council question didn't
   zero on-topic results again, same null pattern as every recent run. No pillar, positioning row,
   or "we will NOT do" item removed this run — one addition (Retro) and one nuance (MIDiA) to
   Pillar 1.
+- **2026-10-26:** Performance loop — LinkedIn posts `urn:li:share:7502315073433104384` and
+  `115d7a8b-523a-4f71-8995-064b780458cc` still unmeasurable (HTTP 500 / `collected:false`, 9th
+  consecutive run); a new 3rd LinkedIn post `e3f4a2d2-fdc9-4a06-84dd-80948308398f` from the
+  2026-10-22 cycle logged as `pending_approval`, not yet published. Reddit still
+  `connected: false`, LinkedIn confirmed `connected: true`. Research: Posting2 — a Chicago-built,
+  no-algorithm chronological-feed app — confirmed via two independently-dated sources (Fast
+  Company, Afterschool Substack) growing from ~1,600 beta users to ~36,671-37,000 users (+42%
+  MoM downloads in September), the first **unfunded** anti-feed macro-thesis proof point
+  alongside funded Yope/Retro (`research/2026-10-26.md`). Added to watchlist. Retro's figures
+  refined with a new MAU number (1.7M, via Mintz). **Data-gathering gap this run:** the
+  `composio_search` toolkit (Google Trends, Composio news/web) returned a session-level
+  `ToolkitDisabled` restriction for every call attempted — substituted general web_search for the
+  news/web step, but no substitute exists for the Google Trends time-series specifically, so
+  "private social app"/"close friends app"/"Coverstar app" trend readings have a genuine gap this
+  week (not a null reading — flagged for next run to escalate to Vishal if still blocked).
+  Zentara/ZenFriend news searches confirmed zero on-topic results again via a different tool, same
+  null pattern since 2026-09-18. No pillar, positioning row, or "we will NOT do" item removed this
+  run — one watchlist addition (Posting2) and one evidentiary strengthening (Retro MAU) to
+  Pillar 1.
 
 ## 10. Strategy delta (2026-10-22)
 
@@ -422,4 +454,21 @@ Telegram/plan with the backlog, not the new draft. LinkedIn post `e3f4a2d2-fdc9-
 (2026-09-24, 2026-10-01, 2026-10-10, 2026-10-15, 2026-10-22), still 0 posted — this is now the
 dominant open risk to Pillar 1's Reddit-channel KPI and needs Vishal's direct action, not more
 research cycles.
+
+## 12. Strategy delta (2026-10-26)
+
+1. Pillar 1 gained a third "anti-feed" proof point (Posting2, ~37,000 users, +42% MoM downloads,
+   $0 raised) — the first unfunded instance alongside Yope ($12.3M) and Retro ($21M), plus a
+   citable early-user complaint about strangers commenting as the app scales, usable as a
+   concrete argument for RabbitLore's own structural caps. Retro's figures refined with a new
+   MAU number (1.7M).
+2. New watchlist entry: Posting2 (tracked, not chased — same treatment as Yope/Retro). No
+   competitor removed or demoted this run.
+3. Executors this week: campaign-workflow should prioritize the still-unposted Reddit backlog
+   (now 5+ drafts, 0 live) over drafting new LinkedIn content — Posting2's organic-growth angle
+   is strong material for the *next* Reddit post once the backlog moves, not a reason to add a
+   6th draft to a stalled channel. The `composio_search` outage means next run must either
+   confirm the toolkit is restored or escalate to Vishal — do not silently keep substituting
+   web_search for Trends data for a third run in a row without flagging it again.
+
 

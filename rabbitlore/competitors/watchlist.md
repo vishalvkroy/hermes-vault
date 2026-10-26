@@ -138,3 +138,24 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   Oct 12) that a private, non-public-room, not-yet-monetized app structurally doesn't share — see
   `research/2026-09-28.md` and `research/2026-10-12.md` Competitive Edge sections for the scoped,
   non-attack way to use this.
+
+## Posting2
+- First noted: 2026-10-26
+- Positioning: Chicago-built, chronological-feed photo-sharing app explicitly compared to "old
+  Instagram" — no algorithm, no ads, square photos, friends-of-friends visibility, in-app polling
+  for feature decisions, funded entirely by user donations/tips/merch, not VC. Sources: Fast
+  Company (fastcompany dot com, article 91627543) and the app's own site (posting2 dot app).
+- Last change observed: 2026-10-26 — grew from ~1,600 beta users (April 2026) to ~36,671-37,000
+  unique users by Oct 21-22 2026, two independently-dated sources agree on the figure (Fast
+  Company Oct 22; Afterschool Substack "Hoppy Hour and Martini Ennui" post); Sensor Tower data
+  cited by Fast Company shows ~8,000 downloads in September 2026 alone, a 42% month-over-month
+  increase.
+- Notes: Third "anti-feed" macro-thesis match alongside Yope and Retro, but the first **unfunded**
+  instance in the set (Yope $12.3M, Retro $21M, Posting2 $0 — grown on user donations/tips only,
+  364 of 37,732 users (1.0%) pay monthly, per the app's own site). Same "track the thesis, not the
+  feature" call as Yope/Retro — Posting2's mechanic (open, scaling friends-of-friends feed) is
+  structurally opposite RabbitLore's capped, night-gated peer-matching, not something to copy.
+  Genuinely useful: a cited early-user complaint about strangers commenting as the app scales
+  ("Posting2 needs to decide what it wants to be") is a real, concrete argument for why
+  RabbitLore's structural caps matter — see `research/2026-10-26.md` Competitive Edge for the
+  scoped, non-copycat read.
