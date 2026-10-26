@@ -208,3 +208,22 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
   a process one, and it is actively blocking the ability to read whether distribution (follower
   count) or content angle is the real cause of the standing zero-engagement pattern, since the
   next post in the queue has not gone anywhere in 12 days.
+
+## 2026-10-26 performance review
+- **2026-10-10 WhatsApp consent-gap-fix (LinkedIn)** -> correction: direct `get_post`/
+  `linkedin_fetch_post` checks this run show it actually went `published` 2026-10-23
+  (`urn:li:share:7518877895688146944`), ending 3 consecutive runs' "stuck in pending_approval"
+  flag. It was never actually stuck - it published and nobody checked/recorded it. 3 days live:
+  still 0 likes/0 comments/0 shares. Pattern now 8 confirmed-published pieces (7 LinkedIn + 1
+  Instagram), all flat/zero on direct engagement checks.
+- **2026-10-15 Services-vs-FlowLaunch (LinkedIn, first-ever Services post)** -> still
+  unverifiable. No post_id/URL recorded in `campaigns/2026-10-15-services-vs-flowlaunch/`,
+  `get_campaign_performance` 404s. Same gap flagged last run, unresolved.
+- **2026-10-22 Services & Retainers launch (LinkedIn, drafted)** -> still blocked on Vishal's
+  manual post per `todo.md`; no new post_id found this run.
+- **GSTR-9 blog (2026-10-24)** and **RCM e-invoicing blog (2026-10-22)** -> both too new for GSC
+  rows (2 and 4 days old respectively); RCM post's underlying query not yet distinguishable in
+  the 25-row response.
+- **GA4** -> `ga4_traffic_summary(property_id="538401917", stream_name="www.astrastudio.in")`
+  failed again with the identical property_id schema-validation error, 7th consecutive run
+  (2026-10-09 through 2026-10-26) - confirmed standing tool bug, not re-detailed again.

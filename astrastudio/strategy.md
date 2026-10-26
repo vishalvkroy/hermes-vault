@@ -140,6 +140,39 @@
   highest-priority unresolved question blocking the Services-content read, ahead of generating
   any further Services-line content this week.
 
+- Hypothesis (NEW, 2026-10-22, CORRECTED 2026-10-26): the 2026-10-10 WhatsApp consent-gap-fix
+  post's approvals-pipeline stall was treated as a live, worsening problem for 3 consecutive
+  runs (2026-10-15/-19/-22). Direct `get_post`/`linkedin_fetch_post` checks this run show it
+  actually went `published` 2026-10-23 (`urn:li:share:7518877895688146944`) - it was never
+  genuinely stuck, the vault simply never recorded the real outcome once it happened. Status:
+  **Resolved/closed** - the specific "is this one post stuck" question is answered (no), but the
+  broader zero-engagement-across-8-posts pattern this was meant to help diagnose remains fully
+  open; still 0 likes/0 comments/0 shares 3 days live[research 2026-10-26]. Process takeaway: the
+  vault has now shown two distinct tracking failure modes in two different runs (a post with no
+  recorded outcome either way, and a post that published but wasn't logged back) - a one-line
+  confirmation from Vishal each time a post goes live, recorded immediately, would close this
+  permanently. Recommend treating this as higher priority than further competitor research until
+  the "is it live" signal can be trusted without a manual re-check every run.
+- Hypothesis (NEW, 2026-10-26): "astra lex" shows real branded search impressions (19/28d GSC,
+  0 clicks, position 5.2) for the first time with meaningful volume, for a product (Astra Lex,
+  legal drafting - bail petitions, affidavits, dictation, AI rephrasing) that replaced "Astra
+  Lens" in the codebase (`7fa06de`) but has no positioning coverage in current strategy.md
+  pillars or docs. Evidence: GSC query-level data this run[research 2026-10-26]; not previously
+  logged in any prior research or analysis file. Metric: whether this volume repeats/grows next
+  run, and whether Lex has a real audience/pricing story worth a 4th pillar vs. being residual
+  search carried over from the old product name. Status: Proposed - open question only, not
+  acted on; needs one more run's data before treating as a real opportunity.
+- Hypothesis (NEW, 2026-10-26): a short, dated addendum to the already-shipped GSTR-9/9C blog
+  post (acknowledging the live GST-portal glitch blocking the GSTR-9/9C tile for taxpayers who've
+  already filed everything, with a pointer to the GSTN helpdesk ticket path) will outperform
+  leaving the post as-is, because it meets a real, currently-active point of reader frustration
+  the post's own checklist already anticipated. Evidence: 2 independent dated sources this week
+  confirm the glitch is live and GSTN resolution is "awaited"[research 2026-10-26, sources 4-5].
+  Metric: GSC impressions/clicks on the post before/after the addendum, and whether it starts
+  appearing in the top-25 query rows for glitch-adjacent searches. Status: Proposed - low-effort
+  content-freshness edit, not a new campaign slot; pending Vishal's go-ahead to edit the live
+  post.
+
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
 - Chase feature-parity with myBillBook's Mira AI (automated payment matching) - no customer
@@ -172,6 +205,27 @@
   returns for you" (research/2026-10-19_deep-research.md).
 
 ## Review log
+- 2026-10-26: Ran 2026-10-26 research cron. Lead finding: 3-run approvals-pipeline-stall flag on
+  the 2026-10-10 WhatsApp consent-gap-fix post is RESOLVED - it actually published 2026-10-23
+  (`urn:li:share:7518877895688146944`), just never got recorded; still 0/0/0 at 3 days live[
+  research 2026-10-26]. Second finding: Vishal shipped the GSTR-9/9C annual-return blog
+  (2026-10-24, zero cron involvement) that resolves the content candidate open since
+  research/2026-10-19 and -22, plus a real POS invoice-discount display fix, a WhatsApp-connect
+  error-shape fix, and returns/purchase-ITC-on-discount correctness fixes with new test coverage
+  (6 commits total this week). New open question (not yet acted on): "astra lex" shows real
+  branded-search impression volume (19/28d) for the first time, for a product with no current
+  strategy.md pillar coverage - flagged, needs one more run before treating as an opportunity.
+  Competitive edge: the GSTR-9/9C portal glitch blocking filers who've already filed everything
+  is confirmed live by 2 independent sources this week - recommend a short addendum to the
+  already-shipped post rather than new content, since the post's own checklist already
+  anticipated this exact failure mode. Watchlist: one update, not a new row - FlowLaunch's own
+  LinkedIn page confirms 91 followers, a real number for a previously pricing-only-tracked
+  competitor. GSC: gst-e-invoicing-guide-india-2026 broke its 3-run flat-clicks pattern (3→4
+  clicks on 628→913 impressions, 28d) - first movement, worth one more run to confirm direction.
+  GA4 tool failure now 7 consecutive runs, same unfixed bug, not re-detailed. No pillar changes -
+  "astra lex" and the GSTR-9 addendum are both single-run signals, below the 2-snapshot bar for a
+  pillar change.
+
 - 2026-10-22: Ran 2026-10-22 research cron. Zero new git commits since the 2026-10-19 cutoff -
   first run this cycle with no new shipped code. Lead finding: GSTN's 16 October 2026 advisory
   extending e-invoicing to reverse-charge self-invoices (RCMDOM/RCMIMP) - real, dated, sandbox-
