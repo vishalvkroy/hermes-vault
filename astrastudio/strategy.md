@@ -227,6 +227,21 @@
   returns for you" (research/2026-10-19_deep-research.md).
 
 ## Review log
+- 2026-10-29 (campaign): Ran campaign-workflow this week. council_review (tier=flagship,
+  heavy rate-limiting - most calls hit 429/502, only 2 full responses landed across several
+  retries) was asked to pick between 3 real candidates: SaaS Category/Department Profit report
+  (new feature, zero marketing, but repeats the exact feature-demo genre that's gone 0/0/0 on 8
+  straight LinkedIn posts), Services-line outcome-framed repositioning (0 organic traffic 9
+  straight weeks, 0 leads ever, untried framing), and the new GST Late Fee & Due Date Calculator
+  free tool (shipped 2026-10-27, zero marketing, fits the existing free-tools pillar). Both
+  completed responses (Claude Sonnet 5, GPT-OSS-120B) independently picked the calculator -
+  it's a genre break from the failing feature-demo format, it's measurable via GSC/tool-page
+  analytics independent of LinkedIn's own reach, and picking the Services line now would bet the
+  week's only slot on a line with literally zero measured signal in any direction. Drafted
+  campaigns/2026-10-29-gst-late-fee-calculator/ (plan.md + linkedin.md), pending Vishal's manual
+  post (LinkedIn account is his personal member profile, not an auto-publish integration). No
+  pillar changes this run - the Category/Department Profit report and Services repositioning
+  both remain queued for a future week, not dropped.
 - 2026-10-29: Ran 2026-10-29 research cron. Lead finding: 9 real git commits (all 2026-10-27, one
   day's push) - 3 new SEO landing pages (shrinkage detection, pharmacy Schedule H1, 16 tier-2 city
   pages total), 4 new blog posts, a new GST Late Fee & Due Date Calculator tool, and a new,
