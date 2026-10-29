@@ -450,6 +450,15 @@ in this document, so it earned inclusion even though the council question didn't
   escalated to Vishal in this run's Telegram report rather than substituted a third time. No
   pillar, positioning row, or "we will NOT do" item removed this run — one Pillar 1 evidence
   strengthening, two §2 refinements (Zentara, ZenFriend), zero watchlist additions/removals.
+- **2026-10-29 (campaign cycle):** council_review (flagship) run on 3 candidates — Posting2's
+  4-source Pillar 1 proof point, the Guardian intimacy-economy essay (Pillar 3 category
+  evidence), and the 5-deep/0-posted Reddit backlog. Claude and Groq converged (Gemini/Mistral
+  429): don't draft a 6th Reddit post into a dead channel, put the strongest new evidence
+  (Posting2) on LinkedIn instead, escalate the backlog to Vishal explicitly. Drafted LinkedIn
+  post `9dc116d5-32b3-4347-b4cd-c3fac9ec57c0` (F19 Anecdote-Meets-Evidence Bridge, Posting2
+  4-source citation), submitted for approval. Wrote a Reddit triage memo (not a new post) naming
+  all 5 unposted drafts and asking Vishal to post one. Full writeup:
+  `campaigns/2026-10-29-linkedin-posting2-validation-reddit-triage/plan.md`.
 
 ## 10. Strategy delta (2026-10-22)
 
@@ -511,5 +520,20 @@ research cycles.
    confirmed 2-run block — flag to Vishal directly, this needs his attention on the Composio
    account/session config, not another research-cron workaround. The 5-deep, 0-live Reddit
    backlog remains the dominant open risk to Pillar 1's Reddit KPI, unchanged from last run.
+
+## 14. Campaign: 2026-10-29-linkedin-posting2-validation-reddit-triage
+
+council_review (flagship) run on 3 candidates (Posting2's 4-source Pillar 1 proof point, the
+Guardian intimacy-economy essay for Pillar 3, and the 5-deep/0-posted Reddit backlog as a
+process issue). Claude and Groq both answered this run and converged, not diverged: don't draft
+a 6th Reddit post into a channel that has shipped zero of five, redirect this week's strongest
+evidence (Posting2) to LinkedIn where it's actually live, and escalate the backlog to Vishal by
+name rather than quietly carrying it forward again. My call followed the converged verdict
+exactly. LinkedIn post `9dc116d5-32b3-4347-b4cd-c3fac9ec57c0` (F19 Anecdote-Meets-Evidence
+Bridge, citing Posting2/Yope/Retro's three different funding levels landing on the same
+structural bet) drafted and submitted for approval. No new Reddit draft written — instead wrote
+a triage memo naming all 5 unposted drafts plainly and asking Vishal to post one this week. The
+Guardian essay (Pillar 3 evidence) held back for a dedicated piece later, per Claude's reasoning
+that it isn't time-decaying the way Posting2's days-old 4-source confirmation is.
 
 
