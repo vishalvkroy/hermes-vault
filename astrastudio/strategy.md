@@ -19,6 +19,7 @@
 | FlowLaunch | One fixed published price, no quote forms, free hosting + GitHub handover bundled in[research 2026-10-12] | Same fixed-tier pricing transparency (Starter/Growth/Elite) PLUS 3 months free Astra Atlas - a working SaaS product, not a hosting freebie | A real SaaS bundle beats a hosting freebie; match their "nothing locked behind us" trust signal in copy without diluting our stronger bundle | "Other fixed-price studios hand you a website. We hand you a website plus a working business system, free for 3 months." |
 | HelloBooks | Explicitly completes the GST filing loop (files GSTR-1/GSTR-3B to the portal); Vyapar/myBillBook only generate bills/reports[research 2026-10-15] | `gstr1Service.ts`/`gstr3bService.ts`/`gstr2bService.ts` + multi-format export layer (`backend/src/lib/gst/`) are real, shipped, routed code - verified via direct codebase check 2026-10-19, NOT spec-only as `docs/gst-export-spec.md`'s stale DRAFT marking implied. Generates portal-ready GSTN JSON for GSTR-1/3B/2B. No direct-to-portal/IRP e-filing API found in our codebase (and HelloBooks' own claim doesn't specify this either)[research 2026-10-19] | A real, verified, bounded counter-claim: we generate the exact portal-ready filing JSON, not just bills/reports - closes HelloBooks' gap without overclaiming direct e-filing we don't have | "We generate portal-ready GSTR-1, GSTR-3B and GSTR-2B JSON, every section - not just bills and reports." (Do not claim direct e-filing to the GST portal/IRP.) |
 | 21bill / Arjaka / LekhaPro / 399Apps | SAC-code + retainer invoicing purpose-built for consultants/agencies/freelancers[research 2026-10-19] | Astra Atlas's new Services & Retainers feature (shipped 2026-10-19) runs the same accounting engine (P&L, balance sheet, trial balance) for both a retailer and a service business in one product; these four are service-only tools[research 2026-10-19] | One system for a business that sells both stock and services, not a separate tool per business type | "Other tools pick a side - stock or services. Astra Atlas does both in the same books." |
+| LegalSpace.ai / LawTtorney (AI legal drafting, Astra Lex's real competitor set) | AI-automated bail petition/RTI/SLP drafting with clause intelligence, jurisdiction-aware templates[research 2026-10-29] | Astra Lex ships court-standard margins/pagination, bilingual (English/Hindi) dictation, exhibit/annexure/verification-block insertion, and linked-case organisation, bundled into the same ecosystem a billing customer already trusts - not a standalone legal-only tool[research 2026-10-29, astrastudio.in/products/lex] | A drafting tool built for Indian court formatting specifically, not a generic AI clause-suggestion layer, and bundled with the Atlas/Spark ecosystem rather than sold alone | "Built for Indian court formatting from the first draft - not a generic AI clause tool bolted onto legal work." (Proposed line, pending Vishal's review before use in copy - this positioning row and pillar are new this run, not yet battle-tested.) |
 
 ## Audience Segments
 1. **The Frustrated Retailer:** Uses mobile-only apps, hates the "tiny screen" for heavy accounting, needs desktop reliability.
@@ -29,6 +30,7 @@
 1. **The Transparency Play (Services):** Benchmarking real web/app costs in India to build trust.
 2. **Compliance Watch (SaaS):** Simplifying April 2026 GST changes and e-invoicing.
 3. **Intelligence > Billing (SaaS):** Showcasing "Money Leaks" and "Loan Readiness" as the next step after basic POS.
+4. **Court-Ready Drafting (SaaS, NEW 2026-10-29):** Astra Lex as a bundled, bilingual, court-format-precise drafting tool for Indian advocates - evidence: "astra lex" branded search impressions grew 2 consecutive runs (19->24, 28d GSC) with zero prior pillar coverage, and a real, active, funded competitor niche (LegalSpace.ai, LawTtorney) exists with no tracking until this run[research 2026-10-26, research 2026-10-29]. Scope note: this pillar covers Astra Lex specifically, not a general "legal tools" expansion - do not read it as license for new legal-adjacent content beyond what Lex's real shipped feature set supports.
 
 ## Channel Plan
 - **LinkedIn:** Founder-led "Building in Public" + Technical insights on SMB ops.
@@ -172,6 +174,26 @@
   appearing in the top-25 query rows for glitch-adjacent searches. Status: Proposed - low-effort
   content-freshness edit, not a new campaign slot; pending Vishal's go-ahead to edit the live
   post.
+- Hypothesis (2026-10-26, now resolved): "astra lex" branded-search volume growth is a real,
+  evidenced signal, not noise. Evidence: a 2nd consecutive run of growth (19->24 impressions, 28d
+  GSC) plus a real, active AI-legal-drafting competitor niche (LegalSpace.ai, LawTtorney) surfaced
+  with no prior tracking[research 2026-10-29]. Metric: whether Pillar 4 content (once drafted)
+  moves impressions/clicks on /products/lex or a new Lex-specific blog post. Status: **Won** -
+  cleared the 2-snapshot evidence bar this run; promoted to Content Pillar 4 and a new
+  Positioning-table row above. Not yet acted on with actual published copy - that's next.
+- Hypothesis (NEW, 2026-10-29): a LinkedIn/blog post demoing the real, tested Category/Department
+  Profit report (shipped 2026-10-27, `getCategoryProfit()` + `CategoryProfitScreen`) will perform
+  at least as well as the cashier-theft-detection post, because it extends the same Intelligence >
+  Billing pillar with a genuinely new angle (margin hidden inside revenue) rather than repeating
+  the shrinkage-detection framing. Evidence: real shipped, tested backend+desktop code with zero
+  marketing since ship[research 2026-10-29, commit 2ee5c93]; no tracked competitor's comparison
+  copy calls out department-level margin visibility specifically. Metric: GSC impressions/clicks
+  on the eventual post's URL, first 14 days, vs the cashier-theft-detection post's own 14-day
+  numbers once both exist. Status: Proposed - not yet drafted, next SaaS content candidate.
+- Note (NOT a new experiment, logged for visibility): VoiceKhata, a new voice-first billing
+  competitor, surfaced this run[research 2026-10-29]. Competitive Edge concluded it targets the
+  opposite ergonomic complaint from Astra Atlas's own Frustrated Retailer segment (desktop
+  reliability vs. typing friction) - deliberately not chased. Logged to watchlist only.
 
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
@@ -205,6 +227,25 @@
   returns for you" (research/2026-10-19_deep-research.md).
 
 ## Review log
+- 2026-10-29: Ran 2026-10-29 research cron. Lead finding: 9 real git commits (all 2026-10-27, one
+  day's push) - 3 new SEO landing pages (shrinkage detection, pharmacy Schedule H1, 16 tier-2 city
+  pages total), 4 new blog posts, a new GST Late Fee & Due Date Calculator tool, and a new,
+  tested Category/Department Profit report with zero marketing yet (flagged as next content
+  candidate, new Experiment Backlog entry). A same-day production 404 bug on the city pages was
+  caught and fixed same day (commit 0c049ff) - real engineering discipline worth noting, not just
+  a bug count. Pillar change: "astra lex" branded search grew a 2nd consecutive run (19->24
+  impressions, 28d) and a real competitor niche (LegalSpace.ai, LawTtorney) surfaced with zero
+  prior tracking - cleared the 2-snapshot evidence bar, promoted to new Content Pillar 4 (Court-
+  Ready Drafting) and a new Positioning-table row. Watchlist: one new row, VoiceKhata (voice-first
+  billing competitor) - tracked per Competitive Edge, deliberately not chased, since it targets
+  the opposite buyer ergonomic complaint from Astra Atlas's own Frustrated Retailer segment.
+  Performance loop: GA4 tool failure now 8 consecutive runs, tried both string and int property_id
+  this run with the complementary type-mismatch error each way, narrowing the bug to the tool's
+  own schema validation; Services-line LinkedIn post tracking gap (no post_id in two campaign
+  folders) still open, 3rd+ consecutive run. No changes to Pillars 1-3, Audience Segments, or
+  Channel Plan - this run's evidence only supported adding Pillar 4, not altering the existing
+  three.
+
 - 2026-10-26: Ran 2026-10-26 research cron. Lead finding: 3-run approvals-pipeline-stall flag on
   the 2026-10-10 WhatsApp consent-gap-fix post is RESOLVED - it actually published 2026-10-23
   (`urn:li:share:7518877895688146944`), just never got recorded; still 0/0/0 at 3 days live[

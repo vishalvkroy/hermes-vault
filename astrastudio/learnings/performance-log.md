@@ -227,3 +227,23 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
 - **GA4** -> `ga4_traffic_summary(property_id="538401917", stream_name="www.astrastudio.in")`
   failed again with the identical property_id schema-validation error, 7th consecutive run
   (2026-10-09 through 2026-10-26) - confirmed standing tool bug, not re-detailed again.
+
+## 2026-10-29 performance review
+- **2026-10-10 WhatsApp consent-gap-fix (LinkedIn)** -> re-checked via direct `linkedin_fetch_post`
+  on `urn:li:share:7518877895688146944`: still live, still 0 likes/0 comments/0 shares, 6 days
+  live. Flat.
+- **2026-10-15 Services-vs-FlowLaunch (LinkedIn, first-ever Services post)** -> still unverifiable.
+  Direct grep of `campaigns/2026-10-15-services-vs-flowlaunch/` confirms no post_id/URL field in
+  plan.md/linkedin.md/todo.md; `get_post`/`get_campaign_performance` need an ID this folder doesn't
+  carry. 3rd consecutive run flagged, unresolved.
+- **2026-10-22 Services & Retainers launch (LinkedIn, drafted)** -> still blocked on Vishal's
+  manual post per todo.md; no new post_id this run.
+- **GSTR-9 blog (2026-10-24) and RCM e-invoicing blog (2026-10-22)** -> still not individually
+  isolated in the 25-row GSC page response this run; too early/low-volume to separate from
+  aggregate branded traffic.
+- **GA4** -> tried BOTH a string ("538401917") and a raw int (538401917) property_id this run;
+  both rejected with the complementary type-mismatch error each way - 8th consecutive run, new
+  detail narrows the bug to the tool's internal schema validation, not caller formatting.
+- **New real shipped content with zero marketing yet:** Category/Department Profit report
+  (backend `getCategoryProfit()` + desktop `CategoryProfitScreen`, shipped 2026-10-27, 2 passing
+  tests) - flagged as next SaaS content candidate.
