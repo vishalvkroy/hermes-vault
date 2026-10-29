@@ -159,3 +159,27 @@ log) per the growth-strategy skill's feedback loop.
   `ga4_list_properties` re-checked — only 538401917 (astrastudio.in), 553055822 (madebyher)
   listed. RabbitLore still has no GSC/GA4 binding reachable; per the verified analytics map, "no
   app analytics data" stands, not invented.
+
+## 2026-10-29 review
+
+- **Piece:** LinkedIn post `urn:li:share:7502315073433104384`. **Metric:** `get_post_analytics` →
+  HTTP 500 again (10th consecutive run: 2026-09-24, 2026-09-28, 2026-10-01, 2026-10-10,
+  2026-10-12, 2026-10-15, 2026-10-19, 2026-10-22, 2026-10-26, 2026-10-29). **Status: unknown —
+  still not measurable.** 10-run pattern, backend has never once returned data for this post
+  since publication (2026-09-06).
+- **Piece:** LinkedIn draft `115d7a8b-523a-4f71-8995-064b780458cc`. **Metric:**
+  `collected: false`, unchanged, 10th run in a row. **Status: unknown**, same reason.
+- **Piece:** LinkedIn post `e3f4a2d2-fdc9-4a06-84dd-80948308398f` (campaign
+  `2026-10-22-reddit-retro-anti-feed-validation`). **Metric:** `get_post` →
+  `status: "pending_approval"`, `get_post_analytics` → `collected: false`. **Status: not yet
+  published** — unchanged from last run, 2nd run this piece appears in the log.
+- **Campaign-level:** `get_campaign_performance` for `2026-09-06-linkedin-blend-holes-night-gate`
+  → same zeros as every prior run (`post_count: 2, posts_published: 1, totals: {impressions: 0,
+  engagement: 0, clicks: 0}`) — still reads as "no data yet," not "failed," now 10 runs unchanged.
+- **Reddit:** `connect_status` re-checked for rabbitlore — `reddit: connected: false`, unchanged.
+  LinkedIn confirmed `connected: true`. Instagram, Facebook, Pinterest all `connected: false`. 5
+  Reddit drafts (2026-09-24, 2026-10-01, 2026-10-10, 2026-10-15, 2026-10-22) remain unposted —
+  nothing to measure.
+- **Blog/GSC/GA4:** `gsc_list_sites` re-checked — only astrastudio.in, madebyher.in listed.
+  `ga4_list_properties` re-checked — only 538401917 (astrastudio.in), 553055822 (madebyher)
+  listed. RabbitLore still has no GSC/GA4 binding reachable; "no app analytics data" stands.

@@ -48,8 +48,8 @@ video feed, not private peer-matching), so no differentiation claim is needed ye
 | Competitor | Their claim | Our real proof | Our edge | Message we lead with |
 |---|---|---|---|---|
 | **Yope** | London-based private "micro-community" app — no algorithmic feed, no ads, accounts private by default, $12.3M Series A, ~15M users/~500M photos since 2024 launch (`research/2026-10-01.md` [1][2]) — proof-at-scale that "private beats public" works for young users, but built around friend-group photo/chat sharing + AI memory recaps, not lore-matching or avatar-as-record | `getBlend` real peer-to-peer lore-category/tag overlap (`rabbithole 7c4e05a`); night-gate time-boxed sharing (`rabbithole-mobile 391063f`); constellation star-map avatar record (`rabbithole-mobile bd3b252`) — none of these exist in a general friend-photo-sharing app | Yope validates the macro-thesis (private > public) at scale, which is reassurance, not a reason to copy its feature set — RabbitLore's differentiator is matching strangers who share your specific lore/obsessions, not keeping your existing friend group's photos private | "Not another private photo album for people who already know each other. A place where a stranger turns out to think the same weird thoughts you do." (internal framing only — not yet drafted as outward copy this run) |
-| **Zentara** | AI-powered avatars/VTubers for virtual companions, cross-platform connectivity, creator monetization — a public, commercial creator platform (`research/2026-09-18.md` [21]) | Night-gate (11pm-4am IST) locks lore-sharing in rooms+DMs (`rabbithole-mobile 391063f`); `getBlend` matches by real overlapping lore category+tag between two actual users, not an AI companion (`rabbithole 7c4e05a`) | Zentara sells visibility and monetized creator personas; RabbitLore sells private, human-to-human recognition with no follower count attached | "No AI companion pretending to care. Two real people whose lore actually overlaps." |
-| **ZenFriend** | AI virtual friend targeting Gen Z loneliness/anxiety — a simulated bot relationship (`research/2026-09-18.md` [11]) | `getBlend` collision is peer-to-peer (real user-to-user tag/category overlap, `rabbithole 7c4e05a`); "holes" mechanic (`getLikers`, `rabbithole 9c66801`) shows who — a real person — fell into your lore, capped at 100, public | ZenFriend's "friend" is a simulation; ours is a stranger who turns out to think the same weird thoughts you do — the actual emotional payoff positioning.md names ("I thought I was the only one") | "Not a bot pretending to understand. A real person who already gets it." |
+| **Zentara** | AI-powered avatars/VTubers for virtual companions, cross-platform connectivity, creator monetization — a public, commercial creator platform (`research/2026-09-18.md` [21]); **2026-10-29:** Tracxn confirms Zentara remains fully unfunded, ranked 914th of 1,348 tracked social-network competitors, Tracxn Score 16/100 (`research/2026-10-29.md`) — a numeric basis for the "no real traction" read, not just an absence of news | Night-gate (11pm-4am IST) locks lore-sharing in rooms+DMs (`rabbithole-mobile 391063f`); `getBlend` matches by real overlapping lore category+tag between two actual users, not an AI companion (`rabbithole 7c4e05a`) | Zentara sells visibility and monetized creator personas; RabbitLore sells private, human-to-human recognition with no follower count attached | "No AI companion pretending to care. Two real people whose lore actually overlaps." |
+| **ZenFriend** | AI virtual friend targeting Gen Z loneliness/anxiety — a simulated bot relationship (`research/2026-09-18.md` [11]). **2026-10-29 context (not a ZenFriend-specific update, category evidence):** a Guardian "intimacy economy" essay gives a sharper first-person account of the exact behavior ZenFriend's category sells into — a 27-year-old confiding in an AI chatbot more than human friends while calling it, in his own words, "a business product" (`research/2026-10-29.md`) | `getBlend` collision is peer-to-peer (real user-to-user tag/category overlap, `rabbithole 7c4e05a`); "holes" mechanic (`getLikers`, `rabbithole 9c66801`) shows who — a real person — fell into your lore, capped at 100, public | ZenFriend's "friend" is a simulation; ours is a stranger who turns out to think the same weird thoughts you do — the actual emotional payoff positioning.md names ("I thought I was the only one") | "Not a bot pretending to understand. A real person who already gets it." |
 | **Highrise / ZEPETO** | Deep avatar customization, fashion-forward, K-style/streetwear aesthetic, public social integration — aspirational look-and-be-seen (`research/2026-09-18.md` [27], `research/2026-09-21.md` [5]) | Constellation star-map turns *logged lore* (not outfits) into the visible artifact — deterministic, append-stable layout, one star per lore entry (`rabbithole-mobile bd3b252`, `1513283`); avatar customization here pairs with content, not clout. **New 2026-09-28:** no public room/DM surface for strangers to find a user in, by design (`rabbithole-mobile` night-gate `391063f`) — real, checkable structural fact, not a comparison claim | Highrise/ZEPETO customization is external performance (what you look like to strangers); RabbitLore customization is internal record (what you've actually carried inside you). **New:** Highrise's public rooms carry real, current user-reported trust costs (minors DMed by adults, gambling-style "casino" rooms, account hacks — `research/2026-09-28.md` §2/§3, watchlist.md) that a private, no-public-room app structurally doesn't have to defend against. **New 2026-10-12:** Apple's App Store 13+ social-media declaration rule (effective Sept 2026) structurally exempts DM/private-room-only apps — feeds and discovery surfaces trigger the 13+ floor, one-to-one DMs/private rooms do not (`research/2026-10-12.md` [3]) — a second, independent structural reason (regulatory/compliance, not just trust-cost) a public-feed/room model like Highrise's carries a real cost RabbitLore's architecture doesn't, stated as a design/compliance fact, not a claim about any specific enforcement action | "Your avatar isn't a fit check. It's a map of what's in your head." (Reddit copy may add, only when the "why is this different" question comes up organically: "there's no public room here for a stranger to find you in" — framed as what we built, never as a Highrise callout, per `research/2026-09-28.md` Competitive Edge §3) |
 
 ## 3. Audience segments
@@ -139,6 +139,14 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   citable argument for why RabbitLore's structural caps (night-gate, `getBlend` matching, the
   100-cap on "holes") solve a real problem rather than an invented one — usable almost verbatim
   as a Reddit devlog hook for a builder/dev audience skeptical of funding-round PR.
+  **2026-10-29 addition:** Posting2's growth story cleared a 3-independent-source confirmation
+  bar within 3 days — a 3rd editorial source (YPulse, Oct 27 2026) independently covered the same
+  story (framed explicitly as a Finsta/Close-Friends-list alternative), and a 4th, non-editorial
+  data source (MWM app intelligence: 10k+ downloads, 5.0 rating, 319 ratings) corroborated it from
+  a different angle than Fast Company or the app's own site (`research/2026-10-29.md`). This is
+  now the strongest multi-source-corroborated proof point in this entire research line — stronger
+  anchor citation for the next Reddit devlog than Yope's or Retro's funding-round figures, because
+  three separate outlets covered the same organic story with no PR push behind it.
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -425,6 +433,23 @@ in this document, so it earned inclusion even though the council question didn't
   null pattern since 2026-09-18. No pillar, positioning row, or "we will NOT do" item removed this
   run — one watchlist addition (Posting2) and one evidentiary strengthening (Retro MAU) to
   Pillar 1.
+- **2026-10-29:** Performance loop — LinkedIn posts `urn:li:share:7502315073433104384` and
+  `115d7a8b-523a-4f71-8995-064b780458cc` still unmeasurable (HTTP 500 / `collected:false`, 10th
+  consecutive run); third LinkedIn post `e3f4a2d2-fdc9-4a06-84dd-80948308398f` still
+  `pending_approval`, unchanged. Research: Posting2's growth story cleared a 3-independent-source
+  bar — a 3rd editorial source (YPulse, Oct 27) and a 4th, non-editorial data source (MWM app
+  intelligence) independently corroborated the organic-growth figures first logged 2026-10-26,
+  the strongest multi-source-confirmed proof point in this research line to date. Added to §4
+  Pillar 1 and the watchlist entry. Zentara's "no traction" read gained a hard number (Tracxn:
+  914th/1,348, Score 16/100) via re-confirmation, same call, stronger evidence — added to §2.
+  ZenFriend's row gained a category-level citation (Guardian "intimacy economy" essay, a sharper
+  first-person account of AI-chatbot-over-human-friend behavior) — not a ZenFriend-specific
+  update, flagged as such. **Data-gathering escalation:** `composio_search` (Google Trends,
+  Composio news/web) returned the identical `ToolkitDisabled` restriction for a 2nd consecutive
+  run (2026-10-26, 2026-10-29) — per the 2026-10-26 run's own standing instruction, this is now
+  escalated to Vishal in this run's Telegram report rather than substituted a third time. No
+  pillar, positioning row, or "we will NOT do" item removed this run — one Pillar 1 evidence
+  strengthening, two §2 refinements (Zentara, ZenFriend), zero watchlist additions/removals.
 
 ## 10. Strategy delta (2026-10-22)
 
@@ -470,5 +495,21 @@ research cycles.
    6th draft to a stalled channel. The `composio_search` outage means next run must either
    confirm the toolkit is restored or escalate to Vishal — do not silently keep substituting
    web_search for Trends data for a third run in a row without flagging it again.
+
+## 13. Strategy delta (2026-10-29)
+
+1. Pillar 1's Posting2 proof point is now corroborated by 4 independent sources (Fast Company,
+   Afterschool Substack, YPulse, MWM app intelligence) within 3 days of first discovery — the
+   strongest multi-source evidence of any proof point tracked so far, and the recommended anchor
+   citation for the next Reddit devlog post over Yope's/Retro's funding-round mentions.
+2. No watchlist competitor added or removed. Two existing entries (Zentara, ZenFriend)
+   strengthened with harder evidence (a numeric unfunded-rank for Zentara; a sharper first-person
+   category citation for ZenFriend's AI-companion thesis), not new names.
+3. Executors this week: campaign-workflow should lead the next Reddit post with Posting2's
+   4-source-corroborated organic growth, not Retro's or Yope's raise amounts — it's the stronger,
+   more skeptic-proof citation. Separately: the composio_search/Google Trends outage is now a
+   confirmed 2-run block — flag to Vishal directly, this needs his attention on the Composio
+   account/session config, not another research-cron workaround. The 5-deep, 0-live Reddit
+   backlog remains the dominant open risk to Pillar 1's Reddit KPI, unchanged from last run.
 
 

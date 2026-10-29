@@ -99,8 +99,12 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 ## Zentara
 - First noted: 2026-09-18
 - Positioning: Social network with AI-powered avatars and VTubers for virtual companions.
-- Last change observed: 2026-09-18 — Initial discovery via Tracxn [21]
-- Notes: Focuses on cross-platform connectivity and creator monetization.
+- Last change observed: 2026-10-29 — Tracxn's company profile (last updated Sep 26 2026,
+  re-checked 2026-10-29) gives a hard number behind the "no traction" read carried since
+  2026-09-18: fully unfunded, ranked 914th of 1,348 tracked social-network competitors, Tracxn
+  Score 16/100 (https://tracxn.com/d/companies/zentara/__EfK_C3Fhs9dof_LtdKkxqFrMKJgewjmUlopeFTwmTqk).
+- Notes: Focuses on cross-platform connectivity and creator monetization. Same "track, don't
+  chase" call as every prior run, now with a numeric basis rather than only an absence of news.
 
 ## ZenFriend
 - First noted: 2026-09-18
@@ -150,6 +154,14 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   Company Oct 22; Afterschool Substack "Hoppy Hour and Martini Ennui" post); Sensor Tower data
   cited by Fast Company shows ~8,000 downloads in September 2026 alone, a 42% month-over-month
   increase.
+- **2026-10-29 update:** a 3rd independent editorial source (YPulse, Oct 27 2026) covers the same
+  growth story — Gen Z's "new favorite app," framed explicitly as a Finsta/Close-Friends-list
+  alternative, repeating the 8,000-September-download figure
+  (https://www.ypulse.com/newsfeed/2026/10/27/gen-z-has-a-new-favorite-app-and-it-has-them-posting-like-its-2010/)
+  — plus a 4th, independent non-editorial data source: app-intelligence tracker MWM shows 10k+
+  downloads, a 5.0 rating across 319 ratings, "outside top 30" in US Social Networking rank
+  (https://mwm.ai/apps/posting2/6762965370). This clears a 3-independent-source confirmation bar,
+  the strongest multi-source corroboration of any single entry in this watchlist to date.
 - Notes: Third "anti-feed" macro-thesis match alongside Yope and Retro, but the first **unfunded**
   instance in the set (Yope $12.3M, Retro $21M, Posting2 $0 — grown on user donations/tips only,
   364 of 37,732 users (1.0%) pay monthly, per the app's own site). Same "track the thesis, not the
@@ -157,5 +169,5 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   structurally opposite RabbitLore's capped, night-gated peer-matching, not something to copy.
   Genuinely useful: a cited early-user complaint about strangers commenting as the app scales
   ("Posting2 needs to decide what it wants to be") is a real, concrete argument for why
-  RabbitLore's structural caps matter — see `research/2026-10-26.md` Competitive Edge for the
-  scoped, non-copycat read.
+  RabbitLore's structural caps matter — see `research/2026-10-26.md` and `research/2026-10-29.md`
+  Competitive Edge sections for the scoped, non-copycat read.
