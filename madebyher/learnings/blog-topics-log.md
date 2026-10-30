@@ -4,3 +4,4 @@
 | 2026-10-27 | Karwa Chauth Gifts for Husband: Handmade & Meaningful Ideas from Bihar | karwa chauth gifts for husband | Gift Guide | karwa-chauth-gifts-for-husband-handmade-meaningful-ideas-from-bihar | https://madebyher.in/admin/blog/2711 | Draft |
 | 2026-10-27 | 52 Buti Saree Luxury Gifting for Diwali & Chhath | 52 buti saree | Gift Guide | 52-buti-saree-luxury-gifting-diwali-chhath | | |
 | 2026-10-28 | The 52 Buti Saree: Bihar's Quiet Luxury for Diwali and Chhath Gifting | 52 buti saree | Gift Guide | the-52-buti-saree-bihar-s-quiet-luxury-for-diwali-and-chhath-gifting | https://madebyher.in/admin/blog/2718 | Draft |
+| 2026-10-30 | Gifting Bihar's Quiet Luxury: The 52 Buti Saree for Diwali and Chhath | 52 buti saree | Gift Guide | gifting-bihar-s-quiet-luxury-the-52-buti-saree-for-diwali-and-chhath | https://madebyher.in/admin/blog/2719 | Draft |
