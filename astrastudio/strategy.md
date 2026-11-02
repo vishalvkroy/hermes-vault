@@ -20,6 +20,7 @@
 | HelloBooks | Explicitly completes the GST filing loop (files GSTR-1/GSTR-3B to the portal); Vyapar/myBillBook only generate bills/reports[research 2026-10-15] | `gstr1Service.ts`/`gstr3bService.ts`/`gstr2bService.ts` + multi-format export layer (`backend/src/lib/gst/`) are real, shipped, routed code - verified via direct codebase check 2026-10-19, NOT spec-only as `docs/gst-export-spec.md`'s stale DRAFT marking implied. Generates portal-ready GSTN JSON for GSTR-1/3B/2B. No direct-to-portal/IRP e-filing API found in our codebase (and HelloBooks' own claim doesn't specify this either)[research 2026-10-19] | A real, verified, bounded counter-claim: we generate the exact portal-ready filing JSON, not just bills/reports - closes HelloBooks' gap without overclaiming direct e-filing we don't have | "We generate portal-ready GSTR-1, GSTR-3B and GSTR-2B JSON, every section - not just bills and reports." (Do not claim direct e-filing to the GST portal/IRP.) |
 | 21bill / Arjaka / LekhaPro / 399Apps | SAC-code + retainer invoicing purpose-built for consultants/agencies/freelancers[research 2026-10-19] | Astra Atlas's new Services & Retainers feature (shipped 2026-10-19) runs the same accounting engine (P&L, balance sheet, trial balance) for both a retailer and a service business in one product; these four are service-only tools[research 2026-10-19] | One system for a business that sells both stock and services, not a separate tool per business type | "Other tools pick a side - stock or services. Astra Atlas does both in the same books." |
 | LegalSpace.ai / LawTtorney (AI legal drafting, Astra Lex's real competitor set) | AI-automated bail petition/RTI/SLP drafting with clause intelligence, jurisdiction-aware templates[research 2026-10-29] | Astra Lex ships court-standard margins/pagination, bilingual (English/Hindi) dictation, exhibit/annexure/verification-block insertion, and linked-case organisation, bundled into the same ecosystem a billing customer already trusts - not a standalone legal-only tool[research 2026-10-29, astrastudio.in/products/lex] | A drafting tool built for Indian court formatting specifically, not a generic AI clause-suggestion layer, and bundled with the Atlas/Spark ecosystem rather than sold alone | "Built for Indian court formatting from the first draft - not a generic AI clause tool bolted onto legal work." (Proposed line, pending Vishal's review before use in copy - this positioning row and pillar are new this run, not yet battle-tested.) |
+| All 10 tracked SaaS+Services competitors (Vyapar, myBillBook, Khatabook, BUSY Magic, Udyog, HisabKitab, HelloBooks, 21bill/Arjaka/LekhaPro/399Apps, VoiceKhata, FlowLaunch) | Lead in with a free trial, demo request, or quote form on their own marketing surface[research 2026-11-02] | Business Reality Test: a ₹149 paid, structured, psychologically-designed diagnostic (commitment/consistency, goal-gradient, self-assessment framing) that pre-qualifies serious buyers before they ever reach a quote form[research 2026-11-02, commit 6216136/4f3b678] | A deliberate friction step that filters for intent, not a lead-volume maximizer - no tracked competitor on either side of the business (SaaS or Services) does this | "Most tools try to get you to sign up fast. We charge ₹149 to make sure we're the right fit for each other first." (Proposed line, pending Vishal's review - this row is new this run, not yet used in published copy.) |
 
 ## Audience Segments
 1. **The Frustrated Retailer:** Uses mobile-only apps, hates the "tiny screen" for heavy accounting, needs desktop reliability.
@@ -194,6 +195,25 @@
   competitor, surfaced this run[research 2026-10-29]. Competitive Edge concluded it targets the
   opposite ergonomic complaint from Astra Atlas's own Frustrated Retailer segment (desktop
   reliability vs. typing friction) - deliberately not chased. Logged to watchlist only.
+- Hypothesis (NEW, 2026-11-02): a founder-led LinkedIn post about building the Business Reality
+  Test (real engineering: Cashfree server-side re-verification + webhook-prefix reuse; real UX
+  psychology: commitment/consistency, goal-gradient, self-assessment framing, all named in
+  Vishal's own commit messages; real business framing: ₹149 paid filter replacing a free contact
+  form) will outperform both the standing 9/9 zero-engagement LinkedIn baseline and the already-
+  queued Category/Department Profit report demo, because it's a genuinely new content genre
+  (build-in-public product-design story) never tried on this channel, not another feature-demo
+  repeat. Evidence: feature shipped 2026-10-29, iterated 4x in 3 days (CTA placement, full UX
+  redesign, 2 bug fixes)[research 2026-11-02, commits 6216136/943d9d1/4f3b678/d7dbb4c/adadd06];
+  it is the first-ever structured, paid lead-qualification mechanism for a Services line with 10
+  consecutive zero-organic-traffic runs[research 2026-11-02]; council_review (tier=fast, 2/4
+  responded) independently and unanimously picked this angle over the Profit-report demo[research
+  2026-11-02]. Metric: LinkedIn engagement (likes+comments+shares) vs the 0-engagement baseline
+  set by 9 prior posts; GSC impressions/clicks on /business-reality-test in the first 14 days
+  (baseline 0, page just shipped); Business Reality Test completions/payments in the admin
+  pipeline if traceable. Status: Proposed - this is this week's top content candidate, pending
+  Vishal's approval to publish (LinkedIn account is his personal member profile, manual post
+  only). Supersedes the Category/Department Profit report demo for this week's slot specifically;
+  that opportunity stays queued, not dropped.
 
 ## We will NOT do
 - Generic "digital marketing" services (too noisy, low margin).
@@ -434,3 +454,22 @@
   changes (pillars still evidence-backed; the problem identified is distribution, not pillar
   choice). Both blog posts published since 2026-10-01 show zero GSC rows yet - too early to score,
   rechecking next run.
+- 2026-11-02: Ran 2026-11-02 research cron. Lead finding: 25 commits since 2026-10-27, standout
+  is a brand-new paid (₹149) Services-line lead-qualification funnel ("Business Reality Test",
+  commit 6216136, 18 files/1,718 insertions) iterated 4 times in 3 days - CTA placement, full UX/
+  psychology redesign (6 free-text questions -> 9 tap-based diagnostic using commitment/
+  consistency and goal-gradient framing), and 2 bug fixes (submit timeout, admin column mismatch).
+  First-ever structured qualification mechanism for a Services line with 10 consecutive zero-
+  organic-traffic runs. council_review (tier=fast, 2/4 responded) independently and unanimously
+  recommended this as this week's LinkedIn content slot over the already-queued Category/
+  Department Profit report demo, because it's a genuinely new content genre (build-in-public
+  product-design story) vs. another feature-demo repeat on a 9/9 zero-engagement channel. Added
+  new Experiment Backlog entry and a new Positioning-table row (paid-assessment-as-differentiator
+  against all 10 tracked competitors, none of whom use this funnel design). No pillar changes -
+  this is a tactical content-genre finding, not a new audience/pillar; Pillar 1 (Transparency
+  Play, Services) already covers this ground. Watchlist: 1 new row (Khatabook, confirming no new
+  feature this run). Performance loop: WhatsApp consent-gap-fix post flat 0/0/0 ~10 days live
+  (9th confirmed-published piece, all flat); Services-vs-FlowLaunch and Services & Retainers posts
+  still unverifiable, 4th+ consecutive run; GA4 tool failure now 9 consecutive runs (moot for this
+  brand, no live GA4 tag regardless). GST reform implementation start date (1 Nov 2026) confirmed
+  as a fresh news angle, logged as Opportunity #2, not yet acted on.
