@@ -171,3 +171,38 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   ("Posting2 needs to decide what it wants to be") is a real, concrete argument for why
   RabbitLore's structural caps matter — see `research/2026-10-26.md` and `research/2026-10-29.md`
   Competitive Edge sections for the scoped, non-copycat read.
+
+## A/SIDE
+- First noted: 2026-11-02
+- Positioning: Private, invitation-only photo/video/message app from Lab 1908 (a 4-person
+  independent product studio, Saint Paul, Minnesota, "no investors," unfunded). Invite-only
+  mutual connections, no public profiles or user directory, no search, strict
+  reverse-chronological feed, end-to-end encrypted DMs (legacy threads may be unencrypted), no
+  ads, no AI training on content, independently hosted outside AWS/Google Cloud/Azure — and
+  fully open-source app + server code (GitHub: A-SIDE-Social/aside), the first entry on this
+  watchlist to add that dimension.
+  (https://a-side.social/, https://lab1908.com/, https://runtimewire.com/article/aside-private-social-20-year-feed,
+  https://news.lavx.hu/article/a-side-launches-private-photo-sharing-with-encrypted-chats-and-open-source-code).
+- Last change observed: 2026-11-02 — v1.6 launch/update covered by LavX News (Oct 31 2026) and
+  RuntimeWire (Oct 31 2026, syndicated from Hacker News); monetization: free with 30-day history,
+  Pro $20/yr full archive, Pro Family $60/yr for up to 6 people, no monthly plans, no funding.
+- Notes: Closest structural match to RabbitLore's own private/no-algorithm/no-ads thesis found to
+  date — matches on more axes than Yope, Retro, or Posting2 (adds zero public discovery surface
+  and open-source code, which RabbitLore does not currently claim). Not a competitive threat at
+  its current size — one studio, no funding, no named download/user figures found. Track as a
+  cheap, structurally-similar proxy for product-level signal, not as a threat; see
+  `research/2026-11-02.md` Competitive Edge for the scoped, explicitly-non-copycat read (the
+  open-source gap is named but explicitly called NOT worth closing this run).
+
+## Meta / Threads "Threads Friends" (platform-level context, not a tracked app)
+- First noted: 2026-11-02
+- Not added as a standalone watchlisted app — this is a feature inside an existing public
+  platform (Threads/Meta), not a competing product RabbitLore competes with for users. Logged
+  here as context because it is the strongest external validation of Pillar 1's macro-thesis to
+  date: Meta is testing a Close-Friends-style posting mode capped at 50 people, invisible to the
+  rest of the platform, in Ireland/Italy/Japan as of Oct 30 2026
+  (https://www.engadget.com/2301804/meta-is-testing-threads-friends-for-sharing-posts-with-smaller-groups,
+  https://dataconomy.com/2026/10/30/threads-friends-private-posts-50-friends/). Echoes Instagram's
+  2018 Close Friends and the discontinued 2022 Twitter Circles (capped 150, killed ~1yr later).
+  See `research/2026-11-02.md` Competitive Edge for the full scoped read — treated as validation
+  to cite, not a feature to copy or a threat to RabbitLore's differentiation.

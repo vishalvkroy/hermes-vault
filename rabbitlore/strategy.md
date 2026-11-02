@@ -147,6 +147,24 @@ a real shipped-feature commit as evidence — no pillar here rests on a single w
   now the strongest multi-source-corroborated proof point in this entire research line — stronger
   anchor citation for the next Reddit devlog than Yope's or Retro's funding-round figures, because
   three separate outlets covered the same organic story with no PR push behind it.
+  **2026-11-02 addition (platform-level validation, the strongest yet):** Meta is testing
+  "Threads Friends"/"Thriends" on Threads — a Close-Friends-style posting mode capped at 50
+  people, invisible to the rest of the platform, piloting in Ireland/Italy/Japan as of Oct 30
+  2026 (`research/2026-11-02.md` [1][2]). This is the first time this pillar's macro-thesis has
+  been validated by a platform incumbent rather than an indie/funded challenger — the single
+  largest social-media owner in the world concluding the open/broadcast default alone isn't
+  enough. Echoes Instagram's 2018 Close Friends and the discontinued 2022 Twitter Circles
+  (capped 150, killed ~1yr later) — a reminder, consistent with the 2026-10-22 MIDiA nuance, that
+  a bolt-on privacy mode on an otherwise public/ad-funded/algorithmic platform is validation of
+  demand, not Meta becoming a private-first competitor; RabbitLore's differentiation (no ads
+  anywhere, no algorithm anywhere, no public graph underneath, night-gating as ritual not toggle)
+  is untouched by this feature. Separately: A/SIDE, a new unfunded private-social app from
+  4-person studio Lab 1908, is the closest structural peer to RabbitLore found to date (invite-
+  only mutual connections, zero public discovery surface, open-source code, no ads/algorithm/AI
+  training — `research/2026-11-02.md`, `watchlist.md`) — added to the watchlist as a tracked,
+  not-chased peer; its open-source dimension is explicitly flagged as NOT worth copying this run
+  (no evidence Gen Z users are asking for code transparency specifically, as opposed to Lab
+  1908's own marketing framing of it).
 - **Channel/format:** Reddit (primary — genuine contribution posts, not ads), short-form video
   concept (secondary, gated on Vishal's go-ahead before any generation spend).
   Council-review flagged (see §6) as the strongest anti-virality proof point: scarcity via a
@@ -459,6 +477,26 @@ in this document, so it earned inclusion even though the council question didn't
   4-source citation), submitted for approval. Wrote a Reddit triage memo (not a new post) naming
   all 5 unposted drafts and asking Vishal to post one. Full writeup:
   `campaigns/2026-10-29-linkedin-posting2-validation-reddit-triage/plan.md`.
+- **2026-11-02:** Performance loop — LinkedIn post `urn:li:share:7502315073433104384` still
+  unmeasurable (HTTP 500, 11th consecutive run); draft `115d7a8b-523a-4f71-8995-064b780458cc`
+  still `collected: false` (11th run); both `e3f4a2d2-fdc9-4a06-84dd-80948308398f` and
+  `9dc116d5-32b3-4347-b4cd-c3fac9ec57c0` still `pending_approval`, unpublished, 3rd and 2nd run
+  respectively with zero movement — flagged as the dominant open risk, now compounding.
+  `ga4_traffic_summary` call against 538401917/RabbitLore failed on the hermes-admin MCP server
+  itself (3x unreachable) rather than returning a clean empty result — tooling-availability note,
+  "no app analytics data" conclusion unchanged. Research: the 2-run `composio_search`
+  `ToolkitDisabled` outage resolved — all Composio actions reachable this run. Two new findings:
+  Meta is testing "Threads Friends" on Threads (Close-Friends-style mode, capped 50, invisible to
+  rest of platform, Ireland/Italy/Japan pilot) — the first platform-incumbent validation of
+  Pillar 1's macro-thesis, added as evidence not a new watchlist app. A/SIDE (Lab 1908, unfunded,
+  4-person studio) — closest structural peer to RabbitLore found to date (open-source, zero
+  public discovery surface, no ads/algorithm/AI-training) — added to watchlist as tracked,
+  not-chased. council_review (fast; Claude+Groq answered) converged: Meta is the Top Opportunity,
+  validation not threat, A/SIDE belongs on the watchlist regardless of its size. Reddit searches
+  across 8 queries returned zero on-topic results again, same null pattern as every recent run.
+  No pillar, positioning row, or "we will NOT do" item removed this run — one major Pillar 1
+  evidence addition (Meta), one watchlist addition (A/SIDE), one platform-context log entry
+  (Meta/Threads), zero removals.
 
 ## 10. Strategy delta (2026-10-22)
 
@@ -535,5 +573,38 @@ structural bet) drafted and submitted for approval. No new Reddit draft written 
 a triage memo naming all 5 unposted drafts plainly and asking Vishal to post one this week. The
 Guardian essay (Pillar 3 evidence) held back for a dedicated piece later, per Claude's reasoning
 that it isn't time-decaying the way Posting2's days-old 4-source confirmation is.
+
+## 15. Strategy delta (2026-11-02)
+
+1. Pillar 1 gained its strongest-yet evidence: Meta testing "Threads Friends" on Threads —
+   platform-incumbent validation of the private/capped/invisible-to-outsiders macro-thesis, not
+   just another indie/funded challenger. Read as validation to cite, not a threat to
+   differentiation (Meta's version keeps ads/algorithm/public-graph everywhere else).
+2. New watchlist entries: A/SIDE (closest structural peer found to date — tracked, not chased,
+   open-source dimension explicitly rejected as a thing to copy this run) and Meta/Threads
+   Friends (logged as platform context, not a competing app). No competitor removed.
+3. Executors this week: campaign-workflow's next LinkedIn/Reddit piece should lead with Meta's
+   Threads Friends test as the headline Pillar 1 proof point once the publishing backlog clears —
+   stronger, more newsworthy citation than any indie funding figure. Urgent, non-research item:
+   two fully-drafted LinkedIn posts (one carrying the Posting2 4-source citation) have sat
+   `pending_approval` for 2-3 runs each with zero published content since 2026-09-06 — this is
+   now the dominant risk to every pillar's content KPI and needs Vishal's direct approval action,
+   not another research cycle.
+
+## 16. Campaign: 2026-11-02 (research cycle only, no new campaign this run)
+
+No new campaign plan was opened this run. council_review (fast tier; Claude and Groq answered,
+Gemini partial/cut off, Mistral 429) was consulted on: which of Meta's Threads Friends test vs.
+A/SIDE's launch should be the week's Top Opportunity, whether Meta's move is a threat or
+validation, and whether A/SIDE belongs on the watchlist. Both responding models converged: Meta
+is the Top Opportunity (platform-scale validation of the demand thesis outweighs one more
+structurally-similar indie app as evidence), Meta's move is validation not threat (a bolt-on
+privacy mode on an otherwise public/ad-funded platform, not Meta becoming private-first), and
+A/SIDE should be added to the watchlist as a tracked structural peer regardless of its size,
+since watchlist membership tracks structural fit, not funding/scale. This run's findings were
+written directly into `research/2026-11-02.md`, `watchlist.md`, `analysis/2026-11-02.md`, and
+this file per the converged read — no separate campaign plan needed since the recommended action
+(use Meta as the next piece's anchor citation) applies to campaign content once the existing
+2-post publishing backlog clears, not to a new draft this run.
 
 
