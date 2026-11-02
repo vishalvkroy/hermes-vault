@@ -160,6 +160,43 @@ log) per the growth-strategy skill's feedback loop.
   listed. RabbitLore still has no GSC/GA4 binding reachable; per the verified analytics map, "no
   app analytics data" stands, not invented.
 
+## 2026-11-02 review
+
+- **Piece:** LinkedIn post `urn:li:share:7502315073433104384`. **Metric:** `get_post_analytics` →
+  HTTP 500 again (11th consecutive run: 2026-09-24 through 2026-11-02). **Status: unknown — still
+  not measurable.** Never once returned data since publication (2026-09-06).
+- **Piece:** LinkedIn draft `115d7a8b-523a-4f71-8995-064b780458cc`. **Metric:**
+  `collected: false`, unchanged, 11th run in a row. **Status: unknown**, same reason.
+- **Piece:** LinkedIn post `e3f4a2d2-fdc9-4a06-84dd-80948308398f` (campaign
+  `2026-10-22-reddit-retro-anti-feed-validation`). **Metric:** `get_post` →
+  `status: "pending_approval"`, `get_post_analytics` → `collected: false`. **Status: still not
+  published**, unchanged from last 2 runs, 3rd run in the log.
+- **Piece:** LinkedIn post `9dc116d5-32b3-4347-b4cd-c3fac9ec57c0` (campaign
+  `2026-10-29-linkedin-posting2-validation-reddit-triage`, the Posting2 4-source F19 post).
+  **Metric:** `get_post` → `status: "pending_approval"`, `get_post_analytics` →
+  `collected: false`. **Status: still not published**, 2nd run it appears, unchanged — this is
+  the strongest-evidenced piece written in this research line and it has not gone live yet.
+- **Campaign-level:** `get_campaign_performance` for `2026-09-06-linkedin-blend-holes-night-gate`
+  → same zeros as every prior run (`post_count: 2, posts_published: 1, totals: {impressions: 0,
+  engagement: 0, clicks: 0}`) — still reads as "no data yet," now 11 runs unchanged.
+- **Reddit:** `connect_status` re-checked for rabbitlore — `reddit: connected: false`, unchanged.
+  LinkedIn confirmed `connected: true` (Vishal Kumar, since 2026-08-24). Instagram, Facebook,
+  Pinterest all `connected: false`. 5 Reddit drafts (2026-09-24, 2026-10-01, 2026-10-10,
+  2026-10-15, 2026-10-22) remain unposted — nothing to measure, unchanged.
+- **Blog/GSC/GA4:** `gsc_list_sites` re-checked — only astrastudio.in, madebyher.in listed.
+  `ga4_list_properties` re-checked — only 538401917 (astrastudio.in), 553055822 (madebyher)
+  listed. A direct `ga4_traffic_summary` call against 538401917/stream `RabbitLore` failed on the
+  `hermes-admin` MCP server itself (3 consecutive connection failures, "unreachable") rather than
+  returning a clean zero/empty result — different failure mode than prior runs' clean empty
+  reads, flagged here as a tooling-availability note, not a new data point. RabbitLore still has
+  no GSC/GA4 binding reachable; "no app analytics data" stands, not invented.
+- **Net:** zero pieces published since the 2026-09-06 campaign. Two fully-drafted, approval-
+  pending LinkedIn posts (one of them carrying this research line's single strongest citation,
+  Posting2's 4-source corroboration) are now sitting unpublished for 2+ runs each while newer,
+  arguably stronger evidence (Meta's Threads Friends test) keeps arriving. The bottleneck is
+  publishing approval/cadence, not research supply — unchanged diagnosis from 2026-10-29,
+  now compounding.
+
 ## 2026-10-29 review
 
 - **Piece:** LinkedIn post `urn:li:share:7502315073433104384`. **Metric:** `get_post_analytics` →
