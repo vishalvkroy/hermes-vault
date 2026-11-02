@@ -1,10 +1,14 @@
 ## Why this (evidence receipt)
-- Strategy pillar: Deep Bihar Culture / Giftable Handmade Products
-- Research basis: GSC demand (162 impr) for 52 buti saree (2026-10-27 evidence gap)
-- Differentiator: GI-tag focus vs generic saree sellers
-- Success metric: Organic clicks to new blog URL checked on 2026-11-12.
+- Strategy pillar: Giftable Handmade Products (Pillar 2)
+- Research basis: research/2026-10-05-deep-research.md & analysis/2026-10-05.md — "crochet rose potli bag" 41 impressions, near-zero clicks, active product page /product/handmade-crochet-rose-drawstring-mini-potli-bag (₹689) with unmet buyer intent.
+- Differentiator: Generic gifting sites — MadeByHer features real women-led maker stories from Bihar vs mass imports.
+- Success metric: GSC clicks and impressions for "crochet rose potli bag" and related product page checked on 2026-12-02.
 
-- Strategy pillar: Deep Bihar Culture / Giftable Handmade Products
-- Research basis: Google Suggest 2026-10-27 - "karwa chauth gifts for husband" high intent, complementary to existing "gifts for wife" content.
-- Differentiator: Focus on authentic Bihar handmade goods vs generic commercial gadgets.
-- Success metric: Organic clicks to new blog URL checked on 2026-11-05.
+---
+- Date: 2026-11-02
+- Title: Crochet Rose Potli Bag: Bihar's Handmade Gift for Diwali and Chhath
+- Target Keyword: crochet rose potli bag
+- Category: Gift Guide
+- Slug: crochet-rose-potli-bag-bihar-s-handmade-gift-for-diwali-and-chhath-2026
+- URL: https://madebyher.in/blog/crochet-rose-potli-bag-bihar-s-handmade-gift-for-diwali-and-chhath-2026
+
