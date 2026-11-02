@@ -247,3 +247,26 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
 - **New real shipped content with zero marketing yet:** Category/Department Profit report
   (backend `getCategoryProfit()` + desktop `CategoryProfitScreen`, shipped 2026-10-27, 2 passing
   tests) - flagged as next SaaS content candidate.
+
+## 2026-11-02 performance review
+- **2026-10-10 WhatsApp consent-gap-fix (LinkedIn)** -> re-checked via direct `linkedin_fetch_post`
+  on `urn:li:share:7518877895688146944`: still live, still 0 likes/0 comments/0 shares, ~10 days
+  live. Flat. Pattern now 9 confirmed-published LinkedIn pieces, all flat/zero.
+- **2026-10-15 Services-vs-FlowLaunch (LinkedIn, first-ever Services post)** and **2026-10-22
+  Services & Retainers launch (LinkedIn, drafted)** -> still unverifiable, no post_id/URL recorded
+  in either campaign folder. 4th+ consecutive run this gap stays open - failed to verify, not a
+  content/engagement read either way.
+- **2026-10-29 GST Late Fee & Due Date Calculator (LinkedIn)** -> still pending Vishal's manual
+  post per `campaigns/2026-10-29-gst-late-fee-calculator/todo.md`, no post_id yet. Blog URL shows
+  0 clicks/1 impression in GSC, 4 days old - too early to score.
+- **2026-10-31 Category/Department Profit report blog** (`category-wise-profit-report-retail-
+  india-2026`) -> too new (2 days) for its own GSC row, not yet separable from aggregate traffic.
+- **GA4** -> `ga4_traffic_summary(property_id="538401917", stream_name="www.astrastudio.in")`
+  failed again with the identical property_id schema-validation error, 9th consecutive run
+  (2026-10-09 through 2026-11-02). Moot for Astra Studio itself (no GA4 tag live on the site per
+  the ANALYTICS MAP), but the standing tool bug remains unresolved.
+- **Git ground truth** -> 25 commits since 2026-10-27, most substantial: a brand-new paid (₹149)
+  lead-qualification funnel for the Services line ("Business Reality Test", commit 6216136),
+  iterated 4 times in 3 days (CTA placement, full UX/psychology redesign, 2 bug fixes) - see
+  research/2026-11-02_deep-research.md for full detail. First-ever structured qualification
+  mechanism for a line that has had zero organic traffic and zero leads for 10 consecutive runs.
