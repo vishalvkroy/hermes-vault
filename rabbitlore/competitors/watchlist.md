@@ -109,8 +109,17 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
 ## ZenFriend
 - First noted: 2026-09-18
 - Positioning: AI virtual friend for Gen Z mental wellness, targeting loneliness and anxiety.
-- Last change observed: 2026-09-18 — Initial discovery via Reddit [11]
-- Notes: Direct hit on the "loneliness/safe space" pain point.
+- Last change observed: 2026-11-05 — Apple announced (Nov 2 2026) a new App Store content
+  descriptor, effective Nov 16 2026, compliance deadline Jan 12 2027: any app with a virtual
+  companion that engages users in sexual/romantic content gets a minimum 18+ rating
+  (https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/,
+  https://enzosoler.com/news/apple-app-store-18-plus-dating-ai-companions/). TechCrunch names
+  Character.AI and Replika as examples the rule could hit; ZenFriend's own positioning (simulated
+  companionship for loneliness) is a structural fit for the same category — no source checked
+  this run confirms ZenFriend has filed or will file such a declaration, this is a structural-fit
+  read against the rule's stated scope, not a confirmed action against ZenFriend by name.
+- Notes: Direct hit on the "loneliness/safe space" pain point. See `research/2026-11-05.md`
+  Competitive Edge for the scoped, non-attack read on the new Apple rule.
 
 ## Highrise / ZEPETO
 - First noted: 2026-09-18
@@ -127,6 +136,17 @@ timestamped, source-linked. Do not fabricate competitor names or data here.
   surfaces — a public-room/feed model like Highrise's is a more plausible candidate to trip the
   new floor than a DM/private-room-only app (https://rorklab.net/en/articles/rork-business/app-store-social-media-capability-share-sheet-not-feed-13plus) —
   noted as a structural fact, not a claim Apple has acted on this competitor specifically.
+- **2026-11-05 update:** Highrise shipped a 5.0 beta (Nov 2 2026, custom engine rebuild,
+  feature-parity goal, via TestFlight/Google Play testing tracks —
+  https://highrise.game/news/highrise-5-0-beta-play-it-first-3104) — confirms the product is
+  actively maintained, not stalled. Separately, Apple's new App Store 18+ "Dating and
+  Relationships" descriptor (effective Nov 16 2026, deadline Jan 12 2027 — see ZenFriend entry
+  above and `research/2026-11-05.md`) covers "features that connect real people for dating or
+  relationships"; Highrise's own live site shows large, ongoing, member-populated public rooms
+  explicitly named "❣FIND A DATE❣" (116 active at check-time) and "🦇Find a Fang🦇"
+  (https://highrise.game/) — a plausible structural fit for the same descriptor, distinct from
+  the Sept 2026 13+ social-media rule already logged below. Not a claim Apple has acted on
+  Highrise specifically — a structural read against the rule's stated scope.
 - Previously (2026-09-28): r/HighRiseMobileApp threads on minors reporting adults DMing them (other
   users warning "do not befriend adults") and a user campaign against Highrise's gambling-style
   "casino" rooms with no under-13 gate, both live that month

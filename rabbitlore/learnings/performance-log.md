@@ -220,3 +220,33 @@ log) per the growth-strategy skill's feedback loop.
 - **Blog/GSC/GA4:** `gsc_list_sites` re-checked — only astrastudio.in, madebyher.in listed.
   `ga4_list_properties` re-checked — only 538401917 (astrastudio.in), 553055822 (madebyher)
   listed. RabbitLore still has no GSC/GA4 binding reachable; "no app analytics data" stands.
+
+## 2026-11-05 review
+
+- **Piece:** LinkedIn post `urn:li:share:7502315073433104384`. **Metric:** `get_post_analytics` →
+  HTTP 500 again (12th consecutive run since 2026-09-24). **Status: unknown — still not
+  measurable.** Never once returned data since publication (2026-09-06).
+- **Piece:** LinkedIn draft `115d7a8b-523a-4f71-8995-064b780458cc`. **Metric:**
+  `collected: false`, unchanged, 12th run in a row. **Status: unknown**, same reason.
+- **Piece:** LinkedIn post `e3f4a2d2-fdc9-4a06-84dd-80948308398f` (campaign
+  `2026-10-22-reddit-retro-anti-feed-validation`). **Metric:** `get_post` →
+  `status: "pending_approval"`, `get_post_analytics` → `collected: false`. **Status: not yet
+  published** — unchanged from last run, now 3-4 runs pending for this piece.
+- **Piece:** LinkedIn draft `9dc116d5-32b3-4347-b4cd-c3fac9ec57c0` (carries this research line's
+  Posting2 4-source corroboration). **Status: `pending_approval`, unchanged, 3-4 runs now.**
+- **Campaign-level:** `get_campaign_performance` for `2026-09-06-linkedin-blend-holes-night-gate`
+  → same zeros (`post_count: 2, posts_published: 1, totals: {impressions: 0, engagement: 0,
+  clicks: 0}`) — now 12 runs unchanged.
+- **Reddit:** `connect_status` re-checked — `reddit: connected: false`, unchanged. LinkedIn
+  confirmed `connected: true`. Instagram, Facebook, Pinterest all `connected: false`. 5 Reddit
+  drafts (2026-09-24, 2026-10-01, 2026-10-10, 2026-10-15, 2026-10-22) remain unposted.
+- **Blog/GSC/GA4:** `gsc_list_sites`/`ga4_list_properties` re-checked — only astrastudio.in
+  (538401917) and madebyher (553055822) listed. RabbitLore still has no GSC/GA4 binding
+  reachable. `ga4_traffic_summary` call against 538401917/"RabbitLore" failed on a call-shape
+  validation error again (recurring tooling defect, first logged 2026-10-22) — "no app analytics
+  data" stands regardless per the verified analytics map.
+- **Net:** zero pieces published since 2026-09-06. Now 2 fully-drafted, approval-pending LinkedIn
+  posts sitting 3-4 runs each, with a 3rd strong, fresh, differentiated angle (this week's Apple
+  18+ dating/AI-companion rule) now also available and unused. Publishing bottleneck remains the
+  dominant risk to every pillar's content KPI, not research supply — unchanged diagnosis, now
+  compounding further.
