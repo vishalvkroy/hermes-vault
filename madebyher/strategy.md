@@ -112,3 +112,31 @@
    blog executor keeps writing the heritage/GI-tag angle (52 Buti Saree pattern) given it is now the
    top-performing content type in the vault.
 
+- 2026-11-05: Reviewed performance since last run — Chhath thekua campaign (Exp 12) still blocked,
+  now 7 days pending_approval, and `get_post` on both post ids started 500-erroring this run (new
+  tool regression layered on the approval block). Diwali LinkedIn post now confirmed via full UUID:
+  status=published, live at the real URL, but still 0 likes/0/0 after 14 days — fourth flat check in
+  a row, this is a closed loss, not a measurement artifact; the format-change recommendation applies
+  to the next LinkedIn post only. `/product/sudh-desi-ghee-thekua` (Exp 9) plateaued again (3→3
+  clicks). `/blog/bawan-buti-saree-...` confirmed a real second-run winner (13→16 clicks). GA4
+  regressed to zero rows on both dimensions (worse than last run's degenerate row). No new
+  competitor found — watchlist.md not touched this run, first unchanged run since 2026-10-29.
+  Reinforced (did not add as new) Content Pillar 1's diaspora-gifting evidence with the Rukam
+  Capital/YouGov survey and the Manjusha-soops US-order data point. Reason: research/2026-11-05-
+  deep-research.md and analysis/2026-11-05.md.
+
+## Strategy delta (this run, 2026-11-05)
+1. No pillar/positioning change — this run's new evidence (Rukam Capital/YouGov survey, Manjusha-
+   soops diaspora orders) reinforces Content Pillar 1's existing diaspora-gifting thesis, it does
+   not change it; watchlist.md untouched (no new competitor this week). Exp 9 downgraded back to
+   "flat" (plateaued 3→3 clicks) and Exp 12 escalated — now 7 days blocked plus a new tool
+   regression (get_post 500-erroring on both posts).
+2. Campaign executor / Vishal: Exp 12 needs an approval decision TODAY, not another status check —
+   Chhath Puja is 8 days out (15 Nov) and the draft needs days to ship and settle before the
+   festival; the status-check tool itself is now also broken, so there is no further diagnostic
+   value in checking again next run without a decision first.
+3. Social executor: close out the Diwali LinkedIn post as a confirmed failed format (4 flat checks,
+   0 engagement over 14 days) — do not repeat this format on the next LinkedIn post, use a real-
+   number/story hook per the existing playbook recommendation. Blog/content executor: no change,
+   keep writing the heritage/GI-tag angle, still the top performer two runs running.
+
