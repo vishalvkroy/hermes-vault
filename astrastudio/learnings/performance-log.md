@@ -270,3 +270,35 @@ files). First real entries land once Vishal approves a draft and `get_post_analy
   iterated 4 times in 3 days (CTA placement, full UX/psychology redesign, 2 bug fixes) - see
   research/2026-11-02_deep-research.md for full detail. First-ever structured qualification
   mechanism for a line that has had zero organic traffic and zero leads for 10 consecutive runs.
+
+## 2026-11-05 run
+
+- **2026-10-10 WhatsApp consent-gap-fix (LinkedIn)** -> still live, still 0/0/0 (likes/comments/
+  shares). Corrected a stale date-reading error carried in the 2026-10-26/-29/-11-02 reviews: the
+  post's own `postedAtISO` field is a Unix-ms timestamp, decodes to 2026-10-29 01:49 UTC, not
+  2026-10-23 as previously assumed - "days live" should read ~7, not ~13. Verdict (flat/zero)
+  unchanged either way. Pattern now **10 confirmed-published LinkedIn pieces, all flat/zero.**
+- **2026-10-01 Loan Readiness "Zero score" post** (`urn:li:activity:7511275407665455104`) ->
+  direct fetch this run returned "post not retrievable (private, removed, or login-walled)" -
+  first failure after 5 prior successful checks. Flagging the change, not claiming the post is
+  gone - could be a transient fetch-side issue.
+- **2026-10-15/-22 Services LinkedIn posts** -> still no post_id in either campaign folder, 5th+
+  consecutive run this verification gap stays open.
+- **2026-10-29 GST Late Fee Calculator (LinkedIn)** -> still pending Vishal's manual post per
+  `todo.md`. Blog URL now 0 clicks/52 impressions (28d), up from 1 impression last run - indexed
+  and gaining impressions, still zero clicks, 7 days old, too early to score failed.
+- **2026-10-31 Category Profit Report blog** -> still not isolated in page-level GSC rows, 4 days
+  old, expected.
+- **2026-11-03 GST reforms Nov-1 blog** -> too new (2 days) for GSC visibility, expected.
+- **GA4** -> `ga4_traffic_summary(property_id="538401917")` failed again, identical schema error,
+  10th consecutive run. Moot (no GA4 tag live on astrastudio.in).
+- **Git ground truth** -> zero new commits since the 2026-11-02 run's cutoff (newest commit this
+  window: 2026-11-03 06:55 UTC, already covered). First quiet week in 6+ runs - stated plainly,
+  not manufactured into a false finding.
+- **New this run**: Khatabook's Business Loans feature (embedded NBFC lending, ₹10K-5L) confirmed
+  live and prominent on both app stores + LinkedIn - logged to watchlist, assessed in Competitive
+  Edge as NOT worth chasing (regulated-lending buildout disproportionate to current stage); real
+  Reddit evidence this week (r/IndiaBusiness, r/smallbusiness) corroborates the Services line's
+  existing fixed-price-tier positioning is responding to a real, current market pain (agency
+  pricing confusion, undercutting freelancers) - no pillar change, just fresh evidence for the
+  existing one.

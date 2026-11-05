@@ -473,3 +473,21 @@
   still unverifiable, 4th+ consecutive run; GA4 tool failure now 9 consecutive runs (moot for this
   brand, no live GA4 tag regardless). GST reform implementation start date (1 Nov 2026) confirmed
   as a fresh news angle, logged as Opportunity #2, not yet acted on.
+- 2026-11-05 (research): Quiet git week - zero new commits since 2026-11-02's cutoff, first in
+  6+ runs, stated plainly rather than manufactured into a finding [research 2026-11-05]. Corrected
+  a stale timestamp-decoding error in 3 prior performance reviews (2026-10-10 LinkedIn post is
+  ~7 days live, not ~13 - Unix-ms field misread as a date string); verdict (flat 0/0/0) unchanged.
+  Khatabook's Business Loans feature (embedded NBFC lending, ₹10K-5L, named RBI partners) sourced
+  with real detail for the first time and added to the watchlist - assessed in this run's
+  Competitive Edge as explicitly NOT worth building toward (regulated lending is disproportionate
+  to current stage); no Positioning-table or pillar change, this is a watch-only item [research
+  2026-11-05]. Real Reddit threads this week (r/IndiaBusiness, r/smallbusiness, via
+  REDDIT_SEARCH_ACROSS_SUBREDDITS) corroborate the Services line's existing fixed-price-tier
+  positioning (Pillar - Transparency Play) is responding to a current, real pain point (agency
+  pricing confusion, freelancer undercutting) - fresh evidence for an existing claim, not a new
+  one, no pillar edit needed [research 2026-11-05]. GSC: "astra atlas" impressions nearly doubled
+  (57->118) while clicks grew only 15->17, a widening gap on the flagship product's own branded
+  query - logged as a watch item, not yet 2 snapshots of trend to act on. Services line now at 12
+  consecutive zero-organic-traffic runs; Business Reality Test LinkedIn post (Opportunity #1 since
+  2026-11-02) still not drafted/published - carried forward again, still the top-ranked
+  opportunity, nothing superseded it this run [research 2026-11-05].
