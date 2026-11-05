@@ -491,3 +491,15 @@
   consecutive zero-organic-traffic runs; Business Reality Test LinkedIn post (Opportunity #1 since
   2026-11-02) still not drafted/published - carried forward again, still the top-ranked
   opportunity, nothing superseded it this run [research 2026-11-05].
+- 2026-11-05 (campaign): Ran campaign-workflow this week. council_review (tier=flagship, heavy
+  rate-limiting again - Claude 502, Gemini/Mistral 429, only 1/4 responses landed) weighed the
+  carried-forward Business Reality Test build-log post (unanimous fast-tier pick since
+  2026-11-02, still undrafted) against a GST-reform freshness update to the already-published
+  gst-reforms-november-2026-india post. The one full response (Groq/GPT-OSS-120B) backed the
+  Business Reality Test: first real Services-line lead-capture mechanism after 12 dead weeks,
+  measurable via completions/payments rather than LinkedIn vanity metrics, and the 10/10
+  zero-engagement streak reads more like a distribution problem than a genre one since it's held
+  across every genre tried including the free-tool launch. Drafted
+  campaigns/2026-11-05-business-reality-test-launch/ (plan.md + linkedin.md, humanized), pending
+  Vishal's manual post (personal member profile, no auto-publish path). GST-reform freshness
+  addendum stays queued, not dropped (research/2026-11-05 Opportunity #3). No pillar changes.
